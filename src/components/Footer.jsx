@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -11,21 +12,21 @@ function Footer() {
           <p>Email : fallcontech@gmail.com</p>
         </div>
         <div className="flex gap-2 flex-wrap justify-center mt-4 md:mt-0">
-          <a href="/" className="hover:underline">
+          <Link to="/" className="hover:underline">
             Accueil |
-          </a>
-          <a href="/services" className="hover:underline">
+          </Link>
+          <Link to="/services" className="hover:underline">
             Nos Services |
-          </a>
-          <a href="/estimation" className="hover:underline">
+          </Link>
+          <Link to="/estimation" className="hover:underline">
             Estimation |
-          </a>
-          <a href="/a-propos" className="hover:underline">
+          </Link>
+          <Link to="/a-propos" className="hover:underline">
             À propos |
-          </a>
-          <a href="/contact" className="hover:underline">
+          </Link>
+          <Link to="/contact" className="hover:underline">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
