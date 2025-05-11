@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Location from "./pages/Location";
@@ -17,11 +17,10 @@ import GestionPatrimoine from "./pages/GestionPatrimoine";
 import Conseils from "./pages/Conseils";
 
 
-const basename = import.meta.env.MODE === "development" ? "/" : "/miroir-foncier";
 
 function App() {
   return (
-    <Router basename={basename}>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
