@@ -12,9 +12,11 @@ import Details from "./pages/Details"; // pour afficher un bien spécifique
 import APropos from "./pages/APropos";
 import Contact from "./pages/Contact";
 
+const basename = import.meta.env.MODE === "development" ? "/" : "/miroir-foncier";
+
 function App() {
   return (
-    <Router basename="/miroir-foncier">
+    <Router basename={basename}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

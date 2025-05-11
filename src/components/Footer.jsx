@@ -7,21 +7,21 @@ function Footer() {
         <div className="text-center md:text-left">
           <h2 className="text-xl font-bold">Miroir Foncier</h2>
           <p>Dakar, Sénégal</p>
-          <p>Téléphone : 77 123 45 67</p>
+        <p>Téléphone : 78 438 93 93 || 33 865 06 47</p>
           <p>Email : fallcontech@gmail.com</p>
         </div>
-        <div className="flex gap-6 mt-4 md:mt-0">
+        <div className="flex gap-2 flex-wrap justify-center mt-4 md:mt-0">
           <a href="/" className="hover:underline">
-            Accueil
+            Accueil |
           </a>
           <a href="/services" className="hover:underline">
-            Nos Services
+            Nos Services |
           </a>
           <a href="/estimation" className="hover:underline">
-            Estimation
+            Estimation |
           </a>
           <a href="/a-propos" className="hover:underline">
-            À propos
+            À propos |
           </a>
           <a href="/contact" className="hover:underline">
             Contact

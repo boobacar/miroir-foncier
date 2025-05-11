@@ -62,10 +62,15 @@ function Home() {
           >
             <h2 className="text-3xl font-bold mb-6">Qui sommes-nous ?</h2>
             <p className="text-gray-600 leading-relaxed">
-              Miroir Foncier est une entreprise spécialisée dans la location, la
-              vente et l'achat de biens immobiliers. Forts de notre expérience
-              et de notre engagement, nous accompagnons nos clients à chaque
-              étape de leurs projets immobiliers au Sénégal.
+              Miroir Foncier, le reflet d’une vision responsable et humaine de l’immobilier.
+
+Plus qu’un cabinet immobilier, nous sommes des bâtisseurs de projets de vie.
+À l’écoute de vos aspirations, nous conjuguons expertise, engagement et élégance pour donner naissance à des biens qui ont du sens — pour vous, pour demain.
+
+Notre signature : un accompagnement sur mesure, une approche éthique et une exigence de qualité à chaque étape.
+Du premier échange à la concrétisation de votre projet, nous cultivons la transparence, la confiance et l’excellence relationnelle.
+
+L’immobilier selon Miroir Foncier, c’est allier l’utile au durable, le beau à l’essentiel.
             </p>
             <Link
               to="/a-propos"
