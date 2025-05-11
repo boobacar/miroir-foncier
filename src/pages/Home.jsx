@@ -23,12 +23,11 @@ function Home() {
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundPositionY: `${offsetY * 0.5}px`,
-          backgroundColor: "#c2b5a9",
           backgroundBlendMode: "overlay",
         }}
       >
         <motion.div
-          className="bg-black/40 p-6 rounded-md z-10"
+          className="bg-black/50 p-6 rounded-md z-10"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
