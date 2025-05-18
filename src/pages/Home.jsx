@@ -31,7 +31,7 @@ function Home() {
         }}
       >
         <motion.div
-          className="bg-black/50 p-6 rounded-md z-10"
+          className="bg-black/50 p-6 rounded-md z-5"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
