@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import heroImage from "../assets/hero.jpg";
-import image from "../assets/hero.jpg";
+import logo from "../assets/logo.png";
+import { MdHome } from "react-icons/md";       // maison / location
+import { FaTags } from "react-icons/fa";       // étiquette / vente
+import { FiShoppingCart } from "react-icons/fi";  // achat
+
 
 function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -16,7 +20,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="text-gray-800">
+    <div className="text-gray-800 bg-[#f2e3d1]">
       {/* Hero Section */}
       <section
         className="h-[80vh] bg-cover bg-center flex items-center justify-center text-center relative overflow-hidden"
@@ -87,7 +91,7 @@ L’immobilier selon Miroir Foncier, c’est allier l’utile au durable, le bea
             viewport={{ once: true }}
           >
             <img
-              src={heroImage}
+              src={logo}
               alt="qui sommes-nous"
               className="bg-[#c2b5a9] h-[300px] rounded shadow-md object-cover"
             />
@@ -96,87 +100,78 @@ L’immobilier selon Miroir Foncier, c’est allier l’utile au durable, le bea
       </section>
 
       {/* Nos services */}
-      <section className="py-16 px-6 md:px-20">
-        <motion.h2
-          className="text-3xl font-bold text-center mb-12"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-        >
-          Nos Services
-        </motion.h2>
+<section className="py-16 px-6 md:px-20">
+  <motion.h2
+    className="text-3xl font-bold text-center mb-12"
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 1 }}
+    viewport={{ once: true }}
+  >
+    Nos Services
+  </motion.h2>
 
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Service 1 - Location */}
-          <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <img src={image} alt="Location Icon" className="mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Location</h3>
-            <p className="text-gray-600 mb-6">
-              Trouvez rapidement un appartement ou une maison à louer.
-            </p>
-            <Link
-              to="/location"
-              className="text-[#c2b5a9] font-semibold hover:underline"
-            >
-              En savoir plus
-            </Link>
-          </motion.div>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 
-          {/* Service 2 - Vente */}
-          <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <img src={image} alt="Vente Icon" className="mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Vente</h3>
-            <p className="text-gray-600 mb-6">
-              Vendez votre bien au meilleur prix avec notre expertise locale.
-            </p>
-            <Link
-              to="/estimation"
-              className="text-[#c2b5a9] font-semibold hover:underline"
-            >
-              En savoir plus
-            </Link>
-          </motion.div>
+<motion.div
+  className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+>
+  <MdHome size={64} color="#c2b5a9" className="mx-auto mb-4" />
+  <h3 className="text-xl font-semibold mb-4">Location</h3>
+  <p className="text-gray-600 mb-6">
+    Trouvez rapidement un appartement ou une maison à louer.
+  </p>
+  <Link to="/location" className="text-[#c2b5a9] font-semibold hover:underline">
+    En savoir plus
+  </Link>
+</motion.div>
 
-          {/* Service 3 - Achat */}
-          <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true }}
-          >
-            <img src={image} alt="Achat Icon" className="mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Achat</h3>
-            <p className="text-gray-600 mb-6">
-              Devenez propriétaire en toute sécurité grâce à notre
-              accompagnement.
-            </p>
-            <Link
-              to="/achat"
-              className="text-[#c2b5a9] font-semibold hover:underline"
-            >
-              En savoir plus
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+<motion.div
+  className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+>
+  <FaTags size={64} color="#c2b5a9" className="mx-auto mb-4" />
+  <h3 className="text-xl font-semibold mb-4">Vente</h3>
+  <p className="text-gray-600 mb-6">
+    Vendez votre bien au meilleur prix avec notre expertise locale.
+  </p>
+  <Link to="/estimation" className="text-[#c2b5a9] font-semibold hover:underline">
+    En savoir plus
+  </Link>
+</motion.div>
+
+<motion.div
+  className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+  viewport={{ once: true }}
+>
+  <FiShoppingCart size={64} color="#c2b5a9" className="mx-auto mb-4" />
+  <h3 className="text-xl font-semibold mb-4">Achat</h3>
+  <p className="text-gray-600 mb-6">
+    Devenez propriétaire en toute sécurité grâce à notre accompagnement.
+  </p>
+  <Link to="/achat" className="text-[#c2b5a9] font-semibold hover:underline">
+    En savoir plus
+  </Link>
+</motion.div>
+
+  </div>
+</section>
+
+      
 
       {/* Estimation gratuite */}
       <motion.section
-        className="py-16 bg-[#c2b5a9] text-white text-center px-6"
+        className="py-16 bg-[#c2b5a9] text-white text-center px-6 mb-5"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}

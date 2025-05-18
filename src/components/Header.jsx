@@ -56,28 +56,31 @@ function Header() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-6 text-sm text-white">
+        <nav className="hidden md:flex gap-6 text-sm text-white font-bold">
           <Link to="/" className="hover:text-[#f2e3d1]">Accueil</Link>
           <div
             className="relative"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-[#f2e3d1]">Nos Services</button>
+            <button className="hover:text-[#f2e3d1]">Expertise</button>
             <div
-              className={`absolute ${
-                isServicesDropdownOpen ? "block" : "hidden"
-              } bg-white text-black py-2 rounded shadow-md mt-2 w-40 z-10`}
-            >
-              <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
-              <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
-              <Link to="/achat" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
-              <Link to="/transaction" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
-              <Link to="/amenagement" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
-              <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
-            </div>
+  className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10
+    transition-all duration-300 ease-in-out
+    ${isServicesDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"}
+  `}
+>
+  <Link to="/location" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
+  <Link to="/estimation" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
+  <Link to="/achat" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
+  <Link to="/transaction" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
+  <Link to="/amenagement" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
+  <Link to="/gestion-patrimoine" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
+</div>
+
           </div>
           <Link to="/conseils" className="hover:text-[#f2e3d1]">Nos conseils</Link>
+          <Link to="/ressources-humaines" className="hover:text-[#f2e3d1]">Ressources Humaines</Link>
           <Link to="/estimation" className="hover:text-[#f2e3d1]">Estimation</Link>
           <Link to="/a-propos" className="hover:text-[#f2e3d1]">À propos</Link>
           <Link to="/contact" className="hover:text-[#f2e3d1]">Contact</Link>
@@ -92,21 +95,21 @@ function Header() {
                 className="block py-2 px-4 w-full text-left"
                 onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
               >
-                Nos Services
+                Expertise
               </button>
               {isServicesDropdownOpen && (
-                <div className="bg-[#c2b5a9] text-white py-2 rounded  ml-4 w-40">
-                  <Link to="/location"  className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
+                <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
+                  <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
                   <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
                   <Link to="/achat" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
                   <Link to="/transaction" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
                   <Link to="/amenagement" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
                   <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
-
                 </div>
               )}
             </div>
             <Link to="/conseils" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos conseils</Link>
+            <Link to="/ressources-humaines" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Ressources Humaines</Link>
             <Link to="/estimation" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Estimation</Link>
             <Link to="/a-propos" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>À propos</Link>
             <Link to="/contact" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Contact</Link>

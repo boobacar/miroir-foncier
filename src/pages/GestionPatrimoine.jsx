@@ -2,8 +2,10 @@ import React from "react";
 
 function GestionPatrimoine() {
   return (
-    <div className="p-6">
-      <h1 className="text-[#c2b5a9] text-3xl font-bold mb-7">Gestion de Patrimoine</h1>
+    <div className="bg-[#f2e3d1]  py-10 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
+          Gestion de Patrimoine</h2>
       <p className="mb-4">
         Confiez-nous la gestion de vos biens immobiliers : nous vous garantissons **tranquillité, rentabilité et sécurité**.
       </p>
@@ -19,6 +21,7 @@ function GestionPatrimoine() {
       <p>
         Que vous soyez au Sénégal ou à l’étranger, nous assurons la gestion professionnelle de votre patrimoine avec **transparence et rigueur**.
       </p>
+    </div>
     </div>
   );
 }

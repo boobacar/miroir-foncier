@@ -2,8 +2,10 @@ import React from "react";
 
 function Amenagement() {
   return (
-    <div className="p-6">
-      <h1 className="text-[#c2b5a9] text-3xl font-bold mb-7">Aménagement & Grands Projets</h1>
+    <div className="bg-[#f2e3d1]  py-10 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
+          Aménagement & Grands Projets</h2>
       <p className="mb-4">
         Nous transformons vos espaces grâce à des projets structurants : maisons, bureaux, résidences, boutiques ou terrains à aménager.
       </p>
@@ -19,6 +21,7 @@ function Amenagement() {
       <p>
         Nous travaillons avec des **architectes, artisans et ingénieurs sénégalais** pour des résultats durables, esthétiques et adaptés au climat local.
       </p>
+    </div>
     </div>
   );
 }

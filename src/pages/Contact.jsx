@@ -43,8 +43,10 @@ function Contact() {
   };
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold text-[#c2b5a9]">Contactez-nous</h1>
+    <div className="bg-[#f2e3d1]  py-10 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
+          Contactez-nous</h2>
 
       {feedbackMessage && (
         <div className="mt-4 mb-4 p-3 text-white rounded bg-green-600">
@@ -95,6 +97,7 @@ function Contact() {
           Envoyer
         </button>
       </form>
+    </div>
     </div>
   );
 }

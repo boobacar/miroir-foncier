@@ -26,7 +26,7 @@ export default function Estimation() {
 
     emailjs
       .send(
-        "service_lmcu1pv",      // replace with your service ID
+        "service_449u1y8",      // replace with your service ID
         "template_twnehah",     // replace with your template ID
         formData,
         "9qn63zGYBlOWwPvlm"          // replace with your public key
@@ -55,8 +55,9 @@ export default function Estimation() {
   };
 
   return (
-    <div className="p-8">
-      <h2 className="text-[#c2b5a9] text-3xl font-bold mb-7 text-center">
+    <div className="bg-[#f2e3d1]  py-10 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
         Estimez votre bien gratuitement
       </h2>
 
@@ -131,6 +132,7 @@ export default function Estimation() {
           Envoyer
         </button>
       </form>
+    </div>
     </div>
   );
 }

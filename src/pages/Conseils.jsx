@@ -2,8 +2,10 @@ import React from "react";
 
 function Conseils() {
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-[#c2b5a9] text-3xl font-bold mb-7">Nos conseils immobiliers au Sénégal</h1>
+    <div className="bg-[#f2e3d1]  py-10 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
+        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
+          Nos conseils immobiliers au Sénégal</h2>
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">1. Vérification des titres fonciers</h2>
@@ -52,6 +54,7 @@ function Conseils() {
           avec la **Direction générale des impôts et domaines (DGID)**.
         </p>
       </section>
+    </div>
     </div>
   );
 }

@@ -15,6 +15,7 @@ import Transaction from "./pages/Transaction";
 import Amenagement from "./pages/Amenagement";
 import GestionPatrimoine from "./pages/GestionPatrimoine";
 import Conseils from "./pages/Conseils";
+import RessourcesHumaines from "./pages/RessourcesHumaines";
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/amenagement" element={<Amenagement />} />
         <Route path="/gestion-patrimoine" element={<GestionPatrimoine />} />
         <Route path="/conseils" element={<Conseils />} />
+        <Route path="/ressources-humaines" element={<RessourcesHumaines />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/a-propos" element={<APropos />} />
         <Route path="/contact" element={<Contact />} />
