@@ -63,7 +63,7 @@ function Header() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-[#f2e3d1]">Expertise</button>
+            <Link to="/services" className="hover:text-[#f2e3d1]">Expertises</Link>
             <div
   className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10
     transition-all duration-300 ease-in-out
@@ -76,6 +76,7 @@ function Header() {
   <Link to="/transaction" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
   <Link to="/amenagement" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
   <Link to="/gestion-patrimoine" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
+  <Link to="/lexique" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
 </div>
 
           </div>
@@ -91,12 +92,14 @@ function Header() {
           <div className="md:hidden absolute top-16 left-0 right-0 bg-[#c2b5a9] text-white shadow-md mt-4 z-50">
             <Link to="/" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Accueil</Link>
             <div className="relative">
-              <button
+              <Link
+                to="/services"
                 className="block py-2 px-4 w-full text-left"
-                onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
+                // onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
+                onClick={closeMenu}
               >
                 Expertise
-              </button>
+              </Link>
               {isServicesDropdownOpen && (
                 <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
                   <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
@@ -105,6 +108,8 @@ function Header() {
                   <Link to="/transaction" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
                   <Link to="/amenagement" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
                   <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
+                  <Link to="/lexique" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
+
                 </div>
               )}
             </div>

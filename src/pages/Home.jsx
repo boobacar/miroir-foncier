@@ -164,7 +164,14 @@ L’immobilier selon Miroir Foncier, c’est allier l’utile au durable, le bea
   </Link>
 </motion.div>
 
+
   </div>
+        <Link
+              to="/services"
+              className="flex justify-center sm:w-[40%] mt-6 bg-[#c2b5a9] mx-auto text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
+            >
+              Voir tous nos services
+        </Link>
 </section>
 
       
