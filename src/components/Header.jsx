@@ -98,7 +98,7 @@ function Header() {
                 // onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
                 onClick={closeMenu}
               >
-                Expertise
+                Expertises
               </Link>
               {isServicesDropdownOpen && (
                 <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
