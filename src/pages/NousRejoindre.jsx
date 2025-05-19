@@ -8,7 +8,7 @@ function NousRejoindre() {
     const poste = e.target.poste.value;
     const message = e.target.message.value;
 
-    const mailtoLink = `mailto:boubsfal@gmail.com?subject=Candidature%20au%20poste%20de%20${encodeURIComponent(poste)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:info@miroirfoncier.com?subject=Candidature%20au%20poste%20de%20${encodeURIComponent(poste)}&body=${encodeURIComponent(
       `Nom : ${nom}\nEmail : ${email}\nTéléphone : ${telephone}\nPoste souhaité : ${poste}\n\nLettre de motivation : ${message}`
     )}`;
 
