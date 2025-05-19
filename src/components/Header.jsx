@@ -1,11 +1,15 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isRHDropdownOpen, setIsRHDropdownOpen] = useState(false);
+  const [isMobileExpertisesOpen, setIsMobileExpertisesOpen] = useState(false);
+  const [isMobileRHOpen, setIsMobileRHOpen] = useState(false);
+
   const dropdownTimeout = useRef(null);
   const rhDropdownTimeout = useRef(null);
 
@@ -13,6 +17,8 @@ function Header() {
     setIsMenuOpen(false);
     setIsServicesDropdownOpen(false);
     setIsRHDropdownOpen(false);
+    setIsMobileExpertisesOpen(false);
+    setIsMobileRHOpen(false);
   };
 
   const handleMouseEnter = () => {
@@ -124,10 +130,15 @@ function Header() {
           <div className="md:hidden absolute top-16 left-0 right-0 bg-[#c2b5a9] text-white shadow-md mt-4 z-50">
             <Link to="/" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Accueil</Link>
 
-            {/* Expertises */}
-            <div className="relative">
-              <Link to="/services" className="block py-2 px-4 w-full text-left">Expertises</Link>
-              <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
+            {/* Expertises mobile */}
+            <div className="flex justify-between items-center px-4 py-2">
+              <Link to="/services" onClick={closeMenu}>Expertises</Link>
+              <button onClick={() => setIsMobileExpertisesOpen(!isMobileExpertisesOpen)}>
+                {isMobileExpertisesOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+              </button>
+            </div>
+            {isMobileExpertisesOpen && (
+              <div className="ml-6 text-sm">
                 <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
                 <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
                 <Link to="/achat" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
@@ -136,18 +147,23 @@ function Header() {
                 <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
                 <Link to="/lexique" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
               </div>
-            </div>
+            )}
 
             <Link to="/conseils" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos conseils</Link>
 
-            {/* RH */}
-            <div className="relative">
-              <Link to="/ressources-humaines" className="block py-2 px-4 w-full text-left">Ressources Humaines</Link>
-              <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
+            {/* RH mobile */}
+            <div className="flex justify-between items-center px-4 py-2">
+              <Link to="/ressources-humaines" onClick={closeMenu}>Ressources Humaines</Link>
+              <button onClick={() => setIsMobileRHOpen(!isMobileRHOpen)}>
+                {isMobileRHOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+              </button>
+            </div>
+            {isMobileRHOpen && (
+              <div className="ml-6 text-sm">
                 <Link to="/nos-metiers" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos Métiers</Link>
                 <Link to="/nous-rejoindre" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nous Rejoindre</Link>
               </div>
-            </div>
+            )}
 
             <Link to="/estimation" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Estimation</Link>
             <Link to="/a-propos" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>À propos</Link>
