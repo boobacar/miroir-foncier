@@ -79,7 +79,7 @@ function Header() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <span className="cursor-pointer hover:text-[#f2e3d1]">Expertises</span>
+            <Link to="/services" className="cursor-pointer hover:text-[#f2e3d1]">Expertises</Link>
             <div
               className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 transition-all duration-300 ease-in-out ${
                 isServicesDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
@@ -103,7 +103,7 @@ function Header() {
             onMouseEnter={handleRHEenter}
             onMouseLeave={handleRHLeave}
           >
-            <span className="cursor-pointer hover:text-[#f2e3d1]">Ressources Humaines</span>
+            <Link to="/ressources-humaines" className="cursor-pointer hover:text-[#f2e3d1]">Ressources Humaines</Link>
             <div
               className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 transition-all duration-300 ease-in-out ${
                 isRHDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
@@ -126,7 +126,7 @@ function Header() {
 
             {/* Expertises */}
             <div className="relative">
-              <span className="block py-2 px-4 w-full text-left">Expertises</span>
+              <Link to="/services" className="block py-2 px-4 w-full text-left">Expertises</Link>
               <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
                 <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
                 <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
@@ -142,7 +142,7 @@ function Header() {
 
             {/* RH */}
             <div className="relative">
-              <span className="block py-2 px-4 w-full text-left">Ressources Humaines</span>
+              <Link to="/ressources-humaines" className="block py-2 px-4 w-full text-left">Ressources Humaines</Link>
               <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
                 <Link to="/nos-metiers" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos Métiers</Link>
                 <Link to="/nous-rejoindre" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nous Rejoindre</Link>
