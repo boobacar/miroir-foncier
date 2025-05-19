@@ -5,11 +5,14 @@ import logo from "../assets/logo.png";
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
+  const [isRHDropdownOpen, setIsRHDropdownOpen] = useState(false);
   const dropdownTimeout = useRef(null);
+  const rhDropdownTimeout = useRef(null);
 
   const closeMenu = () => {
     setIsMenuOpen(false);
     setIsServicesDropdownOpen(false);
+    setIsRHDropdownOpen(false);
   };
 
   const handleMouseEnter = () => {
@@ -20,6 +23,17 @@ function Header() {
   const handleMouseLeave = () => {
     dropdownTimeout.current = setTimeout(() => {
       setIsServicesDropdownOpen(false);
+    }, 300);
+  };
+
+  const handleRHEenter = () => {
+    if (rhDropdownTimeout.current) clearTimeout(rhDropdownTimeout.current);
+    setIsRHDropdownOpen(true);
+  };
+
+  const handleRHLeave = () => {
+    rhDropdownTimeout.current = setTimeout(() => {
+      setIsRHDropdownOpen(false);
     }, 300);
   };
 
@@ -58,30 +72,48 @@ function Header() {
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 text-sm text-white font-bold">
           <Link to="/" className="hover:text-[#f2e3d1]">Accueil</Link>
+
+          {/* Expertises Dropdown */}
           <div
             className="relative"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/services" className="hover:text-[#f2e3d1]">Expertises</Link>
+            <span className="cursor-pointer hover:text-[#f2e3d1]">Expertises</span>
             <div
-  className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10
-    transition-all duration-300 ease-in-out
-    ${isServicesDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"}
-  `}
->
-  <Link to="/location" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
-  <Link to="/estimation" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
-  <Link to="/achat" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
-  <Link to="/transaction" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
-  <Link to="/amenagement" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
-  <Link to="/gestion-patrimoine" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
-  <Link to="/lexique" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
-</div>
-
+              className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 transition-all duration-300 ease-in-out ${
+                isServicesDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
+              }`}
+            >
+              <Link to="/location" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
+              <Link to="/estimation" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
+              <Link to="/achat" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
+              <Link to="/transaction" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
+              <Link to="/amenagement" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
+              <Link to="/gestion-patrimoine" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
+              <Link to="/lexique" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
+            </div>
           </div>
+
           <Link to="/conseils" className="hover:text-[#f2e3d1]">Nos conseils</Link>
-          <Link to="/ressources-humaines" className="hover:text-[#f2e3d1]">Ressources Humaines</Link>
+
+          {/* RH Dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={handleRHEenter}
+            onMouseLeave={handleRHLeave}
+          >
+            <span className="cursor-pointer hover:text-[#f2e3d1]">Ressources Humaines</span>
+            <div
+              className={`absolute top-full left-0 mt-2 w-56 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 transition-all duration-300 ease-in-out ${
+                isRHDropdownOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-2 invisible"
+              }`}
+            >
+              <Link to="/nos-metiers" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos Métiers</Link>
+              <Link to="/nous-rejoindre" className="block px-4 py-2 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nous Rejoindre</Link>
+            </div>
+          </div>
+
           <Link to="/estimation" className="hover:text-[#f2e3d1]">Estimation</Link>
           <Link to="/a-propos" className="hover:text-[#f2e3d1]">À propos</Link>
           <Link to="/contact" className="hover:text-[#f2e3d1]">Contact</Link>
@@ -91,30 +123,32 @@ function Header() {
         {isMenuOpen && (
           <div className="md:hidden absolute top-16 left-0 right-0 bg-[#c2b5a9] text-white shadow-md mt-4 z-50">
             <Link to="/" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Accueil</Link>
-            <div className="relative">
-              <Link
-                to="/services"
-                className="block py-2 px-4 w-full text-left"
-                // onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
-                onClick={closeMenu}
-              >
-                Expertises
-              </Link>
-              {isServicesDropdownOpen && (
-                <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
-                  <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
-                  <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
-                  <Link to="/achat" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
-                  <Link to="/transaction" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
-                  <Link to="/amenagement" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
-                  <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
-                  <Link to="/lexique" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
 
-                </div>
-              )}
+            {/* Expertises */}
+            <div className="relative">
+              <span className="block py-2 px-4 w-full text-left">Expertises</span>
+              <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
+                <Link to="/location" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Location</Link>
+                <Link to="/estimation" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Vente</Link>
+                <Link to="/achat" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Achat</Link>
+                <Link to="/transaction" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Transaction Immobilière</Link>
+                <Link to="/amenagement" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Aménagement & Grands Projets</Link>
+                <Link to="/gestion-patrimoine" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Gestion de Patrimoine</Link>
+                <Link to="/lexique" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Lexique de l'Immobilier</Link>
+              </div>
             </div>
+
             <Link to="/conseils" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos conseils</Link>
-            <Link to="/ressources-humaines" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Ressources Humaines</Link>
+
+            {/* RH */}
+            <div className="relative">
+              <span className="block py-2 px-4 w-full text-left">Ressources Humaines</span>
+              <div className="bg-[#c2b5a9] text-white py-2 rounded ml-4 w-40">
+                <Link to="/nos-metiers" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nos Métiers</Link>
+                <Link to="/nous-rejoindre" className="block p-1 hover:bg-[#f2e3d1]" onClick={closeMenu}>Nous Rejoindre</Link>
+              </div>
+            </div>
+
             <Link to="/estimation" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Estimation</Link>
             <Link to="/a-propos" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>À propos</Link>
             <Link to="/contact" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Contact</Link>

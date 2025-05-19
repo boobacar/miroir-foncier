@@ -72,8 +72,18 @@ function Footer() {
       </div>
 
       {/* Footer bottom */}
-      <div className="text-center text-xs mt-4">
+      <div className="">
+        <p className="text-center text-sm mt-4">
         © {new Date().getFullYear()} Miroir Foncier. Tous droits réservés.
+      </p>
+      <p className="flex justify-center">
+        Designed by{''}<a
+          href="https://wa.me/221776260020"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#6b5454] font-bold animate-bounce transition duration-300"
+        >Boubacar FALL</a>
+      </p>
       </div>
     </footer>
   );

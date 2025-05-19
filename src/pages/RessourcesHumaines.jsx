@@ -9,9 +9,22 @@ function RessourcesHumaines() {
         </h2>
 
         <p className="text-gray-700 mb-6 leading-relaxed">
-          Chez <strong>Miroir Foncier</strong>, nous croyons que la richesse d’une entreprise repose avant tout sur ses talents humains.
-          Nos services en Ressources Humaines visent à accompagner les entreprises du secteur immobilier et foncier dans la gestion efficace
-          de leurs collaborateurs, de leur recrutement à leur développement professionnel.
+          Chez <strong>Miroir Foncier</strong>, chaque collaborateur accède rapidement à des responsabilités stimulantes.  
+Notre force ? Une diversité d’expertises et de métiers pour que chacun puisse révéler son talent et s’accomplir pleinement.  
+
+Nous sommes convaincus que l’épanouissement professionnel repose sur un principe fondamental :  
+La bonne personne, au bon moment, dans le bon environnement.  
+
+Forte de cette vision, Miroir Foncier a su évoluer avec agilité et ambition pour s’imposer comme l’un des acteurs incontournables de l’immobilier au Sénégal.  
+
+Notre groupe structure son excellence autour de 5 pôles d’expertise :  
+- Immobilier résidentiel (Vente & investissement)  
+- Résidences gérées (Confort et services premium)  
+- Grands projets urbains (Aménagement et développement durable)  
+- Tertiaire (Bureaux, commerces & structures de santé)  
+- Logistique (Solutions adaptées aux enjeux économiques)  
+
+Autant de secteurs porteurs, animés par des compétences complémentaires et une vision partagée : celle de bâtir l’avenir.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

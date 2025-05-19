@@ -17,6 +17,8 @@ import GestionPatrimoine from "./pages/GestionPatrimoine";
 import Conseils from "./pages/Conseils";
 import RessourcesHumaines from "./pages/RessourcesHumaines";
 import Lexique from "./pages/Lexique";
+import NosMetiers from "./pages/NosMetiers";
+import NousRejoindre from "./pages/NousRejoindre"
 
 
 
@@ -29,6 +31,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/location" element={<Location />} />
         <Route path="/achat" element={<Achat />} />
+        <Route path="/nos-metiers" element={<NosMetiers />} />
+        <Route path="/nous-rejoindre" element={<NousRejoindre />} />
         <Route path="/estimation" element={<Estimation />} />
         <Route path="/transaction" element={<Transaction />} />
         <Route path="/amenagement" element={<Amenagement />} />
