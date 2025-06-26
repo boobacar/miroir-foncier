@@ -18,13 +18,13 @@ import Conseils from "./pages/Conseils";
 import RessourcesHumaines from "./pages/RessourcesHumaines";
 import Lexique from "./pages/Lexique";
 import NosMetiers from "./pages/NosMetiers";
-import NousRejoindre from "./pages/NousRejoindre"
-
-
+import NousRejoindre from "./pages/NousRejoindre";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
