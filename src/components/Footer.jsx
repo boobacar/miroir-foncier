@@ -1,8 +1,16 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { AnimatePresence } from "framer-motion";
+import DevInfoModal from "./DevInfoModal";
 
 function Footer() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <footer className="bg-[#c2b5a9] text-white p-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
@@ -12,7 +20,6 @@ function Footer() {
           <p>Dakar, Sénégal</p>
           <p>Mobile : 78 438 93 93 | Fixe : 33 865 06 47</p>
           <p>Email : info@miroirfoncier.com</p>
-        
         </div>
 
         {/* Navigation */}
@@ -74,16 +81,21 @@ function Footer() {
       {/* Footer bottom */}
       <div className="">
         <p className="text-center text-sm mt-4">
-        © {new Date().getFullYear()} Miroir Foncier. Tous droits réservés.
-      </p>
-      <p className="flex justify-center">
-        Designed by{''}<a
-          href="https://wa.me/221776260020"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[#6b5454] font-bold animate-bounce transition duration-300"
-        >Boubacar FALL</a>
-      </p>
+          © {new Date().getFullYear()} Miroir Foncier. Tous droits réservés.
+        </p>
+        <div className="flex text-gray-400 items-center justify-center">
+          Designed by{" "}
+          <button
+            onClick={() => setShowModal(true)}
+            className="font-bold animate-bounce text-[#ad9d64] ml-1 hover:underline"
+          >
+            Boubacar FALL
+          </button>
+        </div>
+
+        <AnimatePresence>
+          {showModal && <DevInfoModal onClose={() => setShowModal(false)} />}
+        </AnimatePresence>
       </div>
     </footer>
   );
