@@ -220,7 +220,7 @@ function Home() {
           <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
             <iframe
               title="Localisation Miroir Foncier"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.532666776776!2d-17.4627771!3d14.7389937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d229b42f8af%3A0xd4764d8b257ada4c!2sClinique%20Dentaire%20Dabia!5e0!3m2!1sfr!2ssn!4v1748014589067!5m2!1sfr!2ssn"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.6014258582723!2d-17.4650575!3d14.735112099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d0056b0b3ff%3A0x3002b3e3d77bbae3!2sMiroir%20Foncier!5e0!3m2!1sfr!2ssn!4v1759377311850!5m2!1sfr!2ssn"
               width="100%"
               height="100%"
               style={{ border: 0 }}
