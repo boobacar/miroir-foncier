@@ -83,18 +83,23 @@ function Footer() {
         <p className="text-center text-sm mt-4">
           © {new Date().getFullYear()} Miroir Foncier. Tous droits réservés.
         </p>
-        <div className="flex text-gray-400 items-center justify-center">
+        <div className="flex text-gray-600 items-center justify-center">
           Designed by{" "}
           <button
             onClick={() => setShowModal(true)}
-            className="font-bold animate-bounce text-[#ad9d64] ml-1 hover:underline"
+            className="font-bold animate-bounce text-white ml-1 hover:underline"
           >
-            Boubacar FALL
+            Fallcon Tech
           </button>
         </div>
 
         <AnimatePresence>
-          {showModal && <DevInfoModal onClose={() => setShowModal(false)} />}
+          {showModal && (
+            <DevInfoModal
+              open={showModal}
+              onClose={() => setShowModal(false)}
+            />
+          )}
         </AnimatePresence>
       </div>
     </footer>

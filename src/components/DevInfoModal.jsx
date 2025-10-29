@@ -1,82 +1,114 @@
-import { motion } from "framer-motion";
-import { X } from "lucide-react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaPhone,
-  FaEnvelope,
-  FaWhatsapp,
-} from "react-icons/fa";
-import maphoto from "../assets/moi.webp";
+import { useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
+import { X, Phone, Mail, Globe, Code2 } from "lucide-react";
 
-const DevInfoModal = ({ onClose }) => {
-  return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4"
-    >
-      <div className="bg-white rounded-lg p-6 max-w-sm w-full text-center relative shadow-xl">
-        {/* Bouton de fermeture */}
-        <button
-          onClick={onClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-gray-700"
+export default function DevSignatureModal({ open = true, onClose }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    if (!open) return;
+    const onEsc = (e) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onEsc);
+    // lock background scroll
+    const prev = {
+      overflowB: document.body.style.overflow,
+      overflowR: document.documentElement.style.overflow,
+      position: document.body.style.position,
+      top: document.body.style.top,
+      left: document.body.style.left,
+      right: document.body.style.right,
+      width: document.body.style.width,
+      overscroll: document.body.style.overscrollBehaviorY,
+    };
+    const scrollY = window.scrollY || document.documentElement.scrollTop;
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.left = "0";
+    document.body.style.right = "0";
+    document.body.style.width = "100%";
+    document.body.style.overscrollBehaviorY = "contain";
+    return () => {
+      window.removeEventListener("keydown", onEsc);
+      document.body.style.overflow = prev.overflowB;
+      document.documentElement.style.overflow = prev.overflowR;
+      const y = Math.abs(parseInt(document.body.style.top || "0"));
+      document.body.style.position = prev.position;
+      document.body.style.top = prev.top;
+      document.body.style.left = prev.left;
+      document.body.style.right = prev.right;
+      document.body.style.width = prev.width;
+      document.body.style.overscrollBehaviorY = prev.overscroll;
+      if (y) window.scrollTo(0, y);
+    };
+  }, [open, onClose]);
+
+  if (!open) return null;
+
+  return createPortal(
+    <div className="fixed inset-0 z-[9999] overflow-y-auto">
+      <div
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+        onClick={onClose}
+        aria-hidden
+      />
+      <div className="min-h-dvh grid place-items-center px-4 py-6 pb-[env(safe-area-inset-bottom)]">
+        <div
+          ref={ref}
+          role="dialog"
+          aria-modal="true"
+          className="relative bg-white rounded-2xl shadow-2xl ring-1 ring-black/5 w-full max-w-md p-6 max-h-[85svh] overflow-auto overscroll-contain mx-auto"
         >
-          <X />
-        </button>
+          <button
+            onClick={onClose}
+            aria-label="Fermer"
+            className="absolute right-2 top-2 p-2 rounded-lg hover:bg-gray-100"
+          >
+            <X size={18} className="text-slate-500" />
+          </button>
 
-        {/* Photo + nom */}
-        <img
-          src={maphoto}
-          alt="Boubacar Fall"
-          className="w-24 h-24 rounded-full mx-auto object-cover mb-4"
-        />
-        <h3 className="text-xl font-bold text-[#ad9d64]">Boubacar Fall</h3>
-        <p className="text-sm text-gray-600">Développeur Fullstack</p>
-
-        {/* Contacts directs */}
-        <div className="mt-4 space-y-2 text-sm text-gray-700">
-          <div className="flex items-center justify-center gap-2">
-            <FaPhone className="text-[#ad9d64]" />
-            <span>+221 77 626 00 20</span>
+          <div className="flex flex-col items-center text-center">
+            <div className="w-16 h-16 rounded-full bg-amber-100/50 grid place-items-center">
+              <Code2 size={28} className="text-[#c2b5a9]" />
+            </div>
+            <h3 className="mt-3 text-lg font-bold text-[#c2b5a9]">
+              Fallcon Tech
+            </h3>
+            <div className="mt-5 space-y-3 text-slate-700">
+              <a
+                href="tel:+221776260020"
+                className="inline-flex items-center gap-3 hover:text-[#c2b5a9]"
+              >
+                <Phone size={18} className="text-[#c2b5a9]" />
+                <span>+221 77 626 00 20</span>
+              </a>
+              <div>
+                <a
+                  href="mailto:info@fallcontech.com"
+                  className="inline-flex items-center gap-3 hover:text-[#c2b5a9]"
+                >
+                  <Mail size={18} className="text-[#c2b5a9]" />
+                  <span>info@fallcontech.com</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.fallcontech.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-3 hover:text-[#c2b5a9]"
+                >
+                  <Globe size={18} className="text-[#c2b5a9]" />
+                  <span>www.fallcontech.com</span>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center justify-center gap-2">
-            <FaEnvelope className="text-[#ad9d64]" />
-            <span>fallcontech@gmail.com</span>
-          </div>
-        </div>
-
-        {/* Liens externes */}
-        <div className="flex justify-center gap-6 mt-5 text-[#ad9d64] text-xl">
-          <a
-            href="https://github.com/boobacar"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-black transition"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://linkedin.com/in/boubsfal"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-black transition"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://wa.me/221776260020"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-green-600 transition"
-          >
-            <FaWhatsapp />
-          </a>
         </div>
       </div>
-    </motion.div>
+    </div>,
+    document.body
   );
-};
-
-export default DevInfoModal;
+}
