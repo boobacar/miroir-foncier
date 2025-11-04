@@ -102,6 +102,7 @@ function Header() {
           </div>
 
           <Link to="/conseils" className="hover:text-[#f2e3d1]">Nos conseils</Link>
+          <Link to="/blog" className="hover:text-[#f2e3d1]">Blog</Link>
 
           {/* RH Dropdown */}
           <div
@@ -166,6 +167,7 @@ function Header() {
             )}
 
             <Link to="/estimation" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Estimation</Link>
+            <Link to="/blog" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Blog</Link>
             <Link to="/a-propos" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>À propos</Link>
             <Link to="/contact" className="block py-2 px-4 hover:bg-[#f2e3d1]" onClick={closeMenu}>Contact</Link>
           </div>

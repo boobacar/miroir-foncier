@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Location from "./pages/Location";
@@ -15,6 +15,8 @@ import Transaction from "./pages/Transaction";
 import Amenagement from "./pages/Amenagement";
 import GestionPatrimoine from "./pages/GestionPatrimoine";
 import Conseils from "./pages/Conseils";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import RessourcesHumaines from "./pages/RessourcesHumaines";
 import Lexique from "./pages/Lexique";
 import NosMetiers from "./pages/NosMetiers";
@@ -39,6 +41,8 @@ function App() {
         <Route path="/gestion-patrimoine" element={<GestionPatrimoine />} />
         <Route path="/lexique" element={<Lexique />} />
         <Route path="/conseils" element={<Conseils />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/ressources-humaines" element={<RessourcesHumaines />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/a-propos" element={<APropos />} />

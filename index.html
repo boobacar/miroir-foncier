@@ -6,7 +6,8 @@
 
     <!-- 🔤 Title et description SEO -->
     <title>Miroir Foncier - Agence immobilière à Dakar</title>
-    <link rel="icon" type="image/png" href="./src/assets/logo.png" />
+    <link rel="canonical" href="https://www.miroirfoncier.com/" />
+    <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="title" content="Miroir Foncier - Agence immobilière à Dakar" />
     <meta
       name="description"
@@ -49,8 +50,7 @@
     />
 
     <!-- 🔗 Favicon -->
-
-    <link rel="icon" type="image/png" href="./src/assets/logo.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
 
     <!-- 📐 Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,7 +60,7 @@
       rel="stylesheet"
     />
 
-    <!-- 🧠 JSON-LD Schema (déjà très bien fait !) -->
+    <!-- 🧠 JSON-LD Schema (Entreprise) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -90,6 +90,21 @@
           "https://www.instagram.com/miroirfoncier",
           "https://www.linkedin.com/company/miroirfoncier"
         ]
+      }
+    </script>
+
+    <!-- 🧠 JSON-LD Schema (Site avec SearchAction) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Miroir Foncier",
+        "url": "https://www.miroirfoncier.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.miroirfoncier.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
   </head>

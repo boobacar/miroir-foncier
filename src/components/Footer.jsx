@@ -30,9 +30,8 @@ function Footer() {
           <Link to="/services" className="hover:underline">
             Nos Services |
           </Link>
-          <Link to="/estimation" className="hover:underline">
-            Estimation |
-          </Link>
+          <Link to="/estimation" className="hover:underline">Estimation |</Link>
+          <Link to="/blog" className="hover:underline"> Blog |</Link>
           <Link to="/a-propos" className="hover:underline">
             À propos |
           </Link>
