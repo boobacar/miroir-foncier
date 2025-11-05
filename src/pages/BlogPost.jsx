@@ -33,6 +33,22 @@ function jsonLdForArticle(post, path) {
   };
 }
 
+function jsonLdForFAQ(post, path) {
+  if (!post?.faq || post.faq.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faq.map((qa) => ({
+      "@type": "Question",
+      name: qa.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: qa.a,
+      },
+    })),
+  };
+}
+
 export default function BlogPost() {
   const { slug } = useParams();
   const post = useMemo(() => getPostBySlug(slug), [slug]);
@@ -67,12 +83,13 @@ export default function BlogPost() {
       <script type="application/ld+json">
         {JSON.stringify(jsonLdForArticle(post, path))}
       </script>
+      {jsonLdForFAQ(post, path) && (
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLdForFAQ(post, path))}
+        </script>
+      )}
 
-      <nav className="max-w-3xl mx-auto text-sm mb-4 text-gray-600">
-        <Link to="/" className="underline">Accueil</Link> · {" "}
-        <Link to="/blog" className="underline">Blog</Link> · {" "}
-        <span className="text-gray-800">{post.title}</span>
-      </nav>
+      {/* Breadcrumbs globaux déjà gérés via <Breadcrumbs /> dans App.jsx */}
 
       <article className="max-w-3xl mx-auto bg-white rounded-lg shadow overflow-hidden">
         <img
@@ -102,6 +119,26 @@ export default function BlogPost() {
             </section>
           ))}
 
+          {post.faq && post.faq.length > 0 && (
+            <section className="mt-8">
+              <h2 className="text-2xl font-semibold text-[#6b5f55] mb-3">
+                Questions fréquentes
+              </h2>
+              <div className="divide-y divide-[#e5d8c6] border border-[#e5d8c6] rounded">
+                {post.faq.map((qa, idx) => (
+                  <details key={idx} className="p-4 group">
+                    <summary className="cursor-pointer font-medium text-[#6b5f55] group-open:mb-2">
+                      {qa.q}
+                    </summary>
+                    <p className="text-gray-800 leading-relaxed whitespace-pre-line">
+                      {qa.a}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+
           <div className="mt-8 p-4 bg-[#fdf9f3] border border-[#e5d8c6] rounded">
             <p className="text-gray-800">
               Vous avez un projet d’{" "}
@@ -117,4 +154,3 @@ export default function BlogPost() {
     </div>
   );
 }
-
