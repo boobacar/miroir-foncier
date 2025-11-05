@@ -15,7 +15,7 @@ export const blogPosts = [
       "notaire",
       "cadastre",
     ],
-    cover: "/og-banner.png",
+    cover: "/og-banner.webp",
     sections: [
       {
         heading: "Pourquoi la vérification du titre est essentielle",
@@ -62,7 +62,7 @@ export const blogPosts = [
       "investir à Dakar",
       "location Dakar",
     ],
-    cover: "/og-banner.png",
+    cover: "/og-banner.webp",
     sections: [
       {
         heading: "Quartiers prime et standing",
@@ -99,7 +99,7 @@ export const blogPosts = [
       "immatriculation foncière",
       "morcellement",
     ],
-    cover: "/og-banner.png",
+    cover: "/og-banner.webp",
     sections: [
       {
         heading: "Quand et pourquoi immatriculer ?",
@@ -135,7 +135,7 @@ export const blogPosts = [
       "investissement locatif Sénégal",
       "fiscalité immobilière",
     ],
-    cover: "/og-banner.png",
+    cover: "/og-banner.webp",
     sections: [
       {
         heading: "Demande et profils de locataires",
@@ -166,7 +166,7 @@ export const blogPosts = [
       "vérifications immobilières",
       "due diligence",
     ],
-    cover: "/og-banner.png",
+    cover: "/og-banner.webp",
     sections: [
       {
         heading: "Ne jamais acheter sans notaire",
@@ -193,4 +193,3 @@ export const blogPosts = [
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);
-

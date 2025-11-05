@@ -22,12 +22,14 @@ import Lexique from "./pages/Lexique";
 import NosMetiers from "./pages/NosMetiers";
 import NousRejoindre from "./pages/NousRejoindre";
 import ScrollToTop from "./components/ScrollToTop";
+import Breadcrumbs from "./components/Breadcrumbs";
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Header />
+      <Breadcrumbs />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />

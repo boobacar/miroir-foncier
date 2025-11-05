@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "vite",
     "sitemap": "node sitemap-generator.js",
-    "predeploy": "npm run sitemap && npm run build && node scripts/spa-stub-routes.js && cp dist/index.html dist/404.html",
+    "predeploy": "npm run sitemap && npm run build && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
+    "build": "vite build && node scripts/spa-stub-routes.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },

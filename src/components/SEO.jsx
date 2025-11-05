@@ -27,7 +27,7 @@ export default function SEO({
   title,
   description,
   path = "",
-  image = "/og-banner.png",
+  image = "/og-banner.webp",
   type = "article",
 }) {
   useEffect(() => {
@@ -39,6 +39,7 @@ export default function SEO({
     setMeta("og:type", type, "property");
     setMeta("og:url", canonical, "property");
     setMeta("og:image", `${SITE_URL}${image}`, "property");
+    if (image.endsWith('.webp')) setMeta("og:image:type", "image/webp", "property");
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", title);
     setMeta("twitter:description", description);
@@ -48,4 +49,3 @@ export default function SEO({
 
   return null;
 }
-
