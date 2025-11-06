@@ -307,6 +307,282 @@ export const blogPosts = [
       { q: "Puis‑je payer en espèces ?", a: "Évitez. Préférez un virement traçable ou un séquestre chez le notaire. Conservez toutes les preuves de paiement." },
     ],
   },
+  {
+    slug: "frais-de-notaire-et-taxes-immobilieres-senegal",
+    title: "Frais de notaire et taxes immobilières au Sénégal : barèmes, calculs et astuces 2025",
+    date: "2025-06-01",
+    author: "Miroir Foncier",
+    description:
+      "Comprendre les droits d’enregistrement, émoluments de notaire, frais annexes et optimiser le coût total d’une transaction immobilière au Sénégal.",
+    tags: [
+      "frais de notaire Sénégal",
+      "droits d’enregistrement",
+      "taxes immobilières",
+      "achat immobilier Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi ces frais existent et ce qu’ils couvrent",
+        body:
+          "Une transaction immobilière implique des vérifications juridiques, la rédaction d’actes, l’enregistrement et la publicité foncière. Les frais servent à sécuriser l’opération, rémunérer le notaire et financer taxes et droits dus à l’État. Ils varient selon la nature du titre (titre foncier, bail, délibération), la valeur du bien et la complexité du dossier. Comprendre chaque poste vous permet d’anticiper votre budget, de comparer plusieurs scénarios et d’éviter les mauvaises surprises lors de la signature.",
+      },
+      {
+        heading: "Droits d’enregistrement et taxes principales",
+        body:
+          "Les droits d’enregistrement constituent la part la plus visible. Ils sont calculés sur la base du prix déclaré dans l’acte (ou la valeur vénale). À cela s’ajoutent des taxes et redevances liées à l’acte, aux recherches foncières et à la publication. Selon la nature du bien et le statut foncier, certains taux et formalités diffèrent. L’anticipation est essentielle: demandez à votre notaire une projection écrite des frais dès la promesse de vente pour éviter tout écart le jour de l’acte.",
+      },
+      {
+        heading: "Émoluments du notaire et débours",
+        body:
+          "Les émoluments rémunèrent la rédaction des actes, les consultations et les formalités. Les débours couvrent les sommes avancées par l’office (extraits, certificats, timbres, géomètre le cas échéant). Les honoraires sont encadrés et justifiés par une note détaillée remise à la signature. Un dossier simple coûte naturellement moins qu’un dossier avec régularisation de chaîne de propriété, oppositions ou morcellement.",
+      },
+      {
+        heading: "Cas particuliers : bail, délibération, promotion",
+        body:
+          "L’achat d’un bien en bail ou sur la base d’une délibération implique parfois des étapes supplémentaires (vérification des droits, régularisation, immatriculation). En promotion, la livraison par tranches et les garanties exigées (achèvement, parfait achèvement) impactent les frais. Demandez un calendrier clair : promesse, appels de fonds, acte authentique, publication; et adaptez votre trésorerie en conséquence.",
+      },
+      {
+        heading: "Optimiser sans risque et bonnes pratiques",
+        body:
+          "Négociez le prix net vendeur plutôt que de rogner sur les vérifications juridiques. Centralisez paiements et pièces chez le notaire; évitez les espèces; utilisez un séquestre. Anticipez le coût total (5–10% selon les dossiers) et provisionnez les postes techniques (géomètre, raccordements, diagnostics éventuels) pour tenir votre calendrier sans stress.",
+      },
+      {
+        heading: "Checklist budgétaire",
+        body:
+          "Prix du bien, droits d’enregistrement, émoluments, débours, certificat de non‑hypothèque, plan/borne, frais bancaires (virement, éventuels frais de dossier de crédit), éventuelle assurance, raccordements et clôture. Conservez toutes les quittances et la note de frais signée.",
+      },
+    ],
+    faq: [
+      { q: "Qui paye les frais de notaire ?", a: "Par usage, l’acheteur supporte les frais d’acquisition (droits, émoluments, débours). Des exceptions existent si les parties en conviennent autrement par écrit." },
+      { q: "Peut‑on réduire les frais ?", a: "On optimise surtout en anticipant le budget et en sécurisant le dossier. Évitez toute sous‑déclaration: elle expose à des pénalités et met en péril la revente." },
+      { q: "Quand régler les frais ?", a: "Au moment de la signature de l’acte authentique ou selon l’échéancier fixé par le notaire. Un séquestre peut être utilisé pour sécuriser les fonds." },
+      { q: "Les frais diffèrent‑ils selon la ville ?", a: "Les barèmes s’appliquent nationalement; la complexité du dossier et les débours peuvent varier selon les administrations et intervenants." },
+    ],
+  },
+  {
+    slug: "vendre-son-bien-au-senegal-etapes-prix-mandat",
+    title: "Vendre son bien au Sénégal : étapes clés, fixation du prix, mandat et délais",
+    date: "2025-06-02",
+    author: "Miroir Foncier",
+    description:
+      "De l’estimation au notaire : méthodes pour fixer le prix, choisir un mandat, préparer le dossier vendeur et réussir la commercialisation dans de bons délais.",
+    tags: [
+      "vendre maison Sénégal",
+      "estimation bien Dakar",
+      "mandat de vente",
+      "notaire Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Estimer au juste prix",
+        body:
+          "La clé d’une vente fluide est un prix aligné sur le marché. Analysez les biens comparables vendus récemment, ajustez pour l’emplacement, l’étage, l’état, la vue, le parking et les charges. Un prix trop haut rallonge les délais et stigmatisent l’annonce; trop bas, il vous fait perdre de la valeur. Une estimation professionnelle documentée reste la meilleure base de décision.",
+      },
+      {
+        heading: "Préparer le dossier vendeur",
+        body:
+          "Rassemblez titre foncier (ou bail/délibération), plan/borne, certificat de non‑hypothèque, quittances fiscales, relevés de charges, autorisations le cas échéant, pièces d’identité et situation matrimoniale. Un dossier complet rassure l’acheteur et accélère le passage chez le notaire.",
+      },
+      {
+        heading: "Travaux utiles et home‑staging",
+        body:
+          "Réparez les défauts visibles (peintures, robinetterie), déclutter, optimisez la luminosité et soignez les photos. Quelques améliorations ciblées (éclairage, poignées, joints) rendent la visite plus convaincante à coût maîtrisé.",
+      },
+      {
+        heading: "Choisir le mandat de vente",
+        body:
+          "Mandat simple (plusieurs intermédiaires) ou exclusif (une seule agence avec engagement fort). L’exclusivité clarifie la communication, facilite la mise en marché coordonnée et réduit les conflits d’annonce. Exigez un mandat écrit précisant le prix, la durée, les honoraires, les supports publicitaires et le compte‑rendu d’activité.",
+      },
+      {
+        heading: "Marketing et qualification des acheteurs",
+        body:
+          "Multipliez les canaux: portails, réseaux sociaux, base clients, signalétique locale. Qualifiez les prospects (financement, délai) et organisez des visites efficaces (parcours, documents, réponses aux objections). Un bon suivi transforme plus de visites en offres.",
+      },
+      {
+        heading: "Négociation et promesse",
+        body:
+          "Fixez vos limites à l’avance (prix, délais, meubles inclus). La promesse de vente cadre le calendrier et les conditions suspensives (financement, vérifications). Un dépôt de garantie crédibilise l’acheteur. Préparez le passage chez le notaire avec toutes les pièces.",
+      },
+      {
+        heading: "Délais et causes de blocage",
+        body:
+          "Les ventes aboutissent souvent en 4 à 10 semaines selon le marché et la complétude des documents. Les retards viennent des titres incomplets, des charges non soldées, d’une surestimation initiale ou d’un financement non sécurisé. Anticipez ces facteurs pour tenir votre planning.",
+      },
+    ],
+    faq: [
+      { q: "Exclusivité ou mandat simple ?", a: "L’exclusivité apporte clarté, coordination marketing et reporting régulier. Le mandat simple élargit les canaux mais complique la cohérence des annonces et le suivi." },
+      { q: "Dois‑je faire des travaux avant la vente ?", a: "Ciblez les réparations à fort impact visuel et peu coûteuses. Évitez les rénovations lourdes si vous ne maîtrisez pas le budget/retour." },
+      { q: "Quel délai moyen pour vendre ?", a: "Avec un prix juste et un dossier complet, comptez en général de 1 à 2 mois, selon la demande locale et la saison." },
+    ],
+  },
+  {
+    slug: "credit-immobilier-senegal-taux-dossier-conditions",
+    title: "Crédit immobilier au Sénégal : taux, apport, dossier et délais",
+    date: "2025-06-03",
+    author: "Miroir Foncier",
+    description:
+      "Constituer un dossier solide, comprendre le coût total du crédit, l’assurance, l’apport et les étapes pour obtenir un financement immobilier au Sénégal.",
+    tags: [
+      "crédit immobilier Sénégal",
+      "taux prêt immobilier",
+      "apport achat",
+      "banque Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Préparer un dossier solide",
+        body:
+          "Regroupez pièces d’identité, justificatifs de revenus et d’épargne, relevés bancaires, situation professionnelle, engagements en cours, compromis/promesse de vente et devis éventuels. Plus votre dossier est structuré, plus la décision est rapide et favorable.",
+      },
+      {
+        heading: "Apport et capacité d’emprunt",
+        body:
+          "Un apport personnel améliore votre profil et réduit le coût total du crédit. Calculez une mensualité soutenable en laissant une marge pour charges et imprévus. Les banques examinent stabilité des revenus, taux d’endettement et reste à vivre.",
+      },
+      {
+        heading: "Taux, assurances et coût total",
+        body:
+          "Le taux nominal ne fait pas tout: tenez compte des frais de dossier, de l’assurance emprunteur et des garanties. Comparez le coût total sur la durée et les conditions de remboursement anticipé. Une assurance adaptée protège votre famille et le prêteur.",
+      },
+      {
+        heading: "Délais et étapes du financement",
+        body:
+          "Demande initiale, étude de faisabilité, offre, instruction complète, décision, déblocage des fonds et signature chez le notaire. Les délais varient selon la complétude du dossier et la nature du projet (neuf, ancien, terrain + construction).",
+      },
+      {
+        heading: "Conseils pour obtenir un meilleur taux",
+        body:
+          "Présentez des revenus stables, un apport cohérent et un projet réaliste; mettez en concurrence plusieurs établissements; soignez votre historique bancaire; évitez les découverts; et anticipez l’assurance emprunteur.",
+      },
+      {
+        heading: "Alternatives et précautions",
+        body:
+          "Épargne préalable, achat en cash, financement progressif, participation familiale. Évitez les schémas opaques et exigez des offres écrites et claires. Privilégiez la traçabilité et des interlocuteurs identifiés.",
+      },
+    ],
+    faq: [
+      { q: "Quel apport faut‑il prévoir ?", a: "Plus l’apport est élevé, plus la mensualité et le coût total baissent. L’apport dépend de votre profil et du projet; il n’existe pas de seuil unique valable pour tous." },
+      { q: "Combien de temps pour obtenir un crédit ?", a: "Entre la demande et le déblocage, comptez généralement plusieurs semaines, selon la complétude du dossier et la nature du projet." },
+      { q: "Puis‑je rembourser par anticipation ?", a: "C’est souvent possible. Vérifiez les conditions et éventuelles pénalités dans l’offre de crédit." },
+    ],
+  },
+  {
+    slug: "investir-a-saly-mbour-thies-location-saisonniere",
+    title: "Investir à Saly, Mbour et Thiès : location saisonnière, rendements et risques",
+    date: "2025-06-04",
+    author: "Miroir Foncier",
+    description:
+      "Analyse des atouts et limites de la location saisonnière sur la Petite‑Côte et l’intérieur : typologies de biens, rendement, gestion et saisonnalité.",
+    tags: [
+      "investir Saly",
+      "location saisonnière Sénégal",
+      "rendement locatif",
+      "Mbour Thiès",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Marché local et demande",
+        body:
+          "La Petite‑Côte (Saly, Mbour) attire touristes, familles et expatriés le week‑end; Thiès bénéficie d’une position stratégique sur les axes. La demande varie selon la saison, les événements et la proximité des plages et services.",
+      },
+      {
+        heading: "Typologies performantes",
+        body:
+          "Appartements 1‑2 chambres bien équipés, villas avec piscine sécurisées, résidences proches de la plage et des commerces. Stationnement, climatisation, connexion internet fiable et sécurité sont des critères décisifs pour les voyageurs.",
+      },
+      {
+        heading: "Rendements et saisonnalité",
+        body:
+          "Les revenus sont plus élevés en haute saison et pendant les vacances, avec une vacance plus marquée le reste de l’année. Intégrez la saisonnalité dans votre business plan, anticipez l’entretien de la piscine et les charges.",
+      },
+      {
+        heading: "Gestion et expérience client",
+        body:
+          "Accueil, état des lieux, ménage professionnel, maintenance réactive et canal unique de communication. Les avis clients et la qualité du linge/équipement influencent fortement l’occupation et le prix moyen par nuit.",
+      },
+      {
+        heading: "Risques et moyens de les réduire",
+        body:
+          "Vacance hors saison, casse et usure, concurrence accrue. Réduisez le risque avec une offre différenciante (vue, piscine, déco soignée), des règles de séjour claires, une caution, une assurance adaptée et un bon contrat.",
+      },
+      {
+        heading: "Fiscalité et obligations",
+        body:
+          "Déclarez vos revenus, tenez une comptabilité simple, respectez la copropriété et sécurisez les encaissements. Comparez la location saisonnière avec la location longue durée selon votre temps disponible et votre appétence à la gestion.",
+      },
+      {
+        heading: "Check‑list avant d’acheter",
+        body:
+          "Étudiez la demande, vérifiez le règlement de copropriété, estimez les charges, renseignez‑vous sur l’accès aux réseaux et la sécurité, testez la connexion internet et évaluez le temps de gestion réel.",
+      },
+    ],
+    faq: [
+      { q: "Saison haute/basse : quel impact ?", a: "La haute saison améliore le revenu mais masque parfois la vacance basse saison. Construisez un budget annuel réaliste et diversifiez la clientèle." },
+      { q: "Dois‑je déléguer la gestion ?", a: "Si vous manquez de temps ou habitez loin, un mandataire local augmente la qualité de service et la satisfaction clients." },
+      { q: "Quel bien privilégier ?", a: "Un logement bien équipé, proche des commodités et facile à entretenir, avec des atouts différenciants (piscine, terrasse, sécurité)." },
+    ],
+  },
+  {
+    slug: "gestion-de-patrimoine-immobilier-senegal-optimisation-risques",
+    title: "Gestion de patrimoine immobilier au Sénégal : optimisation, risques et transmission",
+    date: "2025-06-05",
+    author: "Miroir Foncier",
+    description:
+      "Structurer, protéger et faire croître un patrimoine: objectifs, diversification, contrats, assurances, entretien, vacance, et préparation de la transmission.",
+    tags: [
+      "gestion de patrimoine",
+      "SCI Sénégal",
+      "assurance PNO",
+      "transmission immobilière",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Définir vos objectifs et votre horizon",
+        body:
+          "Conforter des revenus, préparer la retraite, loger la famille, transmettre: chaque objectif implique une stratégie différente (typologie de biens, localisation, financement, niveau de risque). Clarifiez votre horizon et vos contraintes pour bâtir un plan durable.",
+      },
+      {
+        heading: "Structuration et gouvernance",
+        body:
+          "La détention directe ou via une structure (ex. SCI) présente avantages et limites en matière de gestion, de mutualisation des capitaux, de transmission et de fiscalité. Une gouvernance claire (statuts, décisions, pouvoirs) évite les blocages et protège les relations familiales.",
+      },
+      {
+        heading: "Assurances, contrats et conformité",
+        body:
+          "Assurance propriétaire non occupant (PNO), responsabilité civile, contrats de gestion, baux écrits complets, état des lieux, conformité électrique et sécurité incendie. Documentez et archivez tout pour limiter les litiges et accélérer les indemnisations.",
+      },
+      {
+        heading: "Entretien et pilotage des charges",
+        body:
+          "Planifiez l’entretien préventif (toiture, peinture, climatisation), renégociez les contrats fournisseurs, suivez les consommations. Un bien entretenu se loue mieux, retient les bons locataires et préserve la valeur à long terme.",
+      },
+      {
+        heading: "Vacance et gestion du risque",
+        body:
+          "Anticipez la vacance (coussin de trésorerie, publicité, flexibilité sur la durée de bail). Diversifiez locataires et emplacements; incluez des clauses protectrices dans les baux; mettez en place un process d’impayés clair et documenté.",
+      },
+      {
+        heading: "Diversification et arbitrages",
+        body:
+          "Équilibrez votre portefeuille (résidentiel/activité, Dakar/région, meublé/vide, neuf/ancien). Arbitrez régulièrement: céder un actif peu performant pour financer un bien mieux situé ou moins gourmand en maintenance.",
+      },
+      {
+        heading: "Transmission et succession",
+        body:
+          "Anticipez les modalités de transmission (donation, cession de parts, succession) et les impacts juridiques/fiscaux. Un dossier patrimonial organisé (titres, baux, états des lieux, factures) protège vos héritiers et simplifie les démarches.",
+      },
+    ],
+    faq: [
+      { q: "La SCI est‑elle toujours pertinente ?", a: "C’est un outil possible de gestion et de transmission, avec des coûts et obligations. Faites étudier votre cas par un professionnel avant de décider." },
+      { q: "Comment réduire la vacance ?", a: "Qualité du bien, visibilité, réactivité de gestion, prix juste et suivi régulier des locataires sont les leviers principaux." },
+      { q: "Faut‑il externaliser la gestion ?", a: "Si le temps ou l’expertise manquent, un mandat de gestion sécurise loyers, états des lieux, maintenance et encaissements." },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);

@@ -27,6 +27,11 @@ const blogSlugs = [
   'immatriculation-fonciere-morcellement-procedure-senegal',
   'location-meublee-ou-vide-rendement-dakar',
   'eviter-arnaques-immobilieres-senegal-erreurs-courantes',
+  'frais-de-notaire-et-taxes-immobilieres-senegal',
+  'vendre-son-bien-au-senegal-etapes-prix-mandat',
+  'credit-immobilier-senegal-taux-dossier-conditions',
+  'investir-a-saly-mbour-thies-location-saisonniere',
+  'gestion-de-patrimoine-immobilier-senegal-optimisation-risques',
 ].map((slug) => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.7 }));
 
 const links = [...baseLinks, ...blogSlugs];
