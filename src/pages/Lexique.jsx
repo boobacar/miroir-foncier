@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const lexique = {
   A: [
@@ -318,14 +318,85 @@ const lexique = {
 const alphabet = Object.keys(lexique);
 
 function Lexique() {
+  const [activeLetter, setActiveLetter] = useState(alphabet[0]);
+  const listRef = useRef(null);
+  const letterRefs = useRef({});
+  const navInnerRef = useRef(null);
+  const barRef = useRef(null);
+  const [barHeight, setBarHeight] = useState(0);
+  const [pinned, setPinned] = useState(false);
+  // Height to subtract when scrolling (fixed header + nav height)
+  const headerOffset = 88;
+
   const scrollToLetter = (letter) => {
     const section = document.getElementById(`letter-${letter}`);
-    if (section) section.scrollIntoView({ behavior: "smooth" });
+    if (section) {
+      const dynamicOffset = headerOffset + (navInnerRef.current?.offsetHeight || 0);
+      const y = section.getBoundingClientRect().top + window.pageYOffset - dynamicOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  // Scroll spy: update active letter based on scroll
+  useEffect(() => {
+    const sections = alphabet
+      .map((l) => document.getElementById(`letter-${l}`))
+      .filter(Boolean);
+
+    const onScroll = () => {
+      let current = alphabet[0];
+      const scrollY = window.scrollY || window.pageYOffset;
+      for (const sec of sections) {
+        if (sec.offsetTop - headerOffset <= scrollY) {
+          current = sec.id.replace("letter-", "");
+        } else {
+          break;
+        }
+      }
+      setActiveLetter((prev) => (prev === current ? prev : current));
+    };
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
+
+  // Keep active letter visible/centered in horizontal list
+  useEffect(() => {
+    const el = letterRefs.current[activeLetter];
+    const cont = listRef.current;
+    if (el && cont && cont.scrollWidth > cont.clientWidth) {
+      const left = el.offsetLeft - cont.clientWidth / 2 + el.clientWidth / 2;
+      cont.scrollTo({ left, behavior: "smooth" });
+    }
+  }, [activeLetter]);
+
+  // Pin the bar (fixed) when reaching the header threshold and keep layout height
+  useEffect(() => {
+    const measure = () => setBarHeight(navInnerRef.current?.offsetHeight || 0);
+    measure();
+    const onScroll = () => {
+      const top = barRef.current?.getBoundingClientRect().top ?? 0;
+      setPinned(top <= headerOffset + 8);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", () => {
+      measure();
+      onScroll();
+    });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
 
   return (
     <div className="bg-[#f2e3d1] py-10 px-4 md:px-20">
@@ -334,17 +405,37 @@ function Lexique() {
           Lexique de l'immobilier
         </h2>
 
-        {/* Navigation alphabétique */}
-        <div className="flex flex-wrap gap-2 justify-center mb-8">
-          {alphabet.map((letter) => (
-            <button
-              key={letter}
-              onClick={() => scrollToLetter(letter)}
-              className="text-[#c2b5a9] font-semibold hover:underline"
-            >
-              {letter}
-            </button>
-          ))}
+        {/* Navigation alphabétique (smart fixed + scroll spy) */}
+        <div ref={barRef} className="mb-8">
+          {pinned && <div style={{ height: barHeight }} aria-hidden />}
+          <div className={pinned ? "fixed top-[88px] left-0 right-0 z-40" : "relative z-40"}>
+            <div className="max-w-5xl mx-auto px-4">
+              <div
+                ref={navInnerRef}
+                className="bg-white/95 border border-[#c2b5a9] rounded-xl shadow-sm p-2 backdrop-blur-sm"
+              >
+                <div
+                  ref={listRef}
+                  className="flex gap-2 justify-center flex-wrap"
+                >
+                  {alphabet.map((letter) => (
+                    <button
+                      key={letter}
+                      ref={(el) => (letterRefs.current[letter] = el)}
+                      onClick={() => scrollToLetter(letter)}
+                      className={
+                        activeLetter === letter
+                          ? "bg-[#c2b5a9] text-white font-semibold rounded-lg px-3 py-1"
+                          : "text-[#c2b5a9] font-semibold hover:underline px-3 py-1"
+                      }
+                    >
+                      {letter}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Sections par lettre */}

@@ -32,18 +32,15 @@ export default function Blog() {
           projets immobiliers à Dakar et dans tout le Sénégal.
         </p>
 
-        <motion.div
-          className="grid gap-6 md:grid-cols-2"
-          variants={staggerContainer(0.1, 0.05)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
-        >
+        <div className="grid gap-6 md:grid-cols-2">
           {blogPosts.map((p, idx) => (
             <motion.article
               key={p.slug}
               className="bg-white card-glass rounded-lg shadow p-5"
-              variants={fadeIn(idx * 0.05, 16)}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay: idx * 0.03 }}
             >
               <Link to={`/blog/${p.slug}`} className="block">
                 <img
@@ -74,7 +71,7 @@ export default function Blog() {
               </div>
             </motion.article>
           ))}
-        </motion.div>
+        </div>
 
         <div className="mt-12 p-5 bg-white border border-[#e5d8c6] rounded">
           <h3 className="text-lg font-semibold text-[#6b5f55] mb-2">
