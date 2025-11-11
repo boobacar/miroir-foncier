@@ -91,7 +91,7 @@ export default function BlogPost() {
 
       {/* Breadcrumbs globaux déjà gérés via <Breadcrumbs /> dans App.jsx */}
 
-      <article className="max-w-3xl mx-auto bg-white rounded-lg shadow overflow-hidden">
+      <article className="max-w-3xl mx-auto bg-white card-glass rounded-lg shadow overflow-hidden">
         <img
           src={post.cover}
           alt={post.title}

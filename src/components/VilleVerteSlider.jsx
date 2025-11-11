@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function VilleVerteSlider({ images = [], className = "" }) {
   const validImages = useMemo(() => images.filter(Boolean), [images]);
@@ -24,12 +25,18 @@ export default function VilleVerteSlider({ images = [], className = "" }) {
     <div className={`w-full max-w-full overflow-x-hidden ${className}`}>
       <div className="relative overflow-hidden rounded-xl shadow bg-white w-full">
         <div className="aspect-[16/9] bg-gray-100">
-          <img
-            src={validImages[index]}
-            alt={`Ville Verte ${index + 1}`}
-            className="w-full h-full object-cover max-w-full"
-            loading="eager"
-          />
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={validImages[index]}
+              src={validImages[index]}
+              alt={`Ville Verte ${index + 1}`}
+              className="w-full h-full object-cover max-w-full"
+              initial={{ opacity: 0.2, scale: 1.01 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.35, ease: "easeOut" }}
+            />
+          </AnimatePresence>
         </div>
 
         <button
@@ -52,13 +59,15 @@ export default function VilleVerteSlider({ images = [], className = "" }) {
         {/* hide scrollbar visually on WebKit */}
         <style>{`.hide-scroll::-webkit-scrollbar{display:none}`}</style>
         {validImages.map((src, i) => (
-          <button
+          <motion.button
             key={src + i}
             className={`shrink-0 w-24 h-16 rounded-lg overflow-hidden ring-1 ring-black/5 ${
               i === index ? "outline outline-2 outline-[#c2b5a9]" : ""
             }`}
             onClick={() => setIndex(i)}
             aria-label={`Voir image ${i + 1}`}
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.98 }}
           >
             <img
               src={src}
@@ -66,7 +75,7 @@ export default function VilleVerteSlider({ images = [], className = "" }) {
               className="w-full h-full object-cover"
               loading="lazy"
             />
-          </button>
+          </motion.button>
         ))}
       </div>
     </div>

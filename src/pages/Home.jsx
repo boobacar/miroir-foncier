@@ -2,6 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import {
+  fadeIn,
+  fadeInX,
+  scaleIn,
+  staggerContainer,
+} from "../components/animations";
 import heroImage from "../assets/hero.jpg";
 import logo from "../assets/logo.png";
 import { MdHome } from "react-icons/md"; // maison / location
@@ -12,6 +18,7 @@ import PdfViewerModal from "../components/PdfViewerModal";
 import VilleVerteSlider from "../components/VilleVerteSlider";
 import brochureVilleVerte from "../assets/BROCHURE VILLE VERTE (compressed).pdf";
 import plaquetteLesDunes from "../assets/PLAQUETTE LES DUNES v2 (compressed).pdf";
+import { blogPosts } from "../data/blogPosts";
 
 function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -49,7 +56,7 @@ function Home() {
           </p>
           <Link
             to="/services"
-            className="bg-white text-[#c2b5a9] font-semibold px-6 py-3 rounded hover:bg-[#f2e3d1] transition"
+            className="bg-white btn-glass text-[#c2b5a9] font-semibold px-6 py-3 rounded hover:bg-[#f2e3d1] transition"
           >
             Voir nos services
           </Link>
@@ -83,7 +90,7 @@ function Home() {
             </p>
             <Link
               to="/a-propos"
-              className="inline-block mt-6 bg-[#c2b5a9] text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
+              className="inline-block mt-6 bg-[#c2b5a9] btn-glass text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
             >
               En savoir plus
             </Link>
@@ -118,16 +125,19 @@ function Home() {
             Projet partenaire · Ville Verte
           </motion.h2>
 
-          <div className="grid gap-8 md:grid-cols-12 items-start w-full overflow-hidden">
+          <motion.div
+            className="grid gap-8 md:grid-cols-12 items-start w-full overflow-hidden"
+            variants={staggerContainer(0.12, 0.05)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             {/* Texte à gauche sur md/lg */}
             <motion.div
               className="md:col-span-6 md:col-start-1 lg:col-span-6 lg:col-start-1 flex flex-col gap-6 min-w-0"
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
+              variants={fadeInX(0.05, 20)}
             >
-              <div className="bg-white rounded-xl shadow p-6 border border-[#e5d8c6]">
+              <div className="bg-white card-glass rounded-xl shadow p-6">
                 <h3 className="text-2xl font-semibold text-[#6b5f55] mb-4">
                   Ville Verte, un écosystème urbain durable
                 </h3>
@@ -200,7 +210,10 @@ function Home() {
             </motion.div>
 
             {/* Colonne droite: slider + PDFs empilés */}
-            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 min-w-0">
+            <motion.div
+              className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 min-w-0"
+              variants={fadeInX(0.1, -20)}
+            >
               <VilleVerteSlider
                 images={[
                   "https://villeverte.sn/wp-content/uploads/2025/09/Cam-02-Villa-type-E.webp",
@@ -215,7 +228,10 @@ function Home() {
                 ]}
               />
 
-              <div className="mt-4 grid gap-6">
+              <motion.div
+                className="mt-4 grid gap-6"
+                variants={staggerContainer(0.1, 0.08)}
+              >
                 {[
                   {
                     title: "Brochure Ville Verte",
@@ -226,9 +242,10 @@ function Home() {
                     file: plaquetteLesDunes,
                   },
                 ].map((doc) => (
-                  <div
+                  <motion.div
                     key={doc.title}
-                    className="bg-white rounded-xl shadow p-5 border border-[#e5d8c6] flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+                    className="bg-white card-glass rounded-xl shadow p-5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+                    variants={scaleIn(0.05)}
                   >
                     <div className="flex items-center gap-4 min-w-0 w-full sm:w-auto">
                       <div className="w-12 h-12 rounded-xl bg-[#f7efe7] grid place-items-center">
@@ -249,28 +266,91 @@ function Home() {
                         onClick={() =>
                           setPdf({ src: doc.file, title: doc.title })
                         }
-                        className="px-3 py-2 rounded-lg bg-[#c2b5a9] text-white hover:bg-[#a99b8e]"
+                        className="px-3 py-2 rounded-lg bg-[#c2b5a9] btn-glass text-white hover:bg-[#a99b8e]"
                       >
                         Voir
                       </button>
                       <a
                         href={doc.file}
                         download
-                        className="px-3 py-2 rounded-lg border border-[#c2b5a9] text-[#6b5f55] hover:bg-[#f7efe7]"
+                        className="px-3 py-2 rounded-lg btn-glass text-[#6b5f55] hover:bg-[#f7efe7]"
                       >
                         Télécharger
                       </a>
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
-            </div>
-          </div>
+              </motion.div>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Articles récents */}
+      <section className="py-16 px-6 md:px-20">
+        <motion.h2
+          className="text-3xl font-bold text-center mb-12"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
+          Articles récents
+        </motion.h2>
+
+        <motion.div
+          className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6"
+          variants={staggerContainer(0.12, 0.05)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          {blogPosts
+            .slice() // copy
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, 3)
+            .map((p, idx) => (
+              <motion.article
+                key={p.slug}
+                className="bg-white card-glass rounded-lg shadow p-5"
+                variants={fadeIn(idx * 0.06, 16)}
+              >
+                <Link to={`/blog/${p.slug}`} className="block">
+                  <img
+                    src={p.cover}
+                    alt={p.title}
+                    className="w-full h-40 object-cover rounded"
+                    loading="lazy"
+                  />
+                </Link>
+                <div className="mt-4">
+                  <h3 className="text-lg font-semibold text-[#6b5f55]">
+                    <Link to={`/blog/${p.slug}`}>{p.title}</Link>
+                  </h3>
+                  <p className="text-sm text-gray-500 mb-2">
+                    {new Date(p.date).toLocaleDateString("fr-FR", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </p>
+                  <p className="text-gray-700 line-clamp-3">{p.description}</p>
+                </div>
+              </motion.article>
+            ))}
+        </motion.div>
+        <div className="flex justify-center mt-8">
+          <Link
+            to="/blog"
+            className="bg-[#c2b5a9] btn-glass text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
+          >
+            Voir tous les articles
+          </Link>
         </div>
       </section>
 
       {/* Nos services */}
-      <section className="py-16 px-6 md:px-20">
+      <section className="bg-white py-16 px-6 md:px-20">
         <motion.h2
           className="text-3xl font-bold text-center mb-12"
           initial={{ opacity: 0 }}
@@ -281,13 +361,31 @@ function Home() {
           Nos Services
         </motion.h2>
 
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <motion.div
+          className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8"
+          variants={staggerContainer(0.1, 0.05)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
+            className="service-card bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300"
+            initial={{ opacity: 0, y: 14, scale: 0.98 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 180,
+              damping: 18,
+              mass: 0.6,
+              delay: 0.05,
+            }}
+            viewport={{ once: true, amount: 0.2 }}
+            whileHover={{
+              y: -6,
+              scale: 1.02,
+              boxShadow: "0 12px 28px rgba(0,0,0,0.08)",
+            }}
+            whileTap={{ scale: 0.98 }}
           >
             <MdHome size={64} color="#c2b5a9" className="mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-4">Location</h3>
@@ -303,11 +401,23 @@ function Home() {
           </motion.div>
 
           <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
+            className="service-card bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300"
+            initial={{ opacity: 0, y: 14, scale: 0.98 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 180,
+              damping: 18,
+              mass: 0.6,
+              delay: 0.12,
+            }}
+            viewport={{ once: true, amount: 0.2 }}
+            whileHover={{
+              y: -6,
+              scale: 1.02,
+              boxShadow: "0 12px 28px rgba(0,0,0,0.08)",
+            }}
+            whileTap={{ scale: 0.98 }}
           >
             <FaTags size={64} color="#c2b5a9" className="mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-4">Vente</h3>
@@ -323,11 +433,23 @@ function Home() {
           </motion.div>
 
           <motion.div
-            className="service-card bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 transition-all duration-300"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true }}
+            className="service-card bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300"
+            initial={{ opacity: 0, y: 14, scale: 0.98 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 180,
+              damping: 18,
+              mass: 0.6,
+              delay: 0.18,
+            }}
+            viewport={{ once: true, amount: 0.2 }}
+            whileHover={{
+              y: -6,
+              scale: 1.02,
+              boxShadow: "0 12px 28px rgba(0,0,0,0.08)",
+            }}
+            whileTap={{ scale: 0.98 }}
           >
             <FiShoppingCart
               size={64}
@@ -346,10 +468,10 @@ function Home() {
               En savoir plus
             </Link>
           </motion.div>
-        </div>
+        </motion.div>
         <Link
           to="/services"
-          className="flex justify-center sm:w-[40%] mt-6 bg-[#c2b5a9] mx-auto text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
+          className="flex justify-center sm:w-[40%] mt-6 bg-[#c2b5a9] btn-glass mx-auto text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
         >
           Voir tous nos services
         </Link>
@@ -371,7 +493,7 @@ function Home() {
         </p>
         <Link
           to="/estimation"
-          className="bg-white text-[#c2b5a9] font-semibold px-6 py-3 rounded hover:bg-[#f2e3d1] transition"
+          className="bg-white btn-glass text-[#c2b5a9] font-semibold px-6 py-3 rounded hover:bg-[#f2e3d1] transition"
         >
           Estimer mon bien
         </Link>

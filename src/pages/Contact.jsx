@@ -92,7 +92,7 @@ function Contact() {
         />
         <button
           type="submit"
-          className="mt-4 bg-[#c2b5a9] hover:bg-[#726961] text-white p-2 w-full rounded"
+          className="mt-4 bg-[#c2b5a9] btn-glass hover:bg-[#726961] text-white p-2 w-full rounded"
         >
           Envoyer
         </button>

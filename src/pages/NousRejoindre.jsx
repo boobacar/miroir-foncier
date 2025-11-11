@@ -48,7 +48,7 @@ function NousRejoindre() {
           <div className="flex justify-between">
             <button
             type="submit"
-            className="bg-[#c2b5a9] text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
+            className="bg-[#c2b5a9] btn-glass text-white px-6 py-3 rounded hover:bg-[#a99b8e] transition"
           >
             Envoyer ma candidature
           </button>

@@ -127,7 +127,7 @@ export default function Estimation() {
         />
         <button
           type="submit"
-          className="bg-[#c2b5a9] text-white p-2 mt-3 mb-[17vh] rounded hover:bg-[#726961]"
+          className="bg-[#c2b5a9] btn-glass text-white p-2 mt-3 mb-[17vh] rounded hover:bg-[#726961]"
         >
           Envoyer
         </button>

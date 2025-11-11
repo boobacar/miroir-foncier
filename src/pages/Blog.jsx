@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../components/SEO";
 import { blogPosts } from "../data/blogPosts";
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../components/animations";
 
 function formatDate(iso) {
   return new Date(iso).toLocaleDateString("fr-FR", {
@@ -30,9 +32,19 @@ export default function Blog() {
           projets immobiliers à Dakar et dans tout le Sénégal.
         </p>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          {blogPosts.map((p) => (
-            <article key={p.slug} className="bg-white rounded-lg shadow p-5">
+        <motion.div
+          className="grid gap-6 md:grid-cols-2"
+          variants={staggerContainer(0.1, 0.05)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          {blogPosts.map((p, idx) => (
+            <motion.article
+              key={p.slug}
+              className="bg-white card-glass rounded-lg shadow p-5"
+              variants={fadeIn(idx * 0.05, 16)}
+            >
               <Link to={`/blog/${p.slug}`} className="block">
                 <img
                   src={p.cover}
@@ -60,9 +72,9 @@ export default function Blog() {
                   ))}
                 </div>
               </div>
-            </article>
+            </motion.article>
           ))}
-        </div>
+        </motion.div>
 
         <div className="mt-12 p-5 bg-white border border-[#e5d8c6] rounded">
           <h3 className="text-lg font-semibold text-[#6b5f55] mb-2">
@@ -82,4 +94,3 @@ export default function Blog() {
     </div>
   );
 }
-

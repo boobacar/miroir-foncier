@@ -878,6 +878,161 @@ export const blogPosts = [
       { q: "Faut‑il externaliser la gestion ?", a: "Si le temps ou l’expertise manquent, un mandat de gestion sécurise loyers, états des lieux, maintenance et encaissements." },
     ],
   },
+  {
+    slug: "investissement-locatif-dakar-rendement-2025",
+    title: "Investissement locatif à Dakar en 2025 : rendements, quartiers et stratégies",
+    date: "2025-11-09",
+    author: "Miroir Foncier",
+    description:
+      "Où investir à Dakar en 2025 ? Rendements locatifs moyens, budgets, charges, et stratégies gagnantes pour réussir son investissement.",
+    tags: [
+      "investissement locatif Dakar",
+      "rendement locatif Sénégal",
+      "achat pour louer",
+      "meublé vs vide",
+      "quartiers Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Rendements moyens par typologie",
+        body:
+          "Studios/T1 meublés: 8–12% brut dans les quartiers dynamiques; T2/T3: 6–9% selon l’emplacement et l’état; Villas: 5–7% mais potentiel de valorisation patrimoniale. Comparez toujours le rendement net après charges et fiscalité.",
+      },
+      {
+        heading: "Quartiers à fort potentiel",
+        body:
+          "Almadies, Mermoz, Mamelles pour l’expatrié et le premium; Plateau, Fann, Point E pour les actifs et administrations; Diamniadio pour le neuf et la croissance; Saly/Thiès pour le tourisme et la résidence secondaire.",
+      },
+      {
+        heading: "Meublé ou vide ?",
+        body:
+          "Le meublé augmente l’occupation et le loyer, mais nécessite un équipement durable et une gestion plus active (états des lieux, entretien). Le vide attire des locataires plus stables. Calibrez selon votre objectif (cash‑flow vs simplicité).",
+      },
+      {
+        heading: "Charges à intégrer",
+        body:
+          "Syndic, gardiennage, eau/électricité des communs, assurances (PNO), entretien climatisation/chaudière, ameublement, vacance, frais d’agence ou de gestion. Prévoyez 10–20% du loyer pour ne pas surestimer le rendement.",
+      },
+      {
+        heading: "Stratégies gagnantes",
+        body:
+          "Cible claire (jeunes actifs, expatriés, familles), mise en valeur (photos, home staging léger), process de sélection, bail solide, suivi rigoureux des loyers et entretien préventif.",
+      },
+    ],
+    faq: [
+      { q: "Quel budget minimum ?", a: "Selon le quartier: de 25–40 M F CFA pour un T1/T2 correct à plus de 100 M F CFA pour des biens premium. Étudiez la demande locative réelle du micro‑secteur." },
+      { q: "Quelle vacance prévoir ?", a: "1 à 2 mois/an en moyenne pour des biens bien situés et correctement positionnés en prix." },
+      { q: "Gestion déléguée utile ?", a: "Oui si vous manquez de temps ou résidez hors de Dakar. La délégation améliore l’expérience locataire et la pérennité du rendement." },
+    ],
+  },
+  {
+    slug: "procedure-achat-appartement-senegal-etapes-documents",
+    title: "Procédure d’achat d’un appartement au Sénégal : étapes et documents clés",
+    date: "2025-11-10",
+    author: "Miroir Foncier",
+    description:
+      "Toutes les étapes pour acheter un appartement au Sénégal (neuf ou ancien) : promesse, notaire, vérifications, financement et remise des clés.",
+    tags: [
+      "achat appartement Sénégal",
+      "procédure achat",
+      "notaire Sénégal",
+      "VEFA",
+      "documents immobiliers",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      { heading: "Étape 1 · Réserver et sécuriser", body: "Offre écrite, dépôt, conditions suspensives (financement, vérifications). Exigez un calendrier et des pénalités en cas de retard ou d’inexécution." },
+      { heading: "Étape 2 · Due diligence", body: "Titre (ou bail/délibération), certificat de non‑hypothèque, plan de copropriété, charges, procès‑verbaux, conformité urbanisme. Pour VEFA: garanties, échéancier, attestation d’assurance, délai de livraison." },
+      { heading: "Étape 3 · Acte authentique", body: "Signature chez le notaire, paiement sécurisé (séquestre/virement), enregistrement et publication. Conservez les copies certifiées et les quittances." },
+      { heading: "Étape 4 · Remise des clés", body: "État des lieux contradictoire, relevés de compteurs, remise des documents (plans, garanties), changement de domiciliation pour charges/syndic." },
+      { heading: "Check‑list documents", body: "Pièce d’identité, justificatifs de revenus, promesse de vente, plan, certificats DGID/cadastre, quittus fiscal, PV d’AG (copro), attestation d’assurance (VEFA)." },
+    ],
+    faq: [
+      { q: "Délais moyens ?", a: "2 à 8 semaines selon le dossier et le financement." },
+      { q: "Faut‑il un notaire ?", a: "Indispensable pour sécuriser l’acte, les vérifications et la publicité foncière." },
+      { q: "Quels risques en VEFA ?", a: "Retards de livraison, modifications techniques. Limitez par des garanties et un contrat clair." },
+    ],
+  },
+  {
+    slug: "financement-immobilier-senegal-pret-bancaire-taux-2025",
+    title: "Financement immobilier au Sénégal en 2025 : prêts bancaires, taux et dossier béton",
+    date: "2025-11-11",
+    author: "Miroir Foncier",
+    description:
+      "Préparer votre plan de financement : comparaison des banques, taux, durée, assurance, apport et constitution d’un dossier solide pour maximiser vos chances.",
+    tags: [
+      "prêt immobilier Sénégal",
+      "taux 2025",
+      "plan de financement",
+      "apport",
+      "assurance emprunteur",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      { heading: "Comparer les offres", body: "Taux fixe/variable, durée 10–20 ans, frais de dossier, pénalités de remboursement anticipé. Faites plusieurs simulations et demandez une offre formalisée écrite." },
+      { heading: "Dossier gagnant", body: "Revenus stables, reste à vivre suffisant, apport 10–30%, historique bancaire propre, projet bien documenté (devis, promesse de vente)." },
+      { heading: "Assurance et garanties", body: "Assurance décès‑invalidité, hypothèque ou nantissement. Anticipez les coûts et les délais de mise en place." },
+      { heading: "Calendrier de décaissement", body: "Ancien: versement à l’acte; VEFA: appels de fonds par tranches selon l’avancement (fondations, gros œuvre, finitions)." },
+    ],
+    faq: [
+      { q: "Quel apport minimum ?", a: "Selon banque et profil, 10–30% du prix + frais." },
+      { q: "Quel taux en 2025 ?", a: "Variable selon banque et durée. Faites comparer plusieurs offres et tenez compte des assurances et frais pour calculer le TAEG réel." },
+      { q: "Peut‑on financer un terrain ?", a: "Oui selon la banque, avec garanties adaptées (hypothèque, apport plus élevé)." },
+    ],
+  },
+  {
+    slug: "prix-immobilier-dakar-2025-estimation-quartiers",
+    title: "Prix de l’immobilier à Dakar en 2025 : comment estimer au juste prix par quartier",
+    date: "2025-11-08",
+    author: "Miroir Foncier",
+    description:
+      "Méthodes d’estimation, fourchettes par quartiers et facteurs qui font varier le prix pour vendre vite et bien à Dakar en 2025.",
+    tags: [
+      "prix immobilier Dakar",
+      "estimation immobilière",
+      "comparables",
+      "tendance marché 2025",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      { heading: "Méthodes d’évaluation", body: "Comparables récents, méthode du revenu (pour investissement), coût de remplacement + décotes. Toujours croiser plusieurs approches." },
+      { heading: "Facteurs clés de valeur", body: "Emplacement micro‑quartier, accès et vues, exposition, étage/ascenseur, plan et finitions, parking, charges, copropriété saine, potentiel locatif." },
+      { heading: "Ordres de grandeur 2025", body: "Centres et premium (Plateau, Almadies, Fann): élevés; quartiers en développement (Diamniadio): plus accessibles; seconde couronne (Thiès, Saly): attractif loisir. Contactez‑nous pour une estimation locale argumentée." },
+      { heading: "Optimiser avant la vente", body: "Dépersonnaliser, rafraîchir peinture et luminaires, petites réparations, photos pros, dossier technique complet. Un bien prêt à visiter se vend plus vite." },
+    ],
+    faq: [
+      { q: "Quelle précision viser ?", a: "Une fourchette réaliste se situe à ±5–10% du prix final si les comparables sont pertinents et à jour." },
+      { q: "Estimation en ligne fiable ?", a: "Utile pour un premier ordre d’idée; l’expertise terrain reste déterminante pour le micro‑quartier." },
+      { q: "Délais moyens de vente ?", a: "Entre 2 et 12 semaines selon prix, état, secteur et saisonnalité." },
+    ],
+  },
+  {
+    slug: "bail-location-senegal-droits-devoirs-depot-garantie-etat-des-lieux",
+    title: "Location au Sénégal : bail, droits et devoirs, dépôt de garantie et état des lieux",
+    date: "2025-11-07",
+    author: "Miroir Foncier",
+    description:
+      "Rédiger un bail solide, encadrer le dépôt de garantie, réaliser un état des lieux et gérer les charges pour une relation locative sereine.",
+    tags: [
+      "bail de location Sénégal",
+      "dépôt de garantie",
+      "état des lieux",
+      "droits et obligations",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      { heading: "Le bail en pratique", body: "Identité des parties, description du bien, durée, loyer/charges, dépôt, modalités d’indexation, travaux et réparations, clauses de sortie. Faites signer par toutes les parties et remettez un exemplaire à chacun." },
+      { heading: "Dépôt de garantie", body: "Encadrez la somme, les causes de retenue (impayés, dégradations), et le délai de restitution après l’état des lieux de sortie." },
+      { heading: "État des lieux", body: "Entrée et sortie détaillées avec photos, relevés de compteurs, signature contradictoire. C’est la base pour éviter les litiges au départ." },
+      { heading: "Gestion des charges", body: "Précisez ce qui est récupérable et ce qui reste à la charge du propriétaire. Communiquez régulièrement et gardez la traçabilité des appels de loyers." },
+    ],
+    faq: [
+      { q: "Bail meublé ou vide ?", a: "Le meublé se loue plus cher mais nécessite un inventaire précis et un entretien suivi. Le vide offre souvent une occupation plus longue." },
+      { q: "Peut‑on augmenter le loyer ?", a: "Uniquement selon les clauses prévues au bail (indexation) ou à l’échéance avec l’accord du locataire et un motif valable." },
+      { q: "Durée minimale ?", a: "Libre conventionnellement, cependant la stabilité incite à viser des durées d’un an renouvelables avec préavis clair." },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);

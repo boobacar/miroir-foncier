@@ -373,7 +373,7 @@ function Lexique() {
       {/* Bouton retour en haut */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 z-50 bg-[#c2b5a9] text-white px-4 py-2 rounded-full shadow-lg hover:bg-[#aa9e94] transition duration-300"
+        className="fixed bottom-6 right-6 z-50 bg-[#c2b5a9] btn-glass text-white px-4 py-2 rounded-full shadow-lg hover:bg-[#aa9e94] transition duration-300"
         aria-label="Retour en haut"
       >
         ↑ Haut

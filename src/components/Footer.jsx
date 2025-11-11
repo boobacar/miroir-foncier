@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import DevInfoModal from "./DevInfoModal";
 
 function Footer() {
@@ -43,38 +43,46 @@ function Footer() {
 
       {/* Réseaux sociaux */}
       <div className="mt-6 flex justify-center gap-4">
-        <a
+        <motion.a
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#3b5998] transition duration-300"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.96 }}
         >
           <FaFacebookF size={20} />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#e1306c] transition duration-300"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.96 }}
         >
           <FaInstagram size={20} />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#0077b5] transition duration-300"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.96 }}
         >
           <FaLinkedinIn size={20} />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href="https://wa.me/221784389393"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-[#25D366] transition duration-300"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.96 }}
         >
           <FaWhatsapp size={20} />
-        </a>
+        </motion.a>
       </div>
 
       {/* Footer bottom */}

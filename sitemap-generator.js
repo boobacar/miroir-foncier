@@ -32,6 +32,12 @@ const blogSlugs = [
   'credit-immobilier-senegal-taux-dossier-conditions',
   'investir-a-saly-mbour-thies-location-saisonniere',
   'gestion-de-patrimoine-immobilier-senegal-optimisation-risques',
+  // newly added posts
+  'investissement-locatif-dakar-rendement-2025',
+  'procedure-achat-appartement-senegal-etapes-documents',
+  'financement-immobilier-senegal-pret-bancaire-taux-2025',
+  'prix-immobilier-dakar-2025-estimation-quartiers',
+  'bail-location-senegal-droits-devoirs-depot-garantie-etat-des-lieux',
 ].map((slug) => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.7 }));
 
 const links = [...baseLinks, ...blogSlugs];
