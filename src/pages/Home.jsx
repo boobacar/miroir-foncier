@@ -7,9 +7,15 @@ import logo from "../assets/logo.png";
 import { MdHome } from "react-icons/md"; // maison / location
 import { FaTags } from "react-icons/fa"; // étiquette / vente
 import { FiShoppingCart } from "react-icons/fi"; // achat
+import { AiOutlineFilePdf } from "react-icons/ai";
+import PdfViewerModal from "../components/PdfViewerModal";
+import VilleVerteSlider from "../components/VilleVerteSlider";
+import brochureVilleVerte from "../assets/BROCHURE VILLE VERTE (compressed).pdf";
+import plaquetteLesDunes from "../assets/PLAQUETTE LES DUNES v2 (compressed).pdf";
 
 function Home() {
   const [offsetY, setOffsetY] = useState(0);
+  const [pdf, setPdf] = useState(null); // {src, title}
 
   const handleScroll = () => setOffsetY(window.scrollY);
 
@@ -93,9 +99,173 @@ function Home() {
             <img
               src={logo}
               alt="qui sommes-nous"
-              className="bg-[#c2b5a9] h-[300px] rounded shadow-md object-cover"
+              className="bg-[#c2b5a9] h-[300px] mx-auto rounded shadow-md object-cover"
             />
           </motion.div>
+        </div>
+      </section>
+
+      {/* Projet Ville Verte */}
+      <section className="py-16 px-4 sm:px-6 md:px-10 xl:px-20 bg-[#f9f9f9] overflow-x-hidden">
+        <div className="max-w-[1400px] mx-auto">
+          <motion.h2
+            className="text-3xl font-bold text-center mb-10 text-[#6b5f55]"
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            Projet partenaire · Ville Verte
+          </motion.h2>
+
+          <div className="grid gap-8 md:grid-cols-12 items-start w-full overflow-hidden">
+            {/* Texte à gauche sur md/lg */}
+            <motion.div
+              className="md:col-span-6 md:col-start-1 lg:col-span-6 lg:col-start-1 flex flex-col gap-6 min-w-0"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <div className="bg-white rounded-xl shadow p-6 border border-[#e5d8c6]">
+                <h3 className="text-2xl font-semibold text-[#6b5f55] mb-4">
+                  Ville Verte, un écosystème urbain durable
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Ville Verte, première ville verte et intégrée d’Afrique de
+                  l’Ouest, portée par CASAORASCOM, incarne une vision urbaine
+                  moderne, durable et inclusive, au service d’un équilibre entre
+                  nature et innovation.
+                </p>
+                <p className="text-gray-700 mb-4">
+                  Située entre le Lac Rose, l’océan Atlantique et la forêt
+                  classée, Ville Verte s’étend sur 216 hectares, dont :
+                </p>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6">
+                  <li>90 ha de forêt de filaos</li>
+                  <li>40 ha de parcs et espaces verts</li>
+                  <li>3 km de plage préservée</li>
+                  <li>1,5 km de bordure du lac</li>
+                </ul>
+
+                <h4 className="text-lg font-semibold text-[#6b5f55] mb-2">
+                  Biens disponibles – Prix à partir de
+                </h4>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6">
+                  <li>T1 – 30,7 m² : dès 13 000 000 F CFA</li>
+                  <li>T2 – 48,56 m² : dès 24 800 000 F CFA</li>
+                  <li>T3 – 80,42 m² : dès 42 000 000 F CFA</li>
+                  <li>T4 – 102,8 m² : dès 58 400 000 F CFA</li>
+                  <li>T5 – 125 m² : dès 85 800 000 F CFA</li>
+                </ul>
+
+                <h4 className="text-lg font-semibold text-[#6b5f55] mb-2">
+                  Conditions d’acquisition
+                </h4>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6">
+                  <li>VEFA (Vente en l’État Futur d’Achèvement)</li>
+                  <li>
+                    Option apport : 25–30% d’acompte, solde sur 24 à 60 mois
+                  </li>
+                  <li>Location-vente : possible selon étude de dossier</li>
+                </ul>
+
+                <h4 className="text-lg font-semibold text-[#6b5f55] mb-2">
+                  Informations clés
+                </h4>
+                <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6">
+                  <li>Démarrage des travaux: avril 2026</li>
+                  <li>Livraison immeuble: 24 mois</li>
+                </ul>
+
+                <div className="flex flex-wrap gap-4 text-[#6b5f55]">
+                  <a
+                    href="https://www.villeverte.sn"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline"
+                  >
+                    Site Ville Verte
+                  </a>
+                  <a
+                    href="https://www.casaorascom.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline"
+                  >
+                    CASAORASCOM
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Colonne droite: slider + PDFs empilés */}
+            <div className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7 min-w-0">
+              <VilleVerteSlider
+                images={[
+                  "https://villeverte.sn/wp-content/uploads/2025/09/Cam-02-Villa-type-E.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/MID-COURT-DRONE.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/CENTRAL-MID-COURT.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/COURT-DRONE-VIEW.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/CENTRAL-COURT.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/VILLE-VERTE-DRONE-VIEW.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/09/VILLE-VERTE-TERRACE-VIEW.webp",
+                  "https://villeverte.sn/wp-content/uploads/2025/08/CAM11-DRONE-VIEW_-scaled.jpg",
+                  "https://villeverte.sn/wp-content/uploads/2025/08/CAM02-TERRACE-VIEW-1-1-scaled.jpg",
+                ]}
+              />
+
+              <div className="mt-4 grid gap-6">
+                {[
+                  {
+                    title: "Brochure Ville Verte",
+                    file: brochureVilleVerte,
+                  },
+                  {
+                    title: "Plaquette Les Dunes",
+                    file: plaquetteLesDunes,
+                  },
+                ].map((doc) => (
+                  <div
+                    key={doc.title}
+                    className="bg-white rounded-xl shadow p-5 border border-[#e5d8c6] flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+                  >
+                    <div className="flex items-center gap-4 min-w-0 w-full sm:w-auto">
+                      <div className="w-12 h-12 rounded-xl bg-[#f7efe7] grid place-items-center">
+                        <AiOutlineFilePdf
+                          size={26}
+                          className="text-[#c0392b]"
+                        />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="font-medium text-[#6b5f55] truncate">
+                          {doc.title}
+                        </p>
+                        <p className="text-sm text-gray-500">PDF</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2 sm:shrink-0 w-full sm:w-auto justify-end">
+                      <button
+                        onClick={() =>
+                          setPdf({ src: doc.file, title: doc.title })
+                        }
+                        className="px-3 py-2 rounded-lg bg-[#c2b5a9] text-white hover:bg-[#a99b8e]"
+                      >
+                        Voir
+                      </button>
+                      <a
+                        href={doc.file}
+                        download
+                        className="px-3 py-2 rounded-lg border border-[#c2b5a9] text-[#6b5f55] hover:bg-[#f7efe7]"
+                      >
+                        Télécharger
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -231,6 +401,14 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* PDF Modal */}
+      <PdfViewerModal
+        open={!!pdf}
+        onClose={() => setPdf(null)}
+        src={pdf?.src || ""}
+        title={pdf?.title || "Document"}
+      />
     </div>
   );
 }

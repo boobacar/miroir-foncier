@@ -93,6 +93,301 @@ export const blogPosts = [
     ],
   },
   {
+    slug: "permis-de-construire-senegal-etapes-delais-couts",
+    title: "Permis de construire au Sénégal : étapes, délais et coûts",
+    date: "2025-06-01",
+    author: "Miroir Foncier",
+    description:
+      "Quand le permis est nécessaire, pièces à fournir, autorités compétentes, délais et contrôles pour construire en toute conformité.",
+    tags: [
+      "permis de construire Sénégal",
+      "urbanisme",
+      "construction",
+      "architecte",
+      "autorisation",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Quand le permis est-il obligatoire ?",
+        body:
+          "Toute construction nouvelle, extension, surélévation, modification substantielle de façade ou changement d’usage peut nécessiter une autorisation. Renseignez‑vous auprès de la mairie et du service d’urbanisme compétent avant tout démarrage de travaux.",
+      },
+      {
+        heading: "Dossier à constituer",
+        body:
+          "• Formulaire de demande complété\n• Plans (situation, masse, niveaux, façades) signés par un professionnel\n• Justificatif de propriété/mandat\n• Études techniques le cas échéant (structure, assainissement, VRD)\n• Photographies et notice descriptive\n• Quitus/attestations demandés par l’urbanisme",
+      },
+      {
+        heading: "Rôle des professionnels",
+        body:
+          "Recourez à un architecte/maître d’œuvre et à un géomètre‑topographe agréé pour fiabiliser les plans et l’implantation. Ils anticipent les prescriptions (hauteur, emprise, recul) et les interfaces avec les réseaux.",
+      },
+      {
+        heading: "Instruction et délais",
+        body:
+          "Le dossier est instruit par la mairie et les services techniques. Des demandes de compléments sont possibles. Les délais varient selon la commune et la complexité (quelques semaines à plusieurs mois). Conservez les récépissés et échanges.",
+      },
+      {
+        heading: "Taxes et coûts",
+        body:
+          "Prévoir les honoraires (architecte, ingénieur, géomètre), les redevances/armoiries d’urbanisme éventuelles, les études, et les frais de dossier. Budgétez une marge pour les ajustements techniques.",
+      },
+      {
+        heading: "Contrôles et conformité",
+        body:
+          "Respectez le permis délivré (gabarits, emprise, hauteur). Des contrôles peuvent intervenir en cours de chantier ou à l’achèvement. Documentez les modifications et sollicitez un modificatif si nécessaire.",
+      },
+      {
+        heading: "Sanctions en cas de travaux non autorisés",
+        body:
+          "Des amendes, suspensions de chantier, voire une démolition partielle/totale peuvent être ordonnées en cas d’infraction. Régulariser après coup est incertain et souvent plus coûteux.",
+      },
+      {
+        heading: "Conseils pratiques",
+        body:
+          "Anticipez les délais, échangez tôt avec l’urbanisme, vérifiez les servitudes (alignement, réseaux, littoral), et tenez un journal de chantier. Affichez l’autorisation sur site si requis.",
+      },
+    ],
+    faq: [
+      { q: "Puis‑je rénover sans permis ?", a: "Les travaux intérieurs sans impact structurel/façade peuvent relever d’un régime allégé. Vérifiez systématiquement auprès de la mairie : certaines modifications exigent une autorisation." },
+      { q: "Quelle est la durée de validité ?", a: "La validité et les conditions de prorogation dépendent de l’autorisation et de la commune. Démarrez les travaux dans le délai indiqué et demandez une prolongation si besoin." },
+      { q: "Que faire en cas de refus ?", a: "Analysez les motifs, adaptez le projet (gabarit, implantation, accès) et redéposez. Un architecte peut vous aider à lever les réserves techniques et urbanistiques." },
+    ],
+  },
+  {
+    slug: "vefa-senegal-garanties-paiements-risques",
+    title: "Acheter en VEFA au Sénégal : garanties, paiements et risques",
+    date: "2025-06-04",
+    author: "Miroir Foncier",
+    description:
+      "Achat sur plan (VEFA) : étapes clés, échéancier de paiement, garanties contractuelles et vérifications pour sécuriser votre investissement.",
+    tags: [
+      "VEFA Sénégal",
+      "achat sur plan",
+      "promoteur immobilier",
+      "notaire",
+      "garantie d’achèvement",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Comprendre la VEFA",
+        body:
+          "La VEFA consiste à acheter un bien en cours de construction, avec paiement échelonné selon l’avancement. Le transfert de propriété intervient au fur et à mesure ou à la livraison selon le contrat.",
+      },
+      {
+        heading: "Contrat et documents clés",
+        body:
+          "Promesse/contrat préliminaire, plans et descriptif technique, calendrier prévisionnel, conditions suspensives, garanties et pénalités. Faites encadrer la signature par un notaire.",
+      },
+      {
+        heading: "Échéancier de paiement",
+        body:
+          "Les appels de fonds sont liés à l’avancement (fondations, élévation, clos/couvert, finitions). Privilégiez un séquestre et débloquez les paiements sur justificatifs (PV d’étape).",
+      },
+      {
+        heading: "Garanties et assurances",
+        body:
+          "Exigez des garanties contractuelles solides (achèvement/livraison), assurances chantier, et preuves de capacité du promoteur. Les modalités varient : faites préciser par écrit.",
+      },
+      {
+        heading: "Livraison et réserves",
+        body:
+          "À la remise des clés, dressez un procès‑verbal avec réserves s’il y a lieu. Prévoir des délais de levée des réserves et des pénalités en cas de retard avéré.",
+      },
+      {
+        heading: "Vérifications du promoteur",
+        body:
+          "Références de réalisations, situation financière, foncier (titre), autorisations d’urbanisme, garanties bancaires/assurances, conformité des plans à la réalité du terrain.",
+      },
+      {
+        heading: "Points d’attention",
+        body:
+          "Clauses de révision de prix, tolérances dimensionnelles, qualité des matériaux, charges de copropriété prévisionnelles et calendrier des mises en service (eau/électricité/fibre).",
+      },
+    ],
+    faq: [
+      { q: "Le dépôt se fait‑il chez un notaire ?", a: "Un séquestre chez le notaire sécurise les fonds jusqu’aux jalons contractuels. Évitez les paiements directs sans justificatifs d’avancement." },
+      { q: "Que faire en cas de retard ?", a: "Référez‑vous aux pénalités prévues, mettez en demeure le promoteur et envisagez une médiation. Un conseil juridique peut s’avérer nécessaire selon l’enjeu." },
+      { q: "Puis‑je revendre avant livraison ?", a: "Selon le contrat, une cession des droits peut être possible avec l’accord du promoteur et du notaire. Vérifiez les frais applicables." },
+    ],
+  },
+  {
+    slug: "servitudes-droits-de-passage-senegal-comprendre-impacts",
+    title: "Servitudes et droits de passage : comprendre les contraintes foncières",
+    date: "2025-06-07",
+    author: "Miroir Foncier",
+    description:
+      "Types de servitudes (passage, réseaux, urbanisme), méthodes de vérification et impacts sur la constructibilité et la valeur du bien.",
+    tags: [
+      "servitude",
+      "droit de passage",
+      "urbanisme",
+      "alignement",
+      "domaine public",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Qu’est‑ce qu’une servitude ?",
+        body:
+          "C’est une charge imposée à un fonds (terrain/bâtiment) au profit d’un autre fonds ou de l’utilité publique (passage, réseaux, reculs, alignement). Elle limite certains usages.",
+      },
+      {
+        heading: "Principales servitudes",
+        body:
+          "• Droit de passage et d’accès\n• Servitudes de réseaux (eau, électricité, télécoms)\n• Alignement/reculs imposés par l’urbanisme\n• Servitudes de vue et emprises publiques\n• Contraintes liées au littoral et au domaine public",
+      },
+      {
+        heading: "Vérifications indispensables",
+        body:
+          "Consultez le plan de bornage, interrogez le cadastre/urbanisme, vérifiez les plans des réseaux et les actes antérieurs. Interrogez le voisinage en cas d’usage de passage établi.",
+      },
+      {
+        heading: "Impact sur projet et valeur",
+        body:
+          "Les servitudes réduisent parfois l’emprise constructible, imposent des reculs ou limitent certains aménagements. Elles influencent la valeur et doivent être intégrées au prix et au plan de construction.",
+      },
+      {
+        heading: "Rédaction et mention dans l’acte",
+        body:
+          "Les servitudes doivent être mentionnées clairement dans l’acte notarié (assiette, bénéficiaire, entretien). Un plan annexé évite les ambiguïtés et les litiges ultérieurs.",
+      },
+      {
+        heading: "Litiges et solutions",
+        body:
+          "Privilégiez la négociation, la clarification écrite et, si nécessaire, une action en justice. Un déplacement d’assiette ou une indemnisation peuvent être envisagés selon les cas.",
+      },
+      {
+        heading: "Bonnes pratiques",
+        body:
+          "Anticipez dès l’étude du projet, tenez un dossier technique (plans, photos, constat), et évitez d’ériger des clôtures ou constructions sur l’assiette d’une servitude.",
+      },
+    ],
+    faq: [
+      { q: "Peut‑on supprimer une servitude ?", a: "Certaines s’éteignent si l’utilité disparaît ou par accord des parties formalisé chez notaire. Les servitudes d’utilité publique demeurent tant que l’acte ou la réglementation les impose." },
+      { q: "Comment créer un droit de passage ?", a: "Par convention notariée avec définition précise du tracé, de la largeur, de l’entretien et, le cas échéant, d’une indemnité." },
+      { q: "Et si la servitude n’est pas mentionnée ?", a: "Elle peut tout de même exister (usage continu, actes antérieurs, servitude d’utilité publique). D’où l’importance des vérifications préalables." },
+    ],
+  },
+  {
+    slug: "copropriete-dakar-charges-syndic-reglement",
+    title: "Copropriété à Dakar : charges, syndic et règlement",
+    date: "2025-06-10",
+    author: "Miroir Foncier",
+    description:
+      "Règles essentielles de la copropriété : règlement, tantièmes, charges, assemblées générales, travaux et bonnes pratiques pour acheter et gérer sereinement.",
+    tags: [
+      "copropriété Dakar",
+      "syndic",
+      "charges de copropriété",
+      "assemblée générale",
+      "règlement de copropriété",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Notions clés",
+        body:
+          "Lot, parties communes/privatives, tantièmes, règlement, syndic et assemblée générale. Comprendre ces notions aide à anticiper les droits et obligations de chacun.",
+      },
+      {
+        heading: "Règlement et tantièmes",
+        body:
+          "Le règlement fixe les règles de vie et la répartition des charges. Les tantièmes reflètent la quote‑part de chaque lot dans les dépenses communes et les votes.",
+      },
+      {
+        heading: "Charges et budget",
+        body:
+          "Charges courantes (entretien, gardiennage, énergie, eau) et charges exceptionnelles (gros travaux). Un budget prévisionnel et un fonds de réserve limitent les appels imprévus.",
+      },
+      {
+        heading: "Assemblées générales et décisions",
+        body:
+          "Convocation régulière, ordre du jour clair, procès‑verbaux conservés. Les majorités varient selon la nature des décisions (travaux, nominations, règlements).",
+      },
+      {
+        heading: "Travaux et entretien",
+        body:
+          "Programmez l’entretien (toiture, façades, ascenseurs, sécurité). Comparez les devis, planifiez le financement et sécurisez les travaux par des contrats écrits.",
+      },
+      {
+        heading: "Impayés et recouvrement",
+        body:
+          "Relances, mise en demeure, intérêts de retard et recouvrement judiciaire si nécessaire. Un syndic rigoureux protège l’équilibre financier de la copropriété.",
+      },
+      {
+        heading: "Acheter en copropriété",
+        body:
+          "Avant d’acheter : lisez le règlement, les PV d’assemblées, le budget et les travaux à venir. Anticipez l’impact des charges sur la rentabilité.",
+      },
+    ],
+    faq: [
+      { q: "Quel est le rôle du syndic ?", a: "Il exécute les décisions, gère le budget, l’entretien et les contrats, convoque l’assemblée et conserve les archives." },
+      { q: "Que vérifier avant d’acheter ?", a: "Règlement, tantièmes, niveau des charges, impayés éventuels, travaux votés/non réalisés, état des parties communes." },
+      { q: "Qui paie des travaux votés avant la vente ?", a: "Cela dépend de la date d’exigibilité des appels de fonds et des clauses de l’acte. Faites préciser par le notaire la répartition vendeur/acquéreur." },
+    ],
+  },
+  {
+    slug: "construire-zone-littorale-senegal-domaine-public-maritime",
+    title: "Construire en zone littorale au Sénégal : DPM, risques et autorisations",
+    date: "2025-06-13",
+    author: "Miroir Foncier",
+    description:
+      "Domaine public maritime (DPM), risques d’érosion, servitudes littorales et vérifications indispensables avant d’acheter ou de construire en bord de mer.",
+    tags: [
+      "domaine public maritime",
+      "littoral Sénégal",
+      "érosion côtière",
+      "servitudes littorales",
+      "urbanisme",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "DPM et propriété",
+        body:
+          "Le domaine public maritime est inaliénable et imprescriptible. Les occupations y sont strictement encadrées. Identifiez précisément les limites et reculs avant tout projet.",
+      },
+      {
+        heading: "Risques et aléas côtiers",
+        body:
+          "Érosion, submersion, affouillement : évaluez les aléas via des études locales et l’observation du site. Prévoir des solutions d’adaptation et des constructions adaptées.",
+      },
+      {
+        heading: "Servitudes et reculs",
+        body:
+          "Des servitudes d’utilité publique et des reculs peuvent s’appliquer, limitant l’emprise, la clôture et la hauteur. Vérifiez les plans et prescriptions communales.",
+      },
+      {
+        heading: "Autorisations et démarches",
+        body:
+          "Vérifiez la compétence des autorités (mairie, services techniques) et les autorisations complémentaires éventuelles. Documentez l’impact paysager et les accès publics.",
+      },
+      {
+        heading: "Vérifications avant achat",
+        body:
+          "Titres et plans cadastraux, bornage contradictoire, historique de la côte, servitudes, accès et réseaux. Évaluez la disponibilité d’eau/électricité et la stabilité du sol.",
+      },
+      {
+        heading: "Assurances et maintenance",
+        body:
+          "Assurez le bâti contre les risques climatiques lorsque possible et planifiez un entretien renforcé (structures, protections de berge) adapté au milieu marin.",
+      },
+      {
+        heading: "Conseils pratiques",
+        body:
+          "Privilégiez la prévention : emplacements en retrait, matériaux résistants, évitez les emprises sur le domaine public et formalisez les autorisations par écrit.",
+      },
+    ],
+    faq: [
+      { q: "Peut‑on obtenir un titre sur le DPM ?", a: "Le DPM n’est pas privatisable. Certaines occupations peuvent être encadrées par des autorisations spécifiques, strictement réglementées." },
+      { q: "Existe‑t‑il des distances de recul ?", a: "Des reculs et servitudes peuvent s’appliquer selon les sites. Rapprochez‑vous de la mairie et des services techniques pour connaître les prescriptions locales." },
+      { q: "Que faire face à l’érosion ?", a: "Faites réaliser une étude, évitez d’empiéter sur le domaine public et privilégiez des solutions d’adaptation validées par les autorités compétentes." },
+    ],
+  },
+  {
     slug: "prix-immobilier-dakar-2025-tendances-quartiers",
     title: "Prix de l’immobilier à Dakar en 2025 : tendances et quartiers",
     date: "2025-05-08",

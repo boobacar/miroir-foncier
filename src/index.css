@@ -10,3 +10,13 @@ body {
   background-color: #f9f9f9;
   line-height: 1.6;
 }
+
+/* Guard against horizontal overflow on small screens */
+html, body, #root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img, iframe, video {
+  max-width: 100%;
+}
