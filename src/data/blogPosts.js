@@ -1033,6 +1033,213 @@ export const blogPosts = [
       { q: "Durée minimale ?", a: "Libre conventionnellement, cependant la stabilité incite à viser des durées d’un an renouvelables avec préavis clair." },
     ],
   },
+  {
+    slug: "investir-immobilier-senegal-diaspora-france-italie-espagne",
+    title:
+      "Investir dans l’immobilier au Sénégal depuis la diaspora : guide pratique 2025",
+    date: "2025-11-18",
+    author: "Miroir Foncier",
+    description:
+      "Conseils concrets pour la diaspora sénégalaise qui souhaite investir dans l’immobilier au Sénégal, à Dakar et en régions, en sécurisant un achat à distance.",
+    tags: [
+      "diaspora sénégalaise",
+      "investir au Sénégal",
+      "immobilier Sénégal",
+      "achat immobilier à distance",
+      "agence immobilière Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi la diaspora investit massivement au Sénégal",
+        body:
+          "La diaspora sénégalaise joue un rôle clé dans le marché immobilier au Sénégal. Achat d’une maison familiale, investissement locatif à Dakar, préparation de la retraite ou diversification de patrimoine: les motivations sont nombreuses. Envoyer de l’argent au pays ne suffit plus; beaucoup veulent transformer leur épargne en patrimoine immobilier visible, sécurisé et rentable.",
+      },
+      {
+        heading: "Choisir le bon emplacement : Dakar, Diamniadio, Thiès, Saly…",
+        body:
+          "À Dakar, les quartiers comme Almadies, Mermoz, Yoff ou les Mamelles offrent une forte demande locative et une bonne liquidité à la revente. Diamniadio attire grâce aux nouveaux programmes neufs et aux infrastructures (autoroute, TER). Thiès et Saly sont recherchées pour la résidence principale ou la location saisonnière. Clarifiez votre objectif (y habiter, louer meublé, louer vide) avant de choisir votre ville et votre quartier.",
+      },
+      {
+        heading: "Achat immobilier à distance : agence immobilière et notaire",
+        body:
+          "Pour un achat à distance, l’accompagnement par une agence immobilière sérieuse et un notaire au Sénégal est indispensable. L’agence vous aide à présélectionner des biens, organiser des visites en visio, négocier le prix et vérifier l’adéquation avec votre projet. Le notaire sécurise toute la partie juridique: titre foncier ou bail, certificats, promesse de vente, acte authentique, enregistrement et publication.",
+      },
+      {
+        heading: "Procuration, vérifications et sécurité des paiements",
+        body:
+          "Si vous ne pouvez pas vous déplacer, une procuration authentique permet à un proche ou à l’agence d’accomplir certaines démarches pour vous. Vérifiez toujours le titre (titre foncier, bail, délibération), les servitudes, les taxes et la situation cadastrale avant tout paiement. Privilégiez les virements bancaires traçables sur un compte séquestre chez le notaire plutôt que les espèces ou transferts informels.",
+      },
+      {
+        heading: "Financement, transferts d’argent et preuve d’origine des fonds",
+        body:
+          "Que vous achetiez comptant ou avec un crédit immobilier, centralisez vos transferts vers le Sénégal et conservez les preuves d’origine des fonds. Certaines banques proposent des produits spécifiques pour la diaspora sénégalaise. Demandez des simulations comparant taux, durée, assurance emprunteur et garanties. Présentez un dossier structuré: revenus, charges, projet détaillé, promesse de vente ou réservation.",
+      },
+      {
+        heading: "Éviter les conflits familiaux autour d’un bien acheté depuis la diaspora",
+        body:
+          "Pour éviter les tensions, faites inscrire clairement la propriété dans l’acte (nom du ou des propriétaires, quote‑parts, régime matrimonial). Évitez les arrangements purement verbaux et les achats « au nom de », qui compliquent la revente et la transmission. Un notaire ou un conseil juridique peut vous aider à organiser une acquisition sereine, y compris en indivision ou via une structure dédiée.",
+      },
+      {
+        heading: "Check‑list pour un investissement diaspora réussi",
+        body:
+          "Fixer un budget réaliste en euros et en FCFA; définir votre objectif (résidence principale, locatif, maison familiale); choisir un emplacement cohérent; vérifier le foncier et les autorisations; sélectionner une agence immobilière à Dakar ou dans la ville concernée; sécuriser les paiements via le notaire; formaliser les relations familiales et de gestion par écrit.",
+      },
+    ],
+    faq: [
+      {
+        q: "Puis‑je acheter un bien au Sénégal sans être présent sur place ?",
+        a:
+          "Oui, à condition de passer par un notaire et d’utiliser une procuration en bonne et due forme. Les visites peuvent se faire en vidéo, mais les vérifications juridiques et les signatures doivent rester encadrées par des professionnels.",
+      },
+      {
+        q: "Quelle ville privilégier pour un premier investissement quand on est dans la diaspora ?",
+        a:
+          "Dakar et sa proche périphérie restent les zones les plus liquides, avec une forte demande locative. Diamniadio ou des villes comme Thiès et Saly peuvent être intéressantes pour un budget plus accessible et un projet à moyen/long terme.",
+      },
+      {
+        q: "Comment éviter les mauvaises surprises et les conflits familiaux ?",
+        a:
+          "Faites rédiger les actes uniquement par un notaire, clarifiez dès le départ qui est propriétaire, qui gère le bien et dans quelles conditions. Formalisez les engagements par écrit et conservez tous les justificatifs de paiements.",
+      },
+    ],
+  },
+  {
+    slug: "immobilier-neuf-vs-ancien-senegal-2025",
+    title: "Immobilier neuf ou ancien au Sénégal : que choisir en 2025 ?",
+    date: "2025-11-18",
+    author: "Miroir Foncier",
+    description:
+      "Comparer l’immobilier neuf et l’immobilier ancien au Sénégal pour choisir le bon type de bien selon votre budget, votre objectif et votre profil d’investisseur.",
+    tags: [
+      "immobilier neuf Sénégal",
+      "appartement Dakar",
+      "programme immobilier",
+      "immobilier ancien",
+      "investissement locatif Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Neuf ou ancien : deux marchés complémentaires au Sénégal",
+        body:
+          "À Dakar comme dans les grandes villes du Sénégal, l’offre se partage entre programmes neufs (résidences modernes, immobilier de standing) et parc ancien (maisons, immeubles plus anciens, appartements à rénover). Le neuf attire par son confort et ses garanties; l’ancien séduit par ses emplacements centraux et ses surfaces généreuses. Le bon choix dépend de votre projet et de votre horizon de détention.",
+      },
+      {
+        heading: "Avantages de l’immobilier neuf au Sénégal",
+        body:
+          "Un bien neuf offre en général une meilleure performance énergétique, des plans optimisés, des parkings, un ascenseur et des résidences sécurisées avec services. La maintenance est plus faible au début et les équipements sont récents. Pour un investissement locatif à Dakar, un appartement neuf bien placé peut se louer rapidement, notamment en meublé, auprès d’une clientèle d’expatriés ou de cadres.",
+      },
+      {
+        heading: "Points de vigilance sur un programme neuf ou une VEFA",
+        body:
+          "Dans le neuf, le prix au mètre carré est souvent plus élevé et certains projets sont commercialisés sur plan (VEFA). Vérifiez toujours la solidité du promoteur, les autorisations d’urbanisme, la situation foncière du terrain et les garanties prévues au contrat. Lisez attentivement le descriptif technique, les délais de livraison, les pénalités de retard et les modalités d’appels de fonds.",
+      },
+      {
+        heading: "Atouts de l’immobilier ancien : emplacement et potentiel",
+        body:
+          "L’immobilier ancien permet souvent d’accéder à des emplacements centraux ou à des quartiers très demandés, avec des surfaces plus grandes pour un budget équivalent. Il offre un potentiel de valorisation important si vous réalisez des travaux de rénovation bien calibrés (rafraîchissement, modernisation des pièces d’eau, optimisation du plan, amélioration de la luminosité).",
+      },
+      {
+        heading: "Risques et coûts cachés dans l’ancien",
+        body:
+          "Avant d’acheter un bien ancien, anticipez les travaux de structure ou de rénovation lourde (toiture, électricité, plomberie, façade) et vérifiez le règlement de copropriété, l’état des parties communes et les charges. Faites‑vous accompagner par un professionnel pour estimer le coût des travaux et intégrer ce budget à votre plan de financement. Un bien ancien mal entretenu peut grever la rentabilité s’il nécessite des travaux urgents.",
+      },
+      {
+        heading: "Comment choisir selon votre profil et votre stratégie",
+        body:
+          "Pour une résidence principale, un bien neuf ou très récent limite les imprévus et simplifie le quotidien. Pour un investissement locatif, un appartement ancien bien placé et correctement rénové peut offrir un meilleur rendement. La diaspora sénégalaise privilégie souvent des résidences neuves sécurisées, tandis que certains investisseurs locaux recherchent des opportunités de rénovation dans l’ancien.",
+      },
+      {
+        heading: "Stratégies mixtes : acheter ancien et créer votre « neuf »",
+        body:
+          "Une stratégie intéressante consiste à acheter un bien ancien à bon emplacement, à un prix qui intègre les travaux, puis à le rénover pour atteindre un niveau de confort proche du neuf. Vous profitez alors à la fois de l’emplacement et d’un produit fini attractif pour la location ou la revente. Faites simplement chiffrer les travaux avant de signer et sécurisez le foncier auprès d’un notaire.",
+      },
+    ],
+    faq: [
+      {
+        q: "L’immobilier neuf au Sénégal est‑il toujours plus cher que l’ancien ?",
+        a:
+          "Le prix affiché au mètre carré est souvent plus élevé dans le neuf en raison des prestations et des coûts de construction actuels. Toutefois, un ancien très bien situé ou entièrement rénové peut atteindre des niveaux de prix comparables. Il faut raisonner en coût total (prix + travaux + charges) et en rentabilité nette.",
+      },
+      {
+        q: "Quel type de bien privilégier pour un investissement locatif à Dakar ?",
+        a:
+          "Un appartement récent ou entièrement rénové, bien placé, avec un bon plan et un stationnement, reste le plus demandé. Que le bien soit neuf ou ancien, la localisation et la qualité perçue par le locataire sont déterminantes pour le loyer et la vacance.",
+      },
+      {
+        q: "Puis‑je financer aussi les travaux de rénovation d’un bien ancien ?",
+        a:
+          "Oui, certaines banques acceptent d’intégrer une partie des travaux dans le financement, sur présentation de devis et d’un projet détaillé. Renseignez‑vous en amont et faites chiffrer précisément les travaux.",
+      },
+    ],
+  },
+  {
+    slug: "fiscalite-immobiliere-senegal-impots-fonciers-revenus-2025",
+    title:
+      "Fiscalité immobilière au Sénégal en 2025 : impôt foncier, loyers et déclarations",
+    date: "2025-11-18",
+    author: "Miroir Foncier",
+    description:
+      "Comprendre les grands principes de la fiscalité immobilière au Sénégal : impôt foncier, imposition des loyers et bonnes pratiques déclaratives pour les propriétaires.",
+    tags: [
+      "fiscalité immobilière Sénégal",
+      "impôt foncier",
+      "revenus locatifs",
+      "déclaration impôts",
+      "propriétaire bailleur",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi la fiscalité immobilière est un enjeu clé",
+        body:
+          "Au‑delà de l’achat, la détention et la mise en location d’un bien immobilier au Sénégal ont des conséquences fiscales. Comprendre les principaux impôts liés à la propriété (impôt foncier, taxes locales) et aux revenus locatifs permet de mieux anticiper sa trésorerie, d’éviter des rappels d’impôts et d’optimiser la rentabilité nette de son investissement.",
+      },
+      {
+        heading: "Impôt foncier et taxes liées au bien immobilier",
+        body:
+          "Les propriétaires peuvent être soumis à des impôts et taxes liés au fait de détenir un immeuble (maison, appartement, immeuble de rapport, terrain bâti ou non). Les modalités concrètes dépendent de la nature du bien, de son usage et de sa localisation. Il est important de se renseigner auprès de la Direction Générale des Impôts et Domaines (DGID) ou de la mairie compétente pour connaître les taxes applicables et leurs échéances.",
+      },
+      {
+        heading: "Imposition des revenus locatifs au Sénégal",
+        body:
+          "Les loyers perçus au titre d’une location meublée ou vide constituent en principe des revenus imposables. Ils doivent faire l’objet d’une déclaration auprès de l’administration fiscale, y compris lorsqu’il s’agit d’un complément de revenu. Selon les cas, certaines charges liées à la conservation du bien (entretien, assurances, éventuellement intérêts d’emprunt) peuvent être prises en compte pour déterminer l’assiette imposable. Les règles et barèmes pouvant évoluer, il est prudent de se faire accompagner par un professionnel.",
+      },
+      {
+        heading: "Propriétaires résidents, non‑résidents et diaspora",
+        body:
+          "Les obligations fiscales ne sont pas forcément identiques selon que vous résidez au Sénégal ou à l’étranger. La diaspora sénégalaise propriétaire d’un bien locatif doit s’informer sur le traitement des revenus immobiliers, l’éventuelle existence de conventions fiscales internationales et la manière d’éviter une double imposition. Un conseil fiscal ou juridique est recommandé pour analyser une situation personnelle.",
+      },
+      {
+        heading: "Bonnes pratiques pour rester en règle",
+        body:
+          "Conservez tous les documents relatifs à votre bien: acte d’achat, quittances de paiement des taxes, baux, avenants, relevés de loyers, factures de travaux, assurances et éventuels tableaux d’amortissement. Tenez un suivi annuel des loyers encaissés et des charges. Respectez les échéances de déclaration et de paiement communiquées par l’administration fiscale et demandez systématiquement des reçus.",
+      },
+      {
+        heading: "Préparer un rendez‑vous avec l’administration ou un conseiller",
+        body:
+          "Avant de rencontrer la DGID, la mairie ou un conseiller fiscal, préparez un dossier simple: copie des titres, relevé des loyers perçus, liste des charges, crédits en cours, situation familiale et pays de résidence. Plus votre dossier est structuré, plus les échanges sont efficaces et les réponses adaptées à votre situation.",
+      },
+    ],
+    faq: [
+      {
+        q: "Dois‑je déclarer les loyers si je loue à un membre de ma famille ?",
+        a:
+          "Dès qu’un loyer est perçu, il s’agit en principe d’un revenu imposable. Les situations peuvent varier; rapprochez‑vous de l’administration fiscale ou d’un professionnel pour connaître les règles applicables à votre cas.",
+      },
+      {
+        q: "Quelles charges peuvent être prises en compte sur un bien locatif ?",
+        a:
+          "Selon les règles en vigueur, certaines dépenses liées à la conservation et à l’entretien du bien (assurances, travaux, intérêts d’emprunt, frais de gestion) peuvent être prises en considération dans le calcul de l’imposition. Les modalités exactes doivent être confirmées auprès de la DGID ou d’un conseiller.",
+      },
+      {
+        q: "Que risque‑t‑on en cas de non‑déclaration de revenus immobiliers ?",
+        a:
+          "L’absence de déclaration ou les omissions peuvent entraîner des rappels d’impôts, des intérêts et des pénalités. Mieux vaut régulariser sa situation de manière volontaire et documentée pour limiter les conséquences.",
+      },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);
