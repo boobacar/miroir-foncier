@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
 import biens from "../data/biens";
+import SEO from "../components/SEO";
+import { SITE_URL } from "../data/blogPosts";
 
 function Details() {
   const { id } = useParams();
   const bien = biens.find((b) => b.id === parseInt(id));
+  const priceValue = useMemo(() => {
+    if (!bien?.price) return undefined;
+    const numeric = bien.price.replace(/[^\d]/g, "");
+    return numeric ? Number(numeric) : undefined;
+  }, [bien]);
 
   if (!bien) {
     return (
@@ -17,8 +24,43 @@ function Details() {
     );
   }
 
+  const path = `/details/${bien.id}`;
+  const intentKeywords =
+    bien.type === "location"
+      ? ["location Dakar", "louer appartement Sénégal", "villa à louer"]
+      : ["achat immobilier Sénégal", "maison à vendre Dakar", "terrain Sénégal"];
+  const imageUrl = new URL(bien.image, SITE_URL).href;
+  const offer = {
+    "@type": "Offer",
+    priceCurrency: "XOF",
+    availability: "https://schema.org/InStock",
+    url: `${SITE_URL}${path}`,
+    itemCondition: "https://schema.org/NewCondition",
+    ...(priceValue ? { price: priceValue } : {}),
+  };
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: bien.title,
+      description: bien.description,
+      image: imageUrl,
+      url: `${SITE_URL}${path}`,
+      offers: offer,
+    },
+  ];
+
   return (
     <div className="px-6 md:px-20 py-16">
+      <SEO
+        title={`${bien.title} | Immobilier au Sénégal - Miroir Foncier`}
+        description={bien.description}
+        path={path}
+        type="product"
+        keywords={intentKeywords}
+        image={bien.image}
+        jsonLd={structuredData}
+      />
       <h1 className="text-4xl font-bold mb-8">{bien.title}</h1>
 
       <div className="bg-white p-8 rounded-lg shadow-md">

@@ -15,8 +15,14 @@ const baseLinks = [
   { url: '/gestion-patrimoine', changefreq: 'monthly', priority: 0.5 },
   { url: '/lexique', changefreq: 'yearly', priority: 0.4 },
   { url: '/conseils', changefreq: 'monthly', priority: 0.5 },
+  { url: '/immobilier-dakar', changefreq: 'weekly', priority: 0.7 },
+  { url: '/immobilier-saly', changefreq: 'weekly', priority: 0.6 },
+  { url: '/immobilier-diamniadio', changefreq: 'weekly', priority: 0.6 },
   { url: '/a-propos', changefreq: 'yearly', priority: 0.3 },
   { url: '/contact', changefreq: 'monthly', priority: 0.3 },
+  { url: '/nos-metiers', changefreq: 'yearly', priority: 0.3 },
+  { url: '/nous-rejoindre', changefreq: 'yearly', priority: 0.2 },
+  { url: '/ressources-humaines', changefreq: 'yearly', priority: 0.2 },
   { url: '/blog', changefreq: 'weekly', priority: 0.8 },
 ];
 
@@ -40,7 +46,14 @@ const blogSlugs = [
   'bail-location-senegal-droits-devoirs-depot-garantie-etat-des-lieux',
 ].map((slug) => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.7 }));
 
-const links = [...baseLinks, ...blogSlugs];
+// Biens (pages de détails)
+const propertyIds = [1, 2, 3, 101, 102, 103].map((id) => ({
+  url: `/details/${id}`,
+  changefreq: 'weekly',
+  priority: 0.6,
+}));
+
+const links = [...baseLinks, ...blogSlugs, ...propertyIds];
 
 const sitemap = new SitemapStream({ hostname: 'https://www.miroirfoncier.com' });
 

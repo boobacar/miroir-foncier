@@ -70,6 +70,10 @@ export default function BlogPost() {
   }
 
   const path = `/blog/${post.slug}`;
+  const structuredData = [
+    jsonLdForArticle(post, path),
+    jsonLdForFAQ(post, path),
+  ].filter(Boolean);
 
   return (
     <div className="bg-[#f2e3d1] py-10 px-4 md:px-20">
@@ -78,16 +82,8 @@ export default function BlogPost() {
         description={post.description}
         path={path}
         type="article"
+        jsonLd={structuredData}
       />
-
-      <script type="application/ld+json">
-        {JSON.stringify(jsonLdForArticle(post, path))}
-      </script>
-      {jsonLdForFAQ(post, path) && (
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLdForFAQ(post, path))}
-        </script>
-      )}
 
       {/* Breadcrumbs globaux déjà gérés via <Breadcrumbs /> dans App.jsx */}
 

@@ -143,6 +143,28 @@ function Header() {
                 >
                   Lexique de l'Immobilier
                 </Link>
+                <div className="h-px bg-[#e5d8c6] mx-2" />
+                <Link
+                  to="/immobilier-dakar"
+                  className="block px-4 py-2 hover:bg-[#f2e3d1]"
+                  onClick={closeMenu}
+                >
+                  Immobilier à Dakar
+                </Link>
+                <Link
+                  to="/immobilier-saly"
+                  className="block px-4 py-2 hover:bg-[#f2e3d1]"
+                  onClick={closeMenu}
+                >
+                  Immobilier à Saly
+                </Link>
+                <Link
+                  to="/immobilier-diamniadio"
+                  className="block px-4 py-2 hover:bg-[#f2e3d1]"
+                  onClick={closeMenu}
+                >
+                  Immobilier à Diamniadio
+                </Link>
               </div>
             </div>
 
@@ -294,6 +316,28 @@ function Header() {
                         onClick={closeMenu}
                       >
                         Lexique de l'Immobilier
+                      </Link>
+                      <div className="h-px bg-white/50 my-1" />
+                      <Link
+                        to="/immobilier-dakar"
+                        className="block p-1 hover:bg-[#f2e3d1]"
+                        onClick={closeMenu}
+                      >
+                        Immobilier à Dakar
+                      </Link>
+                      <Link
+                        to="/immobilier-saly"
+                        className="block p-1 hover:bg-[#f2e3d1]"
+                        onClick={closeMenu}
+                      >
+                        Immobilier à Saly
+                      </Link>
+                      <Link
+                        to="/immobilier-diamniadio"
+                        className="block p-1 hover:bg-[#f2e3d1]"
+                        onClick={closeMenu}
+                      >
+                        Immobilier à Diamniadio
                       </Link>
                     </motion.div>
                   )}

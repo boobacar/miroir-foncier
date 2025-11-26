@@ -23,11 +23,14 @@ import NosMetiers from "./pages/NosMetiers";
 import NousRejoindre from "./pages/NousRejoindre";
 import ScrollToTop from "./components/ScrollToTop";
 import Breadcrumbs from "./components/Breadcrumbs";
+import RouteSEO from "./components/RouteSEO";
+import CityLanding from "./pages/CityLanding";
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <RouteSEO />
       <Header />
       <Breadcrumbs />
       <Routes>
@@ -49,6 +52,9 @@ function App() {
         <Route path="/details/:id" element={<Details />} />
         <Route path="/a-propos" element={<APropos />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/immobilier-dakar" element={<CityLanding cityKey="dakar" />} />
+        <Route path="/immobilier-saly" element={<CityLanding cityKey="saly" />} />
+        <Route path="/immobilier-diamniadio" element={<CityLanding cityKey="diamniadio" />} />
       </Routes>
       <Footer />
     </Router>
