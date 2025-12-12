@@ -1240,6 +1240,274 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    slug: "renovation-immeuble-ancien-dakar-guide",
+    title: "Rénover un immeuble ancien à Dakar : budget, autorisations et artisans",
+    date: "2025-11-16",
+    author: "Miroir Foncier",
+    description:
+      "Les étapes clés pour diagnostiquer, financer et piloter la rénovation d’un immeuble ancien à Dakar sans mettre en péril vos locataires ni votre trésorerie.",
+    tags: [
+      "rénovation Dakar",
+      "immeuble ancien",
+      "travaux",
+      "autorisation urbanisme",
+      "maîtrise d’œuvre",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Diagnostic technique et juridique préalable",
+        body:
+          "Avant tout devis, faites auditer la structure, les réseaux, la toiture et la façade. Vérifiez la conformité foncière, le règlement de copropriété et les éventuelles servitudes. Ce diagnostic conditionne la priorisation des travaux, le budget et les autorisations à solliciter.",
+      },
+      {
+        heading: "Autorisation d’urbanisme et obligations administratives",
+        body:
+          "Selon l’ampleur de la rénovation (modification de façade, surélévation, changements d’usage), un permis ou une déclaration préalable peut être exigé. Anticipez les échanges avec la mairie, le service d’urbanisme et, en copropriété, l’accord de l’assemblée générale avant de signer les marchés.",
+      },
+      {
+        heading: "Budget global et plan de financement",
+        body:
+          "Additionnez travaux, honoraires (architecte, ingénieur, bureau de contrôle), relogement éventuel des occupants, assurances et imprévus (au moins 10 à 15%). Comparez plusieurs devis, sécurisez le financement (fonds propres, crédit, avances de loyers) et planifiez les décaissements par phase.",
+      },
+      {
+        heading: "Sélection des professionnels",
+        body:
+          "Entourez‑vous d’un architecte ou d’un maître d’œuvre, d’entreprises référencées et assurées, et d’un conducteur de travaux si le chantier est complexe. Exigez des contrats écrits, un planning détaillé, des modalités de paiement liées à l’avancement et une preuve d’assurance responsabilité décennale lorsque disponible.",
+      },
+      {
+        heading: "Organisation du chantier",
+        body:
+          "Planifiez les interventions par lots (gros œuvre, réseaux, second œuvre) pour limiter les arrêts et gérer la coactivité. Prévenez les voisins, sécurisez les accès, affichez les autorisations et mettez en place un registre de chantier pour documenter décisions et réserves.",
+      },
+      {
+        heading: "Gestion des locataires et continuité d’exploitation",
+        body:
+          "Informez les occupants très tôt, adaptez le calendrier pour limiter les nuisances et prévoyez, si nécessaire, un relogement temporaire avec indemnisation. Documentez les accords, organisez des visites régulières du site et veillez au respect des règles de sécurité.",
+      },
+      {
+        heading: "Suivi qualité, réception et garanties",
+        body:
+          "Des réunions hebdomadaires permettent de suivre délais, coûts et conformité. À la fin, procédez à une réception contradictoire, consignez les réserves et fixez un délai de levée. Archivez DOE, factures, attestations de garantie et mettez à jour l’état descriptif si des modifications structurelles ont été réalisées.",
+      },
+    ],
+    faq: [
+      {
+        q: "Combien de temps faut‑il pour rénover un immeuble de taille moyenne ?",
+        a: "Entre 4 et 10 mois selon l’ampleur des travaux, la disponibilité des artisans et la nécessité de libérer les lots. Un planning réaliste avec marges limite les dérives.",
+      },
+      {
+        q: "Faut‑il arrêter la location pendant les travaux ?",
+        a: "Pas nécessairement. Les travaux peuvent être phasés par plateaux ou par logements. En revanche, si la sécurité ou les réseaux sont coupés, mieux vaut reloger temporairement et encadrer l’opération juridiquement.",
+      },
+      {
+        q: "Quelle assurance souscrire ?",
+        a: "Une assurance chantier (Tous Risques Chantier) et la responsabilité civile des entreprises sont essentielles. Vérifiez aussi que votre assurance propriétaire couvre les dommages pendant les travaux.",
+      },
+    ],
+  },
+  {
+    slug: "acheter-terrain-agricole-senegal-2025",
+    title: "Acheter un terrain agricole au Sénégal : opportunités, titres et obligations",
+    date: "2025-11-17",
+    author: "Miroir Foncier",
+    description:
+      "Ce qu’il faut savoir avant d’investir dans un terrain agricole : statut foncier, autorisations, irrigation, partenariats locaux et viabilité économique.",
+    tags: [
+      "terrain agricole",
+      "foncier rural",
+      "investissement agricole",
+      "bail emphytéotique",
+      "DGID",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Comprendre le statut foncier rural",
+        body:
+          "En zone rurale, on croise des titres fonciers, des baux emphytéotiques, des délibérations ou des affectations villageoises. Identifiez précisément qui détient les droits, quelles autorités sont compétentes (collectivité territoriale, DGID) et si le terrain est immatriculé avant tout engagement financier.",
+      },
+      {
+        heading: "Due diligence et documents essentiels",
+        body:
+          "Exigez le titre, les procès‑verbaux de délibération, les plans signés par un géomètre, les certificats de non‑hypothèque et les attestations fiscales. Vérifiez sur place la réalité du terrain, les limites et la présence d’occupants ou de cultures existantes.",
+      },
+      {
+        heading: "Ressources en eau et infrastructures",
+        body:
+          "Un projet agricole dépend de l’accès à l’eau (forage, irrigation, retenues), à l’électricité, aux pistes et aux marchés. Faites réaliser des études pédologiques et hydrogéologiques pour confirmer la faisabilité, et budgétez les équipements (pompes, clôtures, stockage).",
+      },
+      {
+        heading: "Modèles juridiques et partenariats locaux",
+        body:
+          "Selon le projet, vous pouvez acheter en pleine propriété, signer un bail à long terme ou conclure un partenariat avec une coopérative ou une famille propriétaire. Formalisez toujours par acte notarié, définissez les obligations de chacun et prévoyez les modalités de sortie.",
+      },
+      {
+        heading: "Autorisation d’exploiter et conformité environnementale",
+        body:
+          "Certaines cultures ou surfaces nécessitent une autorisation ou étude d’impact environnemental. Rapprochez‑vous des services de l’agriculture, de la préfecture ou de l’APIX si un agrément est exigé. Respecter les normes évite des suspensions d’activité.",
+      },
+      {
+        heading: "Business plan agricole et financement",
+        body:
+          "Calculez le coût d’acquisition, des aménagements (irrigation, hangars), des intrants, de la main‑d’œuvre et du stockage. Comparez les rendements attendus selon les cultures (maraîchage, arboriculture, élevage) et sécurisez un financement adapté (fonds propres, crédit agricole, partenariat).",
+      },
+      {
+        heading: "Gestion opérationnelle et suivi",
+        body:
+          "Recrutez un gestionnaire terrain, mettez en place un tableau de bord (intrants, rendements, ventes), assurez les cultures et documentez les formations du personnel. Une gouvernance claire limite les pertes et facilite la montée en puissance.",
+      },
+    ],
+    faq: [
+      {
+        q: "Peut‑on transformer un bail rural en titre foncier ?",
+        a: "C’est possible sous conditions, via une procédure d’immatriculation et avec l’accord des autorités compétentes. Le dossier doit démontrer une occupation régulière et l’absence de litige.",
+      },
+      {
+        q: "Quel budget minimum prévoir ?",
+        a: "Tout dépend de la localisation et de la culture. Au‑delà de l’achat, comptez l’aménagement (eau, clôture, stockage). Une enveloppe d’installation représente souvent autant, voire plus, que le prix du foncier.",
+      },
+      {
+        q: "Faut‑il une structure juridique dédiée ?",
+        a: "Créer une société ou une coopérative facilite la gestion, les financements et la transmission. Étudiez l’option avec un conseil juridique pour adapter la structure au projet.",
+      },
+    ],
+  },
+  {
+    slug: "immobilier-logistique-senegal-2025",
+    title: "Immobilier logistique et entrepôts au Sénégal : comment investir en 2025",
+    date: "2025-11-22",
+    author: "Miroir Foncier",
+    description:
+      "Zones à privilégier, typologies d’entrepôts, baux, coût des aménagements et risques à surveiller pour réussir un investissement logistique.",
+    tags: [
+      "immobilier logistique",
+      "entrepôt Sénégal",
+      "zones industrielles",
+      "investissement professionnel",
+      "bail commercial",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Tendances du marché logistique",
+        body:
+          "Le e‑commerce, l’agroalimentaire et l’industrie légère stimulent la demande d’entrepôts près de Dakar, Diamniadio, Rufisque et Thiès. Les utilisateurs recherchent des surfaces modulables, accessibles et sécurisées.",
+      },
+      {
+        heading: "Choisir l’emplacement",
+        body:
+          "Priorisez la proximité des autoroutes, du port, de l’aéroport et du TER. Vérifiez le classement de la zone (industrielle, logistique), la disponibilité en puissance électrique, la largeur des voiries et la facilité pour les poids lourds.",
+      },
+      {
+        heading: "Conception et spécifications",
+        body:
+          "Hauteur libre, résistance des dallages, quais niveleurs, sprinklers, ventilation, bureaux attenants… Listez les besoins des locataires cibles pour définir le CAPEX initial et anticiper les futures adaptations.",
+      },
+      {
+        heading: "Baux logistiques et revenus",
+        body:
+          "Les baux commerciaux 3‑6‑9 ou les contrats sur mesure encadrent les loyers, les charges récupérables et les travaux locatifs. Indexez les loyers, prévoyez des garanties (dépôt, caution bancaire) et cadrez l’entretien des équipements techniques.",
+      },
+      {
+        heading: "Due diligence technique et foncière",
+        body:
+          "Vérifiez le titre foncier, l’environnement industriel, les permis et les conformités incendie. Faites inspecter la structure, l’étanchéité et les installations électriques avant d’acheter un actif existant.",
+      },
+      {
+        heading: "Financement et performance",
+        body:
+          "Les banques financent des actifs logistiques stables avec des baux fermes. Calculez le rendement net en intégrant les charges non récupérables, la vacance, l’entretien des équipements et les investissements de modernisation.",
+      },
+      {
+        heading: "Gestion opérationnelle",
+        body:
+          "Installez une GTB simple, assurez le site (incendie, responsabilité civile), contractualisez les maintenances (sprinkler, groupes électrogènes) et mesurez la satisfaction locataire pour sécuriser la durée d’occupation.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel rendement viser sur un entrepôt ?",
+        a: "Selon l’emplacement et la qualité, les rendements bruts observés tournent entre 8 et 12%. Analysez surtout le rendement net après travaux et vacance.",
+      },
+      {
+        q: "Comment sécuriser les loyers ?",
+        a: "Exigez un dépôt de garantie, une caution bancaire ou une garantie à première demande, et choisissez des locataires disposant d’états financiers solides et d’un business établi.",
+      },
+      {
+        q: "Faut‑il un gestionnaire spécialisé ?",
+        a: "Oui pour les sites importants. Un gestionnaire logistique supervise la maintenance des équipements, la conformité HSE et les relations locataires.",
+      },
+    ],
+  },
+  {
+    slug: "bail-commercial-bureau-dakar-2025",
+    title: "Louer un bureau à Dakar : bail commercial, charges et négociation",
+    date: "2025-11-23",
+    author: "Miroir Foncier",
+    description:
+      "Processus complet pour louer des bureaux à Dakar : recherche d’emplacement, clauses clés du bail commercial, charges et conseils de négociation.",
+    tags: [
+      "bureau Dakar",
+      "bail commercial",
+      "location professionnelle",
+      "charges locatives",
+      "négociation immobilière",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Définir le besoin et le cahier des charges",
+        body:
+          "Surface utile, open space ou bureaux cloisonnés, salles de réunion, parking, fibre optique, sécurité et accessibilité pour vos équipes. Listez vos priorités et votre budget charges comprises pour filtrer les offres.",
+      },
+      {
+        heading: "Sélection de l’emplacement",
+        body:
+          "Plateau, Point E, Almadies, Sacré‑Cœur ou Diamniadio offrent des profils différents (prestige, accessibilité, coût). Analysez la proximité des clients, du transport public, des services et la disponibilité de parkings.",
+      },
+      {
+        heading: "Clauses essentielles du bail commercial",
+        body:
+          "Durée 3‑6‑9 ans ou contrat sur mesure, destination des locaux, modalités de révision de loyer, garanties (dépôt, caution), conditions de cession/sous‑location et répartition des travaux. Faites relire par un conseil juridique.",
+      },
+      {
+        heading: "Charges récupérables et budget total",
+        body:
+          "Clarifiez ce qui relève du propriétaire (gros travaux, structure) et du locataire (entretien courant, énergie des parties privatives, gardiennage). Vérifiez les provisions de charges, la taxe d’édilité et les services inclus (nettoyage, sécurité, HVAC).",
+      },
+      {
+        heading: "Aménagement et livraison",
+        body:
+          "Identifiez si le plateau est livré brut ou déjà aménagé. Préparez un budget pour la climatisation, le cloisonnement, le câblage et la décoration. Intégrez les délais d’autorisations internes et du bailleur avant d’emménager.",
+      },
+      {
+        heading: "Négociation et calendrier",
+        body:
+          "Comparez plusieurs offres, argumentez sur la durée d’engagement, l’état des locaux et les travaux pris en charge. Négociez un loyer progressif ou des mois de franchise pour l’installation. Planifiez signature, remise des clés et entrée officielle.",
+      },
+      {
+        heading: "Gestion du bail au quotidien",
+        body:
+          "Tenez un calendrier des échéances (loyers, indexation, renouvellement), documentez les interventions techniques et maintenez un dialogue régulier avec le bailleur pour anticiper les ajustements nécessaires.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel dépôt de garantie prévoir ?",
+        a: "Couramment 3 à 6 mois de loyer HT/HC, parfois plus selon le profil de l’entreprise. Une garantie bancaire peut être demandée pour les entreprises nouvelles.",
+      },
+      {
+        q: "Peut‑on résilier avant la fin du bail ?",
+        a: "Oui selon les clauses de résiliation anticipée (préavis, indemnités) ou aux échéances triennales d’un bail 3‑6‑9. Faites préciser les conditions dans l’acte.",
+      },
+      {
+        q: "Comment limiter les coûts d’aménagement ?",
+        a: "Négociez des travaux livrés par le bailleur, privilégiez des cloisons modulaires et pensez au mobilier reconditionné. Étalez les dépenses via un crédit‑bail mobilier ou un financement auprès de votre banque.",
+      },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);
