@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm install --production=false && npm run build",
   "outputDirectory": "dist",
   "redirects": [
     { "source": "/og-banner.png", "destination": "/og-banner.webp", "permanent": true }
