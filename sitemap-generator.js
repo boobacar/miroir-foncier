@@ -2,6 +2,7 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { createWriteStream } from 'fs';
 import { Readable } from 'stream';
+import { blogPosts } from './src/data/blogPosts.js';
 
 // Static routes
 const baseLinks = [
@@ -26,25 +27,13 @@ const baseLinks = [
   { url: '/blog', changefreq: 'weekly', priority: 0.8 },
 ];
 
-// Blog posts (keep in sync with src/data/blogPosts.js)
-const blogSlugs = [
-  'acheter-terrain-senegal-guide-complet',
-  'prix-immobilier-dakar-2025-tendances-quartiers',
-  'immatriculation-fonciere-morcellement-procedure-senegal',
-  'location-meublee-ou-vide-rendement-dakar',
-  'eviter-arnaques-immobilieres-senegal-erreurs-courantes',
-  'frais-de-notaire-et-taxes-immobilieres-senegal',
-  'vendre-son-bien-au-senegal-etapes-prix-mandat',
-  'credit-immobilier-senegal-taux-dossier-conditions',
-  'investir-a-saly-mbour-thies-location-saisonniere',
-  'gestion-de-patrimoine-immobilier-senegal-optimisation-risques',
-  // newly added posts
-  'investissement-locatif-dakar-rendement-2025',
-  'procedure-achat-appartement-senegal-etapes-documents',
-  'financement-immobilier-senegal-pret-bancaire-taux-2025',
-  'prix-immobilier-dakar-2025-estimation-quartiers',
-  'bail-location-senegal-droits-devoirs-depot-garantie-etat-des-lieux',
-].map((slug) => ({ url: `/blog/${slug}`, changefreq: 'monthly', priority: 0.7 }));
+// Blog posts (synced automatically with src/data/blogPosts.js)
+const blogLinks = (blogPosts || []).map((post) => ({
+  url: `/blog/${post.slug}`,
+  changefreq: 'weekly',
+  priority: 0.7,
+  lastmod: post.date,
+}));
 
 // Biens (pages de détails)
 const propertyIds = [1, 2, 3, 101, 102, 103].map((id) => ({
@@ -53,7 +42,7 @@ const propertyIds = [1, 2, 3, 101, 102, 103].map((id) => ({
   priority: 0.6,
 }));
 
-const links = [...baseLinks, ...blogSlugs, ...propertyIds];
+const links = [...baseLinks, ...blogLinks, ...propertyIds];
 
 const sitemap = new SitemapStream({ hostname: 'https://www.miroirfoncier.com' });
 

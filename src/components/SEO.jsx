@@ -28,14 +28,25 @@ export default function SEO({
   description,
   path = "",
   image = "/og-banner.webp",
+  imageAlt = "",
   type = "website",
   keywords = [],
   jsonLd = [],
+  publishedTime,
+  modifiedTime,
+  section,
+  articleTags = [],
 }) {
   const keywordsContent = Array.isArray(keywords)
     ? keywords.filter(Boolean).join(", ")
     : keywords;
   const ldSignature = JSON.stringify(jsonLd || []);
+  const tagsList = Array.isArray(articleTags)
+    ? articleTags.filter(Boolean)
+    : articleTags
+    ? [articleTags]
+    : [];
+  const tagsSignature = JSON.stringify(tagsList);
 
   useEffect(() => {
     const canonical = `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
@@ -52,16 +63,36 @@ export default function SEO({
     setMeta("og:type", type, "property");
     setMeta("og:url", canonical, "property");
     setMeta("og:image", `${SITE_URL}${image}`, "property");
+    setMeta("og:site_name", "Miroir Foncier", "property");
     if (image.endsWith(".webp")) {
       setMeta("og:image:type", "image/webp", "property");
     }
+    setMeta("og:image:alt", imageAlt || title, "property");
     setMeta("og:locale", "fr_SN", "property");
 
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", title);
     setMeta("twitter:description", description);
     setMeta("twitter:image", `${SITE_URL}${image}`);
+    setMeta("twitter:image:alt", imageAlt || title);
     setLink("canonical", canonical);
+
+    if (type === "article") {
+      setMeta("article:published_time", publishedTime || modifiedTime, "property");
+      setMeta("article:modified_time", modifiedTime || publishedTime, "property");
+      setMeta("article:section", section, "property");
+      document
+        .querySelectorAll('meta[data-dynamic-article-tag="true"]')
+        .forEach((el) => el.remove());
+      tagsList.forEach((tag, idx) => {
+        const metaTag = document.createElement("meta");
+        metaTag.setAttribute("property", "article:tag");
+        metaTag.dataset.dynamicArticleTag = "true";
+        metaTag.dataset.tagIndex = String(idx);
+        metaTag.setAttribute("content", tag);
+        document.head.appendChild(metaTag);
+      });
+    }
 
     // Structured data (JSON-LD)
     document
@@ -80,7 +111,20 @@ export default function SEO({
       script.text = JSON.stringify(payload);
       document.head.appendChild(script);
     });
-  }, [title, description, path, image, type, keywordsContent, ldSignature]);
+  }, [
+    title,
+    description,
+    path,
+    image,
+    imageAlt,
+    type,
+    keywordsContent,
+    ldSignature,
+    publishedTime,
+    modifiedTime,
+    section,
+    tagsSignature,
+  ]);
 
   return null;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import SEO from "../components/SEO";
-import { blogPosts } from "../data/blogPosts";
+import { blogPosts, SITE_URL } from "../data/blogPosts";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../components/animations";
 
@@ -17,6 +17,30 @@ export default function Blog() {
   const [searchParams, setSearchParams] = useSearchParams();
   const pageParam = parseInt(searchParams.get("page") || "1", 10);
   const pageSize = 6;
+  const blogPageKeywords = [
+    "blog immobilier Sénégal",
+    "conseils achat terrain Dakar",
+    "prix immobilier 2025",
+    "investissement locatif Sénégal",
+    "guide foncier DGID",
+    "notaire Sénégal",
+  ];
+  const blogLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "Blog immobilier au Sénégal - Miroir Foncier",
+    description:
+      "Guide d’investissement, prix au m², procédures foncières, estimation immobilière et conseils location pour Dakar et tout le Sénégal.",
+    url: `${SITE_URL}/blog`,
+    blogPost: blogPosts.slice(0, 10).map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      dateModified: post.date,
+      url: `${SITE_URL}/blog/${post.slug}`,
+    })),
+  };
 
   const totalPosts = blogPosts.length;
   const totalPages = Math.max(1, Math.ceil(totalPosts / pageSize));
@@ -51,6 +75,9 @@ export default function Blog() {
         description="Actualités, guides et conseils pour acheter, vendre, louer et investir au Sénégal. Prix à Dakar, procédures foncières et bonnes pratiques."
         path="/blog"
         type="website"
+        imageAlt="Blog immobilier au Sénégal par Miroir Foncier"
+        keywords={blogPageKeywords}
+        jsonLd={[blogLd]}
       />
 
       <div className="max-w-6xl mx-auto">

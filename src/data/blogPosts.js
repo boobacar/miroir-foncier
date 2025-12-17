@@ -1502,9 +1502,277 @@ export const blogPosts = [
         q: "Peut‑on résilier avant la fin du bail ?",
         a: "Oui selon les clauses de résiliation anticipée (préavis, indemnités) ou aux échéances triennales d’un bail 3‑6‑9. Faites préciser les conditions dans l’acte.",
       },
-      {
+  {
         q: "Comment limiter les coûts d’aménagement ?",
         a: "Négociez des travaux livrés par le bailleur, privilégiez des cloisons modulaires et pensez au mobilier reconditionné. Étalez les dépenses via un crédit‑bail mobilier ou un financement auprès de votre banque.",
+      },
+    ],
+  },
+  {
+    slug: "investir-diamniadio-immobilier-2025",
+    title: "Investir à Diamniadio en 2025 : quartiers, prix et projets structurants",
+    date: "2025-11-24",
+    author: "Miroir Foncier",
+    description:
+      "Tour d’horizon des opportunités immobilières à Diamniadio : zones économiques, programmes neufs, prix au m², infrastructures TER et autoroute, conseils d’investissement.",
+    tags: [
+      "Diamniadio",
+      "investissement immobilier Sénégal",
+      "programme neuf",
+      "zone économique",
+      "TER Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Diamniadio, nouvelle capitale économique",
+        body:
+          "L’extension de Dakar vers Diamniadio attire institutions, entreprises, promoteurs et investisseurs. Les pôles ministériels, les universités et l’Aéroport International Blaise Diagne créent une demande immédiate en logements, bureaux, hôtels et commerces. Comprendre la stratégie de l’État et la feuille de route de la zone économique spéciale est essentiel pour anticiper l’évolution des valeurs foncières.",
+      },
+      {
+        heading: "Cartographie des quartiers et zones à potentiel",
+        body:
+          "Parc industriel, Sphère ministérielle, lac rose, secteurs résidentiels autour du centre international de conférences Abdou Diouf (CICAD)… Chaque micro‑zone répond à un usage (habitat, logistique, bureaux). Analysez les plans d’aménagement, l’accessibilité aux écoles, centres commerciaux, hôpitaux et la proximité des axes TER/AIBD pour choisir l’implantation adaptée à votre cible locataire.",
+      },
+      {
+        heading: "Prix au mètre carré et tendances 2025",
+        body:
+          "Les terrains se négocient encore à des niveaux inférieurs à Dakar intra‑muros mais progressent vite. Les appartements neufs en R+3/R+4 se vendent entre 500 000 et 900 000 F CFA/m² selon le standing, le parking et les services. Les villas jumelées et duplex dans les quartiers résidentiels premium dépassent 150 millions de F CFA. Suivez les transactions récentes, l’offre effective et les coûts de construction pour calibrer votre prix cible.",
+      },
+      {
+        heading: "Infrastructures clés : TER, autoroute, fibre et réseaux",
+        body:
+          "Diamniadio bénéficie d’une connexion directe au TER, à l’autoroute à péage et à la fibre optique. Les extensions programmées (voies secondaires, bus rapides, réseaux d’assainissement) influencent la vitesse de commercialisation. Vérifiez la disponibilité réelle en eau, électricité moyenne/haute tension, fibre et assainissement collectif avant d’acheter ou de lancer un chantier.",
+      },
+      {
+        heading: "Typologies de produits recherchés",
+        body:
+          "Studios et T2 meublés pour cadres de passage, T3/T4 familiaux avec parking et sécurité 24/7, villas évolutives, immeubles mixtes (rez‑de‑chaussée commercial + logements). Les investisseurs corporate recherchent des plateaux bureaux modulaires 500–1 500 m² avec certifications HSE. Adapter le produit à la demande réelle garantit une mise en location rapide.",
+      },
+      {
+        heading: "Financement et rentabilité",
+        body:
+          "Les banques sénégalaises financent les projets en VEFA, en promotion ou en location longue durée si le dossier est sécurisé (titre, présales, garanties). Montez un plan de financement intégrant prix du terrain, travaux, voiries et raccordements, marketing et trésorerie. Les rendements bruts observés varient de 7 à 11% selon la qualité locative et la vacance. En VEFA, négociez un échéancier aligné sur l’avancement des travaux.",
+      },
+      {
+        heading: "Check‑list avant de signer",
+        body:
+          "Titre foncier ou bail sécurisé, certificat de non‑hypothèque, permis de construire, étude de sol, plan d’aménagement de la zone, analyse de la demande locative, budget raccordements, contrat de syndic ou de facility management, plan marketing digital. Centralisez toutes les pièces chez un notaire et formalisez les relations avec vos partenaires (architecte, commercialisateur, gestionnaire).",
+      },
+    ],
+    faq: [
+      {
+        q: "Quelle rentabilité viser à Diamniadio ?",
+        a: "Sur un appartement neuf bien placé et géré, la rentabilité brute oscille entre 8 et 10%. Les plateaux de bureaux loués à des institutions peuvent offrir 9 à 11% si le bail est ferme et les charges maîtrisées.",
+      },
+      {
+        q: "Diamniadio convient‑il à la location meublée ?",
+        a: "Oui, notamment pour les cadres, consultants et techniciens en mission. Prévoyez un mobilier robuste, une connexion fibre et un service de maintenance réactif pour limiter la vacance.",
+      },
+      {
+        q: "Faut‑il passer par un notaire pour acheter ?",
+        a: "Absolument. Le notaire vérifie le titre, les autorisations et publie l’acte. Il sécurise également les paiements et les conditions suspensives.",
+      },
+    ],
+  },
+  {
+    slug: "lotissement-prive-senegal-procedure-cout",
+    title: "Lotissement privé au Sénégal : procédure complète, coûts et check-list 2025",
+    date: "2025-11-24",
+    author: "Miroir Foncier",
+    description:
+      "Étapes administratives, études techniques, coûts, partenariats et obligations pour transformer un terrain en lotissement privé au Sénégal.",
+    tags: [
+      "lotissement privé",
+      "morcellement Sénégal",
+      "géomètre",
+      "autorisation urbanisme",
+      "promotion immobilière",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pré‑diagnostic foncier et urbanistique",
+        body:
+          "Avant toute promesse commerciale, vérifiez la situation juridique du terrain (titre foncier, bail, délibération), les servitudes existantes, le plan d’urbanisme de détail (PUD) et les prescriptions environnementales. Un géomètre agréé et un urbaniste vous aident à déterminer l’emprise constructible, les voies à créer et les reculs obligatoires.",
+      },
+      {
+        heading: "Études techniques indispensables",
+        body:
+          "Étude topographique, étude géotechnique, étude hydraulique/assainissement, plan VRD, évaluation des réseaux (SEN’EAU, SENELEC, SONATEL). Ces documents structurent le dossier soumis à la mairie, à la DGID et au service régional de l’urbanisme. Anticipez également une étude d’impact environnemental si la superficie dépasse les seuils réglementaires.",
+      },
+      {
+        heading: "Procédure administrative étape par étape",
+        body:
+          "1) Dépôt d’une demande d’autorisation de lotir avec toutes les pièces justificatives; 2) Instruction par l’urbanisme et visites de terrain; 3) Avis des services techniques (eau, électricité, environnement); 4) Signature de l’arrêté de lotissement; 5) Publication auprès de la DGID et du cadastre; 6) Mise en conformité des voies, réseaux et espaces publics; 7) Livraison des lots immatriculés et prêts à la vente.",
+      },
+      {
+        heading: "Budget et financement d’un lotissement",
+        body:
+          "Le poste foncier n’est qu’une partie du projet. Ajoutez les études, les honoraires de géomètre, les travaux VRD (terrassement, voirie, éclairage, assainissement), les raccordements, la clôture, le marketing et la gestion commerciale. Prévoyez une marge pour les imprévus (au moins 10%) et des lignes de crédit pour financer les travaux avant encaissement du produit des ventes.",
+      },
+      {
+        heading: "Organisation commerciale et marketing",
+        body:
+          "Segmenter les lots (résidentiel, mixte, activité), fixer un prix cohérent avec le marché local et mettre en place un plan marketing digital (site, réseaux sociaux, visites virtuelles) couplé à un réseau physique (agences, partenaires locaux). Les contrats de réservation doivent rappeler les délais, les conditions suspensives et le calendrier de paiement.",
+      },
+      {
+        heading: "Gestion opérationnelle et conformité",
+        body:
+          "Suivez l’avancement des travaux avec un tableau de bord (planning, budget, qualité). Documentez chaque étape (procès‑verbaux, plans as built) et préparez la remise des lots avec procès‑verbaux de bornage. Chaque acquéreur doit recevoir un dossier complet (titre, plan, cahier de charges).",
+      },
+      {
+        heading: "Stratégies pour accélérer la commercialisation",
+        body:
+          "Mettez en place un show‑lot ou une maison témoin, facilitez le financement (partenariats bancaires, facilités de paiement), organisez des journées portes ouvertes et rassurez les acheteurs avec un reporting transparent sur l’avancement des VRD et des immatriculations.",
+      },
+    ],
+    faq: [
+      {
+        q: "Combien de temps dure une procédure de lotissement ?",
+        a: "Selon la complétude du dossier et la réactivité des services, comptez de 6 à 18 mois entre la première demande et l’obtention de l’arrêté, hors travaux VRD.",
+      },
+      {
+        q: "Faut‑il un cahier des charges de lotissement ?",
+        a: "Oui, il fixe les règles d’implantation, de clôture, d’architecture et d’usage afin de préserver la qualité du projet. Il est annexé à l’arrêté et doit être remis aux acquéreurs.",
+      },
+      {
+        q: "Puis‑je commercialiser avant l’arrêté ?",
+        a: "Il est risqué de prendre des engagements fermes avant d’obtenir l’autorisation. Préférez des pré‑réservations conditionnées à l’obtention de l’arrêté pour limiter les litiges.",
+      },
+    ],
+  },
+  {
+    slug: "location-saisonniere-dakar-airbnb-2025",
+    title: "Location saisonnière à Dakar en 2025 : Airbnb, rentabilité et obligations",
+    date: "2025-11-25",
+    author: "Miroir Foncier",
+    description:
+      "Comment réussir une location courte durée à Dakar : quartiers, équipement, tarification dynamique, fiscalité, réglementation et check‑list opérationnelle.",
+    tags: [
+      "location saisonnière Dakar",
+      "Airbnb Sénégal",
+      "investissement locatif",
+      "gestion locative",
+      "rendement location courte durée",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Choisir le bon quartier pour la courte durée",
+        body:
+          "Plateau, Almadies, Mamelles, Mermoz, Point E et Yoff restent les secteurs les plus recherchés par les voyageurs d’affaires et les touristes. Proximité plage, restaurants, bureaux et sécurité renforcée sont des critères décisifs. Identifiez aussi les besoins autour de l’aéroport AIBD et du TER pour capter une clientèle en transit.",
+      },
+      {
+        heading: "Positionnement et tarification dynamique",
+        body:
+          "Étudiez les prix concurrents, définissez un positionnement clair (studio business, appartement familial, penthouse premium) et utilisez des outils de tarification dynamique pour adapter le prix par nuit selon la saison, les événements et l’occupation. Pensez aux séjours longue durée (28 nuits) pour réduire la vacance hors haute saison.",
+      },
+      {
+        heading: "Équipement indispensable pour séduire",
+        body:
+          "Internet fibre, climatisation efficace, cuisine complète, literie hôtel, espaces de travail, place de parking sécurisée, générateur ou onduleur, coffre‑fort, kits de bienvenue. Documentez chaque équipement dans l’annonce pour améliorer le référencement Airbnb/Booking.",
+      },
+      {
+        heading: "Process opérationnel et relation client",
+        body:
+          "Mettre en place un check‑in digitalisé, un manuel d’accueil, une équipe ménage professionnelle, un service de maintenance réactif et un canal de support unique (WhatsApp, Hotline). Collectez les avis, répondez en moins d’une heure et automatisez les relances pour encourager les commentaires 5 étoiles.",
+      },
+      {
+        heading: "Fiscalité et conformité",
+        body:
+          "Déclarez les revenus saisonniers, payez les taxes locales éventuelles (taxe communale, patente) et vérifiez si la copropriété autorise la location courte durée. Assurez le bien (PNO + responsabilité civile) et respectez les obligations de déclaration des voyageurs étrangers si applicable.",
+      },
+      {
+        heading: "Marketing multicanal",
+        body:
+          "Diversifiez les canaux: plateformes internationales (Airbnb, Booking), site web propre, réseaux sociaux, partenariats avec agences de voyages et entreprises locales. Optimisez les photos professionnelles, les vidéos, les visites 3D et les mots clés (\"appartement meublé Dakar\", \"Airbnb Almadies\") pour booster la visibilité.",
+      },
+      {
+        heading: "Indicateurs à suivre",
+        body:
+          "Taux d’occupation, revenu moyen par nuit, RevPAR, coût de ménage par séjour, score de satisfaction, délai de réponse, budget marketing. Suivre ces KPI mensuels vous aide à ajuster les prix, à programmer les rénovations et à décider d’une éventuelle délégation de gestion.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel budget prévoir pour lancer une location saisonnière ?",
+        a: "Au‑delà du prix d’achat ou du loyer, prévoyez 5 à 10 millions F CFA pour l’ameublement premium, le linge, l’électroménager, la domotique, les photos pro et la création des annonces.",
+      },
+      {
+        q: "Faut‑il une autorisation spécifique à Dakar ?",
+        a: "Vérifiez les règles de votre copropriété et les prescriptions municipales. Certaines communes exigent une déclaration préalable ou des taxes d’hébergement. Faites valider votre activité par un notaire ou un conseil juridique.",
+      },
+      {
+        q: "Gestion en direct ou via une conciergerie ?",
+        a: "Si vous ne résidez pas à Dakar ou manquez de temps, une conciergerie spécialisée gère l’accueil, le ménage, la maintenance et la relation client en échange d’un pourcentage du chiffre d’affaires.",
+      },
+    ],
+  },
+  {
+    slug: "coliving-dakar-transformation-maison-rentable",
+    title: "Transformer une maison en coliving rentable à Dakar : démarches, budget et gestion",
+    date: "2025-11-26",
+    author: "Miroir Foncier",
+    description:
+      "Étapes pour convertir une maison ou villa en coliving premium à Dakar : études, travaux, réglementation, modèle économique et gestion quotidienne.",
+    tags: [
+      "coliving Dakar",
+      "investissement locatif",
+      "rénovation maison",
+      "location meublée",
+      "gestion immobilière",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi le coliving séduit à Dakar",
+        body:
+          "Hausse des loyers, besoin de flexibilité pour les cadres, start‑ups et étudiants internationaux : le coliving répond à une demande croissante d’espaces meublés avec services (Wi‑Fi, ménage, espaces communs). Les villas proches des pôles d’emploi (Plateau, Mermoz, Almadies, Mamelles) se prêtent bien à cette transformation.",
+      },
+      {
+        heading: "Étude de faisabilité et réglementation",
+        body:
+          "Analysez le plan d’urbanisme, les règles de voisinage, le règlement de copropriété ou de lotissement. Vérifiez la conformité électrique, la capacité d’assainissement, la possibilité de créer plusieurs compteurs et l’obligation potentielle de changer l’usage du bien (habitation vers activité para‑hôtelière).",
+      },
+      {
+        heading: "Programme de travaux et design intérieur",
+        body:
+          "Redistribuez les pièces pour créer des suites privatives (chambres + salle d’eau), insonorisez, installez une climatisation efficace et des espaces communs (cuisine équipée, coworking, terrasse). Le design doit combiner confort, durabilité et entretien facile. Planifiez les travaux avec un architecte et sécurisez les autorisations nécessaires.",
+      },
+      {
+        heading: "Budget et financement",
+        body:
+          "En plus du foncier, prévoyez un budget travaux de 250 000 à 400 000 F CFA/m² selon la profondeur de la rénovation (structure, plomberie, climatisation). Ajoutez le mobilier, la décoration, la domotique, les systèmes de sécurité et le fonds de roulement. Les banques peuvent financer si un bail commercial ou un contrat de gestion solide est présenté.",
+      },
+      {
+        heading: "Modèle économique et tarification",
+        body:
+          "Facturez au lit ou à la suite (300 000 à 700 000 F CFA/mois selon quartier et services). Intégrez les charges (eau, électricité, internet, ménage, Netflix) et proposez des options payantes (parking, repas, blanchisserie). Suivez le taux d’occupation, le churn et le panier moyen pour ajuster l’offre.",
+      },
+      {
+        heading: "Gestion et expérience résidents",
+        body:
+          "Recrutez un community manager, mettez en place des règles de vie, digitalisez les contrats et cautions, organisez des événements communautaires. Un service de maintenance 24/7, une application de gestion et une hotline augmentent la satisfaction et la fidélité.",
+      },
+      {
+        heading: "Marketing et acquisition",
+        body:
+          "Visibilité sur les réseaux sociaux, partenariats avec écoles/universités, entreprises RH, plateformes de relocation. Produisez des visites virtuelles, un site optimisé SEO (\"coliving Dakar\", \"chambre meublée premium\"), collectez des témoignages clients et encouragez le parrainage.",
+      },
+    ],
+    faq: [
+      {
+        q: "Dois‑je créer une société pour exploiter un coliving ?",
+        a: "C’est conseillé pour séparer patrimoine et exploitation, faciliter la facturation et la gestion fiscale. Une SARL ou une SCI peut porter le projet selon votre stratégie.",
+      },
+      {
+        q: "Quel taux d’occupation viser ?",
+        a: "Un taux de 85 à 95% permet de couvrir les charges et de dégager une marge confortable. En‑dessous, revoyez votre marketing, votre tarification ou la qualité des services proposés.",
+      },
+      {
+        q: "Quelles assurances prévoir ?",
+        a: "Assurance multirisque immeuble, responsabilité civile professionnelle, éventuellement garantie des loyers. Vérifiez aussi les obligations en matière de sécurité incendie.",
       },
     ],
   },
