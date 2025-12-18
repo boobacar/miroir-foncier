@@ -63,11 +63,11 @@ export default function SEO({
     setMeta("og:type", type, "property");
     setMeta("og:url", canonical, "property");
     setMeta("og:image", `${SITE_URL}${image}`, "property");
+    setMeta("og:image:alt", imageAlt || title, "property");
     setMeta("og:site_name", "Miroir Foncier", "property");
     if (image.endsWith(".webp")) {
       setMeta("og:image:type", "image/webp", "property");
     }
-    setMeta("og:image:alt", imageAlt || title, "property");
     setMeta("og:locale", "fr_SN", "property");
 
     setMeta("twitter:card", "summary_large_image");

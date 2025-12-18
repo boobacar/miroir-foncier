@@ -27,12 +27,11 @@ const baseLinks = [
   { url: '/blog', changefreq: 'weekly', priority: 0.8 },
 ];
 
-// Blog posts (synced automatically with src/data/blogPosts.js)
-const blogLinks = (blogPosts || []).map((post) => ({
+// Blog posts (kept in sync automatically with src/data/blogPosts.js)
+const blogSlugs = blogPosts.map((post) => ({
   url: `/blog/${post.slug}`,
-  changefreq: 'weekly',
+  changefreq: 'monthly',
   priority: 0.7,
-  lastmod: post.date,
 }));
 
 // Biens (pages de détails)
@@ -42,7 +41,7 @@ const propertyIds = [1, 2, 3, 101, 102, 103].map((id) => ({
   priority: 0.6,
 }));
 
-const links = [...baseLinks, ...blogLinks, ...propertyIds];
+const links = [...baseLinks, ...blogSlugs, ...propertyIds];
 
 const sitemap = new SitemapStream({ hostname: 'https://www.miroirfoncier.com' });
 
