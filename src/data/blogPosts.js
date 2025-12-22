@@ -1756,6 +1756,331 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    slug: "appartement-a-vendre-dakar-2025-prix-quartiers-conseils",
+    title: "Appartement à vendre à Dakar en 2025 : prix, quartiers et conseils d’achat",
+    date: "2025-12-12",
+    author: "Miroir Foncier",
+    description:
+      "Guide 2025 pour acheter un appartement à Dakar : prix au m² par quartier, choix entre neuf et ancien, vérifications foncières et financement pour sécuriser votre achat.",
+    tags: [
+      "appartement à vendre Dakar",
+      "prix m2 Dakar 2025",
+      "achat appartement Sénégal",
+      "agence immobilière Dakar",
+      "investissement Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Prix au m² et tendances 2025",
+        body:
+          "Almadies, Plateau, Fann et Mamelles restent les plus chers; Mermoz, Sacré‑Cœur, Liberté et Point E offrent un bon équilibre prix/emplacement. Diamniadio et la seconde couronne gardent des tickets d’entrée plus accessibles avec potentiel de valorisation.",
+      },
+      {
+        heading: "Choisir le bon quartier selon votre projet",
+        body:
+          "• Premium et prestige: Almadies, Fann, Corniche, Mamelles.\n• Business et administrations: Plateau, Point E, Fann.\n• Familles et location longue: Mermoz, Sacré‑Cœur, Liberté, Yoff.\n• Programmes neufs et VEFA: Diamniadio, extensions de la VDN, zones proches TER/BRT.",
+      },
+      {
+        heading: "Neuf, VEFA ou ancien rénové",
+        body:
+          "Le neuf et la VEFA séduisent pour le confort, l’ascenseur et le parking; l’ancien rénové offre souvent plus de surface et des emplacements centraux. Comparez le coût total (prix + travaux + charges) et la qualité de la copropriété.",
+      },
+      {
+        heading: "Dossier juridique à vérifier avant l’offre",
+        body:
+          "Titre foncier ou bail/délibération, plan de bornage, certificat de non‑hypothèque, quitus fiscal, règlement de copropriété et PV d’assemblées. Faites encadrer la promesse et l’acte authentique par un notaire à Dakar.",
+      },
+      {
+        heading: "Financement et négociation",
+        body:
+          "Simulez plusieurs banques (taux, assurance, durée 10–20 ans). Négociez un prix réaliste avec comparables récents, conditionnez l’offre aux vérifications et prévoyez un séquestre chez le notaire pour sécuriser les paiements.",
+      },
+      {
+        heading: "Check‑list visite d’un appartement",
+        body:
+          "Orientation, ventilation, nuisances sonores, ascenseur, parking, charges, état des parties communes, fibre/groupe électrogène, conformité électrique et plomberie. Prenez des photos et demandez les factures récentes de charges.",
+      },
+      {
+        heading: "Conseils express pour acheter vite et bien",
+        body:
+          "Pré‑validez votre budget, préparez vos pièces (CNI, justificatifs de revenus), ciblez 2 ou 3 quartiers, visitez en semaine et le soir, et gardez une marge pour les frais de notaire (5–8%) et le rafraîchissement.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel budget prévoir pour un 2 pièces à Dakar en 2025 ?",
+        a: "Selon le quartier: de 20–28 M FCFA à Diamniadio/VDN extension à plus de 45 M FCFA dans les quartiers premium (Almadies, Mamelles, Fann).",
+      },
+      {
+        q: "Faut‑il privilégier le neuf ou l’ancien ?",
+        a: "Le neuf apporte confort et faibles travaux; l’ancien bien situé et rénové peut offrir un meilleur rapport prix/surface. Comparez le coût total et la demande locative ciblée.",
+      },
+      {
+        q: "Comment sécuriser le paiement ?",
+        a: "Utilisez un séquestre chez le notaire, évitez les espèces, mentionnez la référence du dossier sur les virements et conservez tous les justificatifs.",
+      },
+    ],
+  },
+  {
+    slug: "mettre-maison-en-location-dakar-loyer-bail-fiscalite-2025",
+    title: "Mettre sa maison en location à Dakar : loyer, bail et fiscalité 2025",
+    date: "2025-12-14",
+    author: "Miroir Foncier",
+    description:
+      "Fixer un loyer juste à Dakar, rédiger un bail solide, déclarer ses revenus locatifs et éviter les impayés grâce à une gestion rigoureuse.",
+    tags: [
+      "maison à louer Dakar",
+      "fixer loyer Dakar",
+      "bail location Sénégal",
+      "fiscalité loyers Sénégal",
+      "gestion locative Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Étudier le marché et positionner le loyer",
+        body:
+          "Comparez les annonces dans votre micro‑quartier (surface, chambres, parking, climatisation, mobilier). Ajustez selon l’état, la vue, la proximité des axes et des écoles. Un loyer juste réduit la vacance et les négociations à rallonge.",
+      },
+      {
+        heading: "Préparer le bien avant diffusion",
+        body:
+          "Peinture, robinetterie, éclairage, climatisation fonctionnelle, nettoyage en profondeur, photos professionnelles. Un état impeccable augmente les clics et la vitesse de location.",
+      },
+      {
+        heading: "Bail et dépôt de garantie",
+        body:
+          "Rédigez un bail écrit avec durée, loyer, charges, dépôt, inventaire si meublé, règles d’entretien et modalités d’indexation. Fixez le dépôt (souvent 1 à 3 mois) et le délai de restitution après état des lieux.",
+      },
+      {
+        heading: "Sélection et sécurisation du locataire",
+        body:
+          "Demandez pièces d’identité, justificatifs de revenus, références. Organisez un état des lieux contradictoire avec photos. Encadrez les paiements par virement et envoyez des reçus.",
+      },
+      {
+        heading: "Fiscalité et obligations du bailleur",
+        body:
+          "Déclarez les loyers auprès de la DGID, conservez factures et baux, souscrivez une assurance propriétaire non occupant (PNO) et vérifiez la conformité électrique. Respectez les règles de copropriété le cas échéant.",
+      },
+      {
+        heading: "Gestion courante et impayés",
+        body:
+          "Centralisez les demandes (WhatsApp/email), planifiez l’entretien (clim, chauffe‑eau), relancez rapidement en cas de retard, puis mise en demeure si besoin. Externaliser à une agence de gestion à Dakar est possible via un mandat écrit.",
+      },
+      {
+        heading: "Diffuser l’annonce et booster la visibilité",
+        body:
+          "Diffusez sur les portails locaux, réseaux sociaux et auprès d’agences immobilières à Dakar. Utilisez des mots‑clés « maison à louer Dakar », « villa », « quartier » pour capter les recherches Google et améliorer le taux de clic.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel indice utiliser pour réviser le loyer ?",
+        a: "Prévoyez une clause d’indexation contractuelle et informez clairement le locataire. Vérifiez les pratiques locales et restez cohérent avec le marché pour éviter les litiges.",
+      },
+      {
+        q: "Dois‑je déclarer mes loyers si je loue à un proche ?",
+        a: "Oui, les loyers perçus sont en principe imposables. Conservez les quittances et faites vos déclarations dans les délais.",
+      },
+      {
+        q: "Est‑ce utile de passer par une agence ?",
+        a: "Une agence gère la diffusion, la sélection, les états des lieux et le recouvrement. Elle est utile si vous manquez de temps ou vivez hors de Dakar.",
+      },
+    ],
+  },
+  {
+    slug: "terrain-a-vendre-saly-petite-cote-viabilisation-rendement",
+    title: "Acheter un terrain à Saly et sur la Petite‑Côte : plage, viabilisation et rendement",
+    date: "2025-12-16",
+    author: "Miroir Foncier",
+    description:
+      "Terrains à vendre à Saly, Mbour, Somone : statut foncier, servitudes littorales, accès plage, viabilisation eau/électricité et potentiel locatif saisonnier.",
+    tags: [
+      "terrain à vendre Saly",
+      "terrain Petite-Côte",
+      "investissement immobilier Sénégal",
+      "terrain bord de mer",
+      "viabilisation terrain",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Comprendre le marché Petite‑Côte",
+        body:
+          "Saly, Somone, Ngaparou et Mbour attirent pour la plage et la location saisonnière. Les terrains proches des axes et de la mer sont plus chers mais louent ou se revendent plus vite.",
+      },
+      {
+        heading: "Statut foncier et documents indispensables",
+        body:
+          "Titre foncier ou bail/délibération, plan de bornage par géomètre, certificat de non‑hypothèque, quitus fiscal, autorisations de morcellement si division. Faites vérifier par un notaire avant tout acompte.",
+      },
+      {
+        heading: "Servitudes littorales et DPM",
+        body:
+          "Vérifiez les reculs, l’absence d’empiètement sur le Domaine Public Maritime, les servitudes de passage et l’accès à la plage. Un plan annexé à l’acte limite les litiges.",
+      },
+      {
+        heading: "Viabilisation et accès aux réseaux",
+        body:
+          "Budgetez l’eau, l’électricité, la voie d’accès, le drainage et la clôture. Demandez qui prend en charge les raccordements (lotisseur, promoteur ou vous). Une desserte fiable augmente la valeur du terrain.",
+      },
+      {
+        heading: "Projet et rendement cible",
+        body:
+          "Maison secondaire, villa avec piscine pour Airbnb, ou résidence principale. Estimez le loyer saisonnier ou annuel, la vacance et les charges (entretien piscine/jardin) pour calculer le rendement locatif.",
+      },
+      {
+        heading: "Check‑list d’achat rapide",
+        body:
+          "Visite terrain + bornes, interrogation DGID/cadastre, plan signé, attestation de non‑hypothèque, voisinage consulté, promesse chez notaire avec conditions suspensives (titre, servitudes, autorisations).",
+      },
+    ],
+    faq: [
+      {
+        q: "Peut‑on construire immédiatement après l’achat ?",
+        a: "Oui si le terrain est viabilisé et conforme au plan d’urbanisme. Vérifiez les autorisations et reculs avant de déposer un permis.",
+      },
+      {
+        q: "Quel budget pour un terrain proche de la plage ?",
+        a: "Les prix varient fortement: plus proche de la plage ou des axes, plus le m² augmente. Prévoyez aussi 5–10% pour frais de notaire et raccordements.",
+      },
+      {
+        q: "Comment éviter les litiges de limites ?",
+        a: "Exigez un bornage contradictoire avec géomètre agréé et un plan annexé à l’acte. Vérifiez aussi l’usage de passage existant avec le voisinage.",
+      },
+    ],
+  },
+  {
+    slug: "rendement-locatif-senegal-calcul-simulation-2025",
+    title: "Rendement locatif au Sénégal : calculs, charges et simulation 2025",
+    date: "2025-12-18",
+    author: "Miroir Foncier",
+    description:
+      "Méthodes simples pour calculer le rendement locatif à Dakar, Saly ou Diamniadio : brut, net, charges, vacance et optimisation fiscale.",
+    tags: [
+      "rendement locatif Sénégal",
+      "calcul rentabilité Dakar",
+      "investissement locatif",
+      "charges copropriété Dakar",
+      "cash-flow immobilier",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Formule de base",
+        body:
+          "Rendement brut = (loyer annuel / prix d’achat frais inclus) x 100. Le net prend en compte charges, vacance et fiscalité. Calculez toujours le cash‑flow mensuel (loyer net – charges – crédit).",
+      },
+      {
+        heading: "Charges à intégrer",
+        body:
+          "Syndic, gardiennage, eau/électricité des communs, entretien clim/piscine, assurance PNO, vacance estimée, frais de gestion et petites réparations. Ajoutez l’impôt sur les loyers pour approcher le rendement net.",
+      },
+      {
+        heading: "Exemple chiffré Dakar 2025",
+        body:
+          "Achat 35 M FCFA (frais inclus) pour un 2 pièces Mermoz. Loyer 250 000 FCFA/mois. Charges/vacance/PNO/impôt = 65 000 FCFA/mois. Crédit 180 000 FCFA/mois. Cash‑flow ≈ 5 000 FCFA et rendement net ≈ 6,3%.",
+      },
+      {
+        heading: "Optimiser le loyer et réduire la vacance",
+        body:
+          "Photos pros, Wifi fibre, clim révisées, ménage de sortie, réponse rapide aux demandes. Positionnez le loyer dans la fourchette marché pour limiter les périodes vides.",
+      },
+      {
+        heading: "Financement et levier",
+        body:
+          "Un apport de 10–30% réduit la mensualité et améliore le cash‑flow. Comparez les taux fixes/variables, l’assurance emprunteur et les pénalités de remboursement anticipé.",
+      },
+      {
+        heading: "Fiscalité et traçabilité",
+        body:
+          "Déclarez les loyers, conservez les quittances et factures de charges/travaux. Un dossier propre facilite un futur refinancement ou une revente avec preuve de rendement.",
+      },
+      {
+        heading: "Tableau de bord investisseur",
+        body:
+          "Suivez loyers encaissés, vacance, charges, CAPEX, valeur de marché et TMI. Mettez à jour chaque trimestre pour ajuster prix, travaux ou stratégie (meublé/vide).",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel rendement viser à Dakar ?",
+        a: "Entre 6 et 9% brut pour des biens bien placés; le net dépend des charges et de la fiscalité. Les petites surfaces meublées peuvent viser plus avec une bonne gestion.",
+      },
+      {
+        q: "Comment intégrer la vacance dans le calcul ?",
+        a: "Prévoyez 1 à 2 mois de vacance par an selon le type de bien et le quartier, ou appliquez un taux (8–12%) dans votre modèle.",
+      },
+      {
+        q: "Le meublé est‑il toujours plus rentable ?",
+        a: "Il peut générer un loyer supérieur mais demande plus de gestion et de CAPEX mobilier. Comparez le rendement net après charges et temps de gestion.",
+      },
+    ],
+  },
+  {
+    slug: "immobilier-luxe-dakar-almadies-mamelles-fann",
+    title: "Immobilier de luxe à Dakar : Almadies, Mamelles, Fann et Corniche",
+    date: "2025-12-20",
+    author: "Miroir Foncier",
+    description:
+      "Segment prestige à Dakar : villas et appartements haut de gamme aux Almadies, Mamelles, Fann et sur la Corniche, prix, loyers et bonnes pratiques d’achat/gestion.",
+    tags: [
+      "immobilier de luxe Dakar",
+      "villa Almadies",
+      "appartement prestige Dakar",
+      "location luxe Dakar",
+      "agence immobilière premium",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Demande premium en 2025",
+        body:
+          "Diplomates, dirigeants, ONG et expatriés recherchent sécurité, vue mer, parkings et services. Les quartiers Corniche, Fann, Mamelles et Almadies concentrent cette demande.",
+      },
+      {
+        heading: "Quartiers et produits phares",
+        body:
+          "Villas avec piscine aux Almadies, penthouses vue océan aux Mamelles, appartements standing à Fann/Point E. Les résidences avec groupe électrogène, ascenseur, gardiennage 24/7 et fibre attirent le plus de clics.",
+      },
+      {
+        heading: "Prix de vente et loyers",
+        body:
+          "Villas premium >150–300 M FCFA, appartements standing 70–150 M FCFA selon surface et vue. Loyers: 1 à 4 M FCFA/mois pour les biens meublés avec services complets.",
+      },
+      {
+        heading: "Due diligence renforcée en zone littorale",
+        body:
+          "Vérifiez titre foncier, certificat de non‑hypothèque, servitudes littorales/DPM, permis de construire et conformité. Faites inspecter structure, piscine, étanchéité et groupes électrogènes.",
+      },
+      {
+        heading: "Marketing et location haut de gamme",
+        body:
+          "Photos et vidéos drone, visites privées, contrats clairs (meublé premium, services inclus), dépôt de garantie renforcé. Diffusez sur portails internationaux et via réseaux d’agences premium à Dakar.",
+      },
+      {
+        heading: "Stratégie d’investissement et revente",
+        body:
+          "Ciblez les micro‑emplacements proches des écoles internationales et axes Corniche/VDN. Préservez les factures d’entretien, renouvelez la déco tous les 3–5 ans et documentez les loyers pour une revente rapide.",
+      },
+    ],
+    faq: [
+      {
+        q: "Comment sécuriser un achat vue mer ?",
+        a: "Faites vérifier les servitudes et reculs, exigez les autorisations d’urbanisme et un rapport technique sur l’étanchéité et la structure en zone côtière.",
+      },
+      {
+        q: "Quel mobilier pour un meublé luxe ?",
+        a: "Mobilier design durable, literie haut de gamme, électroménager premium, climatisation silencieuse, onduleurs ou groupe et Wifi fibre garanti.",
+      },
+      {
+        q: "Les loyers sont‑ils payés en devise ?",
+        a: "Certains expatriés peuvent proposer un paiement indexé; sécurisez par un bail clair, un dépôt de garantie et une traçabilité bancaire.",
+      },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);

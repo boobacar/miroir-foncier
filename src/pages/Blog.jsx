@@ -18,7 +18,12 @@ export default function Blog() {
   const pageParam = parseInt(searchParams.get("page") || "1", 10);
   const pageSize = 6;
 
-  const totalPosts = blogPosts.length;
+  // tri décroissant pour afficher les articles les plus récents en premier
+  const sortedPosts = blogPosts
+    .slice()
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  const totalPosts = sortedPosts.length;
   const totalPages = Math.max(1, Math.ceil(totalPosts / pageSize));
   const currentPage =
     Number.isNaN(pageParam) || pageParam < 1
@@ -28,7 +33,7 @@ export default function Blog() {
       : pageParam;
 
   const startIndex = (currentPage - 1) * pageSize;
-  const currentPosts = blogPosts.slice(startIndex, startIndex + pageSize);
+  const currentPosts = sortedPosts.slice(startIndex, startIndex + pageSize);
 
   const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
 
