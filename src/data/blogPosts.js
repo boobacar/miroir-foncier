@@ -2081,6 +2081,321 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    slug: "fiscalite-immobiliere-senegal-droits-enregistrement-impots-2026",
+    title:
+      "Fiscalité immobilière au Sénégal : droits d’enregistrement, impôts et coûts à anticiper (2026)",
+    date: "2026-01-05",
+    author: "Miroir Foncier",
+    description:
+      "Panorama clair des principaux coûts et taxes liés à l’achat/vente et à la location au Sénégal : droits d’enregistrement, impôt foncier, plus‑value, frais notaire et bonnes pratiques de conformité.",
+    tags: [
+      "fiscalité immobilière Sénégal",
+      "droits d’enregistrement",
+      "impôt foncier Sénégal",
+      "plus-value immobilière",
+      "frais de notaire Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi intégrer la fiscalité dès le début",
+        body:
+          "Un bon investissement immobilier se mesure au coût complet : prix du bien + frais de mutation + taxes + charges + coûts de gestion. Anticiper ces postes évite les mauvaises surprises et améliore le rendement net.",
+      },
+      {
+        heading: "Achat : les coûts de mutation à prévoir",
+        body:
+          "À l’achat, prévoyez généralement :\n• Droits d’enregistrement et formalités administratives\n• Frais de notaire (rédaction, formalisation, publication)\n• Frais de bornage/plan si terrain\n• Attestations (cadastre, non-hypothèque) selon le dossier\nLes montants et bases varient selon le statut du bien (titre foncier, bail, etc.) et la nature de l’opération.",
+      },
+      {
+        heading: "Vente : plus-value et traçabilité",
+        body:
+          "En cas de revente, la question de la plus‑value (différence entre prix d’achat et prix de vente) se traite avec rigueur : factures, travaux, actes, preuves de paiement. Une traçabilité bancaire et documentaire renforce la sécurité en cas de contrôle ou de litige.",
+      },
+      {
+        heading: "Location : revenus locatifs et obligations",
+        body:
+          "Le loyer perçu peut entraîner des obligations déclaratives et fiscales. Structurer la location (bail écrit, quittances, dépôt de garantie, inventaire en meublé) aide à prouver vos revenus et vos charges, et facilite les démarches bancaires.",
+      },
+      {
+        heading: "Impôt foncier et taxes locales : à vérifier par zone",
+        body:
+          "Selon la commune et le type de bien, des taxes/charges locales peuvent s’appliquer. Demandez l’historique de paiement au vendeur (quitus/attestations) et vérifiez la situation avant signature.",
+      },
+      {
+        heading: "Bonnes pratiques pour rester conforme",
+        body:
+          "• Actes authentiques et documents à jour\n• Paiements traçables (virement, séquestre notaire)\n• Dossier complet (titres, plans, attestations)\n• Conseils notaire/gestionnaire selon votre situation\nObjectif : sécuriser l’opération et éviter les blocages au moment de la mutation ou de la revente.",
+      },
+    ],
+    faq: [
+      {
+        q: "Les taxes sont-elles les mêmes pour un terrain et un appartement ?",
+        a: "Non. La nature du bien, son statut juridique (titre foncier, bail, etc.) et la structure de l’opération influencent les frais et taxes applicables. Faites valider votre cas par un notaire avant engagement.",
+      },
+      {
+        q: "Comment réduire les risques en cas de contrôle ?",
+        a: "Conservez toutes les pièces : actes, quittances, attestations, factures de travaux et preuves de paiement bancaire. Un dossier complet facilite la conformité.",
+      },
+      {
+        q: "Dois-je prévoir ces coûts dans mon budget de financement ?",
+        a: "Oui. Intégrez les frais de mutation, la fiscalité et les charges dès la simulation, pour calculer un effort réel et un rendement net réaliste.",
+      },
+    ],
+  },
+  {
+    slug: "acheter-bien-a-distance-diaspora-senegal-procuration-securiser",
+    title:
+      "Acheter un bien au Sénégal depuis l’étranger (diaspora) : procuration, vérifications et sécurisation",
+    date: "2026-01-08",
+    author: "Miroir Foncier",
+    description:
+      "Guide pratique pour la diaspora : comment acheter un terrain, une maison ou un appartement au Sénégal à distance, sécuriser la procuration, vérifier les titres, maîtriser les paiements et éviter les arnaques.",
+    tags: [
+      "diaspora Sénégal immobilier",
+      "achat immobilier à distance",
+      "procuration notaire Sénégal",
+      "sécuriser achat terrain Sénégal",
+      "arnaque immobilière Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Le piège principal : acheter sans contrôle indépendant",
+        body:
+          "À distance, le risque vient surtout de l’asymétrie d’information (photos flatteuses, documents incomplets, pression pour payer vite). La règle d’or : aucune avance importante sans vérifications documentaires et visite/constat fiable.",
+      },
+      {
+        heading: "La procuration : comment la rendre utile et sûre",
+        body:
+          "Une procuration doit être précise : actes autorisés, plafonds de prix, modalités de paiement, durée, possibilité de substitution. Faites-la préparer/relire par un notaire et désignez un mandataire de confiance (ou un professionnel encadré) avec obligations de reporting.",
+      },
+      {
+        heading: "Vérifier le titre et l’historique du bien",
+        body:
+          "Avant tout : statut juridique (titre foncier, bail, délibération), identité du vendeur, chaîne de propriété, non‑hypothèque, situation au cadastre. Un contrôle auprès des administrations compétentes et via notaire réduit fortement le risque.",
+      },
+      {
+        heading: "Visite à distance : preuves et méthodes",
+        body:
+          "Exigez :\n• Vidéo de visite horodatée (intérieur/extérieur)\n• Localisation précise + points de repère\n• Confrontation plan/terrain (bornes)\n• Photos des documents originaux\nIdéalement : une visite avec un professionnel + compte rendu écrit.",
+      },
+      {
+        heading: "Paiements : séquestre, jalons et traçabilité",
+        body:
+          "Privilégiez un séquestre chez le notaire ou des virements bancaires liés à des jalons (promesse, signature, remise des documents). Évitez les transferts informels et exigez des reçus nominaux.",
+      },
+      {
+        heading: "Après l’achat : sécuriser la gestion",
+        body:
+          "Planifiez la gestion dès le départ : état des lieux, contrats d’entretien, assurance, gestion locative, suivi des taxes/charges. Une bonne gestion réduit la vacance et protège la valeur du bien.",
+      },
+    ],
+    faq: [
+      {
+        q: "Puis-je acheter sans venir au Sénégal ?",
+        a: "Oui, mais uniquement avec un cadre solide : procuration bien rédigée, contrôles notaire/administration, visite fiable et paiements traçables. Évitez les achats “sur photo”.",
+      },
+      {
+        q: "Quel est le signal d’alerte numéro 1 ?",
+        a: "La pression pour payer vite alors que le dossier n’est pas complet (titre, non‑hypothèque, identité du vendeur). Un bon vendeur accepte les vérifications.",
+      },
+      {
+        q: "Comment choisir un mandataire ?",
+        a: "Privilégiez un proche de confiance ou un professionnel encadré, avec un mandat limité, des preuves à fournir et une traçabilité de toutes les démarches et paiements.",
+      },
+    ],
+  },
+  {
+    slug: "copropriete-dakar-charges-syndic-reglement-achat-appartement",
+    title:
+      "Copropriété à Dakar : charges, syndic, règlement et points à vérifier avant d’acheter un appartement",
+    date: "2026-01-12",
+    author: "Miroir Foncier",
+    description:
+      "Avant d’acheter un appartement à Dakar (Point E, Almadies, Mermoz, Sacré‑Cœur…), vérifiez copropriété, charges, fonds de travaux, syndic, ascenseur, groupe électrogène, eau, sécurité et conformité des documents.",
+    tags: [
+      "copropriété Dakar",
+      "charges de copropriété",
+      "syndic Dakar",
+      "appartement à vendre Dakar",
+      "résidence avec ascenseur",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi la copropriété influence le prix",
+        body:
+          "Deux appartements identiques peuvent avoir des valeurs très différentes selon la qualité de la gestion : ascenseur entretenu, sécurité, propreté, eau/électricité, réserve financière, impayés. Les acheteurs payent la tranquillité.",
+      },
+      {
+        heading: "Comprendre les charges : ce qui est (souvent) inclus",
+        body:
+          "Selon la résidence : gardiennage, nettoyage, entretien ascenseur, groupe électrogène/carburant, eau des communs, maintenance des pompes, espaces verts, syndic. Demandez le détail et la fréquence d’appel.",
+      },
+      {
+        heading: "Documents à demander avant toute offre",
+        body:
+          "• Règlement de copropriété et état descriptif (si disponibles)\n• Derniers PV d’assemblées (travaux votés, litiges)\n• Situation des charges du lot (à jour ?)\n• Budget prévisionnel et impayés globaux\n• Contrats clés : ascenseur, groupe, sécurité\nCes éléments révèlent la santé réelle de la résidence.",
+      },
+      {
+        heading: "Travaux et fonds : anticiper les gros postes",
+        body:
+          "Ascenseur, étanchéité toiture, façade, colonnes d’eau, groupe électrogène, cuves, parking : ce sont les “gros tickets”. Un fonds de réserve et une planification évitent les appels exceptionnels élevés.",
+      },
+      {
+        heading: "Visite technique : check-list express",
+        body:
+          "• Pression d’eau et présence de cuve/pompe\n• Groupe électrogène : fréquence et bruit\n• Ascenseur : état, contrats, pannes\n• Ventilation/humidité, infiltrations\n• Sécurité : accès, caméras, gardien\n• Stationnement et accès pompiers\nUne visite en soirée révèle mieux le niveau sonore et les coupures.",
+      },
+      {
+        heading: "Location et rendement : impact direct des charges",
+        body:
+          "Pour calculer le rendement net, déduisez les charges récurrentes (copropriété, entretien, assurance, vacance). Une résidence bien gérée loue plus vite, mais peut coûter plus cher : comparez toujours net/net.",
+      },
+    ],
+    faq: [
+      {
+        q: "Une charge élevée est-elle forcément négative ?",
+        a: "Pas toujours. Si elle finance sécurité, ascenseur fiable, groupe, eau et maintenance, elle peut préserver la valeur et réduire la vacance. Le problème, ce sont les charges élevées sans services ni transparence.",
+      },
+      {
+        q: "Quels documents montrent une copropriété saine ?",
+        a: "Des PV clairs, un budget suivi, des impayés faibles, des contrats à jour (ascenseur, groupe) et une réserve pour les travaux. Demandez aussi l’historique des pannes et interventions.",
+      },
+      {
+        q: "Que vérifier si je vise la location meublée ?",
+        a: "Fiabilité eau/électricité, sécurité 24/7, fibre, parking et règles internes (bruit, usage Airbnb). Ce sont des critères décisifs pour des locataires premium.",
+      },
+    ],
+  },
+  {
+    slug: "permis-de-construire-senegal-etapes-architecte-urbanisme",
+    title:
+      "Permis de construire au Sénégal : étapes, dossier, urbanisme et erreurs fréquentes",
+    date: "2026-01-15",
+    author: "Miroir Foncier",
+    description:
+      "Construire au Sénégal (Dakar, Diamniadio, Thiès, Saly) : comprendre le permis de construire, les autorisations d’urbanisme, les pièces du dossier, le rôle de l’architecte et les bonnes pratiques pour éviter les blocages.",
+    tags: [
+      "permis de construire Sénégal",
+      "architecte Dakar",
+      "urbanisme Sénégal",
+      "construction maison Sénégal",
+      "plan de bornage",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Avant tout : statut du terrain et constructibilité",
+        body:
+          "Un projet solide commence par un terrain régulier : titre/actes, bornage, accès, servitudes. Ensuite, vérifiez la vocation de la zone (habitation, commerce, hauteur, reculs) auprès des services d’urbanisme.",
+      },
+      {
+        heading: "Le rôle de l’architecte (et pourquoi c’est rentable)",
+        body:
+          "Un architecte aide à concevoir un plan conforme, optimiser les surfaces, anticiper les contraintes techniques (ventilation, structure, eau) et constituer un dossier acceptable. C’est souvent la différence entre un dépôt rejeté et un permis obtenu.",
+      },
+      {
+        heading: "Pièces clés du dossier (selon les cas)",
+        body:
+          "• Justificatifs fonciers (titre/acte)\n• Plan de situation et plan de masse\n• Plans architecturaux (niveaux, façades, coupes)\n• Notice descriptive et surfaces\n• Études techniques si exigées (structure, réseaux)\nUn dossier propre et cohérent accélère l’instruction.",
+      },
+      {
+        heading: "Erreurs fréquentes qui bloquent les chantiers",
+        body:
+          "• Construire avant autorisation\n• Plans non conformes aux reculs/hauteur\n• Oublier les servitudes d’accès ou de réseaux\n• Modifier le projet en cours sans mise à jour\n• Absence de contrôle technique et devis cadrés\nRésultat : arrêt de chantier, surcoûts, contentieux.",
+      },
+      {
+        heading: "Budget : prévoir au-delà du “gros œuvre”",
+        body:
+          "Calculez un budget complet : études, permis, clôture, raccordements, fondations adaptées, finitions, imprévus. Au Sénégal, les coûts varient fortement selon le sol, l’accès et la qualité des matériaux.",
+      },
+      {
+        heading: "Bonnes pratiques de pilotage chantier",
+        body:
+          "Contrat clair avec l’entreprise, calendrier, jalons de paiement, contrôle qualité, photos de suivi, journal de chantier. Une supervision régulière limite les malfaçons et protège votre investissement.",
+      },
+    ],
+    faq: [
+      {
+        q: "Puis-je déposer un permis sans architecte ?",
+        a: "Selon la nature et l’emplacement du projet, les exigences varient. En pratique, un architecte augmente fortement les chances d’un dossier conforme et d’un chantier maîtrisé.",
+      },
+      {
+        q: "Que faire si mon terrain a une servitude de passage ?",
+        a: "Intégrez-la au plan (assiette, largeur, accès) et faites la mentionner clairement dans les documents. Elle peut réduire l’emprise constructible et doit être anticipée.",
+      },
+      {
+        q: "Pourquoi éviter de “commencer les fondations” avant autorisation ?",
+        a: "Parce qu’un arrêt de chantier peut coûter très cher (démolition, pénalités, litiges) et compliquer la régularisation. Mieux vaut sécuriser le cadre d’abord.",
+      },
+    ],
+  },
+  {
+    slug: "investir-diamniadio-immobilier-programmes-neufs-prix-infrastructures-2026",
+    title:
+      "Investir à Diamniadio : immobilier neuf, terrains, prix, infrastructures et potentiel locatif (2026)",
+    date: "2026-01-20",
+    author: "Miroir Foncier",
+    description:
+      "Diamniadio attire investisseurs et primo‑accédants : terrains, programmes neufs, zones d’activités, accès autoroute/train, et potentiel locatif. Méthode pour comparer emplacements, viabilisation et rentabilité.",
+    tags: [
+      "Diamniadio immobilier",
+      "terrain Diamniadio",
+      "programme neuf Sénégal",
+      "investissement immobilier Dakar",
+      "rentabilité locative Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi Diamniadio est stratégique",
+        body:
+          "Proximité de Dakar, accès autoroute, développement d’infrastructures et zones d’activités : Diamniadio combine potentiel de valorisation et offre foncière plus accessible que le centre de Dakar.",
+      },
+      {
+        heading: "Terrains : viabilisation, accès et statut",
+        body:
+          "Un “bon terrain” à Diamniadio se juge sur :\n• Statut (titre/bail) et possibilité de mutation\n• Accès routier réel et servitudes\n• Viabilisation (eau, électricité, assainissement)\n• Topographie et risques d’eau\nLa viabilisation influence autant le coût que le prix d’achat.",
+      },
+      {
+        heading: "Programmes neufs : comparer au-delà du prix",
+        body:
+          "Comparez : qualité des matériaux, gestion de résidence, parking, sécurité, eau/groupe, charges, garanties et calendrier de livraison. Un prix bas peut cacher des charges élevées ou une qualité faible.",
+      },
+      {
+        heading: "Demande locative : qui loue à Diamniadio ?",
+        body:
+          "Profils fréquents : salariés des zones d’activités, jeunes ménages, navetteurs, projets institutionnels. Les biens fonctionnels (2–3 pièces, parking, sécurité, eau stable) se louent mieux et se revendent plus vite.",
+      },
+      {
+        heading: "Méthode rapide pour estimer le rendement",
+        body:
+          "Rendement brut = (loyer annuel / prix total) × 100.\nRendement net = loyer annuel – (charges + taxes + vacance + gestion) / prix total.\nFaites 2 scénarios : optimiste (vacance faible) et prudent (vacance + travaux).",
+      },
+      {
+        heading: "Risques à éviter",
+        body:
+          "Promesses sans documents, accès non garanti, terrains non bornés, zones non viabilisées, projets sans calendrier crédible. À Diamniadio comme ailleurs : dossier d’abord, paiement ensuite.",
+      },
+    ],
+    faq: [
+      {
+        q: "Diamniadio est-il adapté à un achat pour louer ?",
+        a: "Oui, si vous ciblez un emplacement avec accès et services (eau/électricité) et un produit demandé (2–3 pièces, parking, sécurité). La viabilisation et la gestion font la différence sur le rendement net.",
+      },
+      {
+        q: "Terrains ou appartement neuf : que choisir ?",
+        a: "Le terrain offre un potentiel de valorisation mais nécessite un projet de construction et du suivi. L’appartement neuf peut générer des loyers plus vite, mais dépend de la qualité du promoteur et des charges de résidence.",
+      },
+      {
+        q: "Quel document vérifier en priorité ?",
+        a: "Le statut juridique du bien (titre/acte) et la capacité à muter proprement, puis l’accès réel, le bornage et la viabilisation. Sans ces éléments, le risque augmente.",
+      },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);
