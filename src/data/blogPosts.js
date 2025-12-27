@@ -2,6 +2,280 @@ export const SITE_URL = "https://www.miroirfoncier.com";
 
 export const blogPosts = [
   {
+    slug: "achat-immobilier-diaspora-senegal-distance-notaire",
+    title: "Acheter depuis la diaspora : sécuriser un achat immobilier au Sénégal",
+    date: "2025-12-05",
+    author: "Miroir Foncier",
+    description:
+      "Les bonnes pratiques pour acheter un bien au Sénégal depuis l’étranger : procuration, notaire, vérifications foncières, visites à distance et paiement sécurisé.",
+    tags: [
+      "diaspora sénégalaise",
+      "achat immobilier à distance",
+      "notaire Sénégal",
+      "agence immobilière Dakar",
+      "procuration notariale",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi un encadrement renforcé est indispensable",
+        body:
+          "À distance, les risques augmentent: faux mandataires, documents incomplets, paiements non sécurisés. S’appuyer sur un notaire, une agence immobilière fiable à Dakar et des preuves écrites (contrats, reçus, attestations) est la meilleure protection pour un achat depuis la diaspora.",
+      },
+      {
+        heading: "Check-list des vérifications juridiques à distance",
+        body:
+          "Titre foncier ou bail/délibération, certificat de non‑hypothèque, plan de bornage signé, quittus fiscal, contrôle de la chaîne de propriété, vérification DGID/cadastre. Exigez des copies certifiées et des confirmations officielles avant toute promesse de vente.",
+      },
+      {
+        heading: "Procuration et représentation",
+        body:
+          "Si vous ne pouvez pas être présent, faites établir une procuration authentique (notaire, consulat) en précisant les pouvoirs exacts: signer la promesse, l’acte, ouvrir un compte séquestre. Limitez la durée et identifiez clairement le mandataire.",
+      },
+      {
+        heading: "Visites et due diligence technique à distance",
+        body:
+          "Organisez des visites vidéo, photos datées et plans détaillés. Mandatez un expert local pour vérifier l’état du bien, la conformité au plan, les servitudes éventuelles et les accès. Pour un terrain, exigez un bornage contradictoire et confrontez le plan au terrain.",
+      },
+      {
+        heading: "Paiement sécurisé et change",
+        body:
+          "Utilisez des virements bancaires traçables et un séquestre chez le notaire. Évitez les espèces et transferts informels. Anticipez le change (EUR/FCFA) et les frais bancaires; exigez un calendrier clair: dépôt à la promesse, solde à l’acte authentique.",
+      },
+      {
+        heading: "Suivi d’une VEFA ou d’un chantier depuis l’étranger",
+        body:
+          "Exigez des comptes rendus réguliers, photos, PV de chantier, attestations de jalons avant chaque appel de fonds. Précisez dans le contrat les pénalités de retard et les modalités de levée des réserves à la livraison.",
+      },
+    ],
+    faq: [
+      {
+        q: "Puis‑je signer un acte authentique sans me déplacer ?",
+        a: "Oui via une procuration authentique délivrée chez un notaire ou au consulat. Le notaire au Sénégal doit valider la procuration et encadrer la signature.",
+      },
+      {
+        q: "Comment éviter les faux mandataires ou doublons de vente ?",
+        a: "Ne payez jamais sans vérification notariale du titre et de la capacité du vendeur. Exigez les confirmations DGID/cadastre et centralisez tous les paiements sur un compte séquestre.",
+      },
+      {
+        q: "Quelle agence immobilière choisir à Dakar ?",
+        a: "Privilégiez une agence qui fournit un mandat écrit, des comptes rendus, des visites vidéo, et qui travaille en lien avec un notaire. Vérifiez ses références locales et sa présence juridique.",
+      },
+    ],
+  },
+  {
+    slug: "location-etudiante-dakar-campus-loyers-rentabilite",
+    title: "Location étudiante à Dakar : quartiers, loyers et rentabilité 2025",
+    date: "2025-12-04",
+    author: "Miroir Foncier",
+    description:
+      "Où investir pour loger des étudiants à Dakar ? Quartiers proches de l’UCAD et des écoles, loyers moyens, équipements indispensables et gestion.",
+    tags: [
+      "location étudiante Dakar",
+      "rendement locatif",
+      "UCAD",
+      "studio meublé Dakar",
+      "investissement locatif Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Demande et saisonnalité",
+        body:
+          "Les rentrées universitaires et les concours génèrent une forte demande de studios et T1/T2 meublés. Prévoir un pic en début d’année scolaire et une vacance plus courte pour les biens proches des campus et transports.",
+      },
+      {
+        heading: "Quartiers clés autour des campus",
+        body:
+          "Point E, Fann, Mermoz, Ouakam, Liberté, Sacré‑Cœur et SICAP offrent un accès rapide à l’UCAD et aux écoles privées. Proximité bus, TER, commerces et sécurité sont décisives.",
+      },
+      {
+        heading: "Typologies et équipements attendus",
+        body:
+          "Studios et T2 meublés avec bonne ventilation, internet/fibre, coin bureau, climatisation, eau chaude et sécurité minimale. Un inventaire précis limite les litiges.",
+      },
+      {
+        heading: "Loyers et rentabilité",
+        body:
+          "Les petites surfaces meublées bien placées peuvent offrir 8–12% brut si les charges sont maîtrisées. Intégrez l’entretien du mobilier, la vacance estivale et les frais de gestion éventuels.",
+      },
+      {
+        heading: "Baux et garanties",
+        body:
+          "Privilégiez un bail écrit avec caution parentale, dépôt de garantie encadré, état des lieux détaillé et règles de colocation le cas échéant. Prévoir des clauses claires sur l’entretien du mobilier.",
+      },
+      {
+        heading: "Réduire les risques",
+        body:
+          "Sélection rigoureuse des dossiers, visites régulières, assurance PNO, suivi des paiements, et communication unique (email/WhatsApp). Un logement propre et fonctionnel réduit la vacance et les dégradations.",
+      },
+    ],
+    faq: [
+      { q: "Faut‑il meubler ?", a: "Oui pour maximiser la demande et le loyer étudiant, en veillant à la qualité et à la durabilité du mobilier." },
+      { q: "Quelle durée de bail ?", a: "Un an renouvelable ou calé sur l’année universitaire, avec clauses claires de préavis." },
+      { q: "La colocation est‑elle intéressante ?", a: "Oui si le règlement de copropriété l’autorise. Elle augmente souvent le loyer total mais impose des règles de vie et un bail adapté." },
+    ],
+  },
+  {
+    slug: "bail-commercial-senegal-rediger-loyer-charges",
+    title: "Bail commercial au Sénégal : rédiger un contrat solide pour un local ou un bureau",
+    date: "2025-12-03",
+    author: "Miroir Foncier",
+    description:
+      "Tout savoir pour sécuriser un bail commercial à Dakar : clauses essentielles, loyer, charges, dépôt, pas‑de‑porte et obligations du bailleur et du preneur.",
+    tags: [
+      "bail commercial Sénégal",
+      "local commercial Dakar",
+      "pas-de-porte",
+      "loyer et charges",
+      "notaire Sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Bail commercial vs bail civil",
+        body:
+          "Le bail commercial encadre l’exploitation d’une activité (boutique, bureau, restaurant). Les règles diffèrent d’un bail d’habitation: durée, renouvellement, cession, pas‑de‑porte et répartition des charges doivent être précisés.",
+      },
+      {
+        heading: "Clauses indispensables",
+        body:
+          "Objet du bail (activité autorisée), destination du local, durée, dépôt de garantie, loyer, pas‑de‑porte éventuel, charges, taxes, droit de cession/sous‑location, assurance et règles d’entretien. Un écrit précis évite les litiges.",
+      },
+      {
+        heading: "Loyer, pas‑de‑porte et charges",
+        body:
+          "Fixez un loyer en phase avec le marché du quartier (Plateau, Almadies, Mermoz, centres commerciaux). Clarifiez le pas‑de‑porte (si applicable) et la répartition des charges (entretien, sécurité, taxes, syndic).",
+      },
+      {
+        heading: "Garanties financières",
+        body:
+          "Dépôt de garantie, caution bancaire ou personnelle, assurance multirisque professionnelle. Prévoyez les modalités d’indexation du loyer et les pénalités en cas d’impayés répétés.",
+      },
+      {
+        heading: "Travaux, mises aux normes et responsabilités",
+        body:
+          "Qui finance quoi ? Le bail doit préciser les travaux d’adaptation, la mise aux normes (sécurité incendie, électricité, extraction pour restauration) et la remise en état à la sortie.",
+      },
+      {
+        heading: "Renouvellement, résiliation et sortie",
+        body:
+          "Anticipez les conditions de renouvellement, le préavis, les motifs de résiliation et l’état des lieux de sortie. Formalisez chaque étape par écrit pour préserver vos droits.",
+      },
+    ],
+    faq: [
+      { q: "Le bail commercial doit‑il être notarié ?", a: "La forme notariée sécurise la date certaine et la force probante. À privilégier pour les dossiers importants." },
+      { q: "Comment fixer le loyer ?", a: "Analysez les loyers de locaux comparables dans le micro‑quartier et ajustez selon la surface, l’état et la visibilité. Prévoyez une clause d’indexation." },
+      { q: "Peut‑on limiter l’activité autorisée ?", a: "Oui, la destination du local doit être précisée. Toute modification doit être encadrée par un avenant ou une autorisation écrite." },
+    ],
+  },
+  {
+    slug: "renover-appartement-dakar-budget-autorisations-artisans",
+    title: "Rénover un appartement à Dakar : budget, autorisations et artisans",
+    date: "2025-12-02",
+    author: "Miroir Foncier",
+    description:
+      "Étapes clés pour rénover à Dakar : diagnostic, autorisations de copropriété, devis, choix des artisans et réception du chantier.",
+    tags: [
+      "rénovation Dakar",
+      "travaux appartement",
+      "autorisation copropriété",
+      "budget travaux",
+      "artisans Dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Diagnostiquer avant de signer",
+        body:
+          "Évaluez l’état structurel (toiture, dalles), l’électricité, la plomberie, la ventilation et l’humidité. Un diagnostic préalable évite les surprises de budget.",
+      },
+      {
+        heading: "Autorisations et copropriété",
+        body:
+          "Avant tout chantier, vérifiez le règlement de copropriété et obtenez les autorisations nécessaires (travaux impactant parties communes, façades, structures). Pour les modifications lourdes, consultez un architecte ou un ingénieur.",
+      },
+      {
+        heading: "Construire un budget réaliste",
+        body:
+          "Comparez plusieurs devis détaillés (matériaux, main‑d’œuvre, délais). Intégrez une marge de 10–15% pour imprévus, ainsi que les frais de contrôle, d’évacuation des gravats et d’éventuelle relogement temporaire.",
+      },
+      {
+        heading: "Piloter le chantier",
+        body:
+          "Planifiez les phases (démolition, gros œuvre, second œuvre, finitions), contrôlez la sécurité et la protection des parties communes. Utilisez un planning partagé et des points d’étape documentés.",
+      },
+      {
+        heading: "Matériaux et confort",
+        body:
+          "Privilégiez des matériaux résistants à l’humidité et à la chaleur, une bonne ventilation, des climatiseurs efficaces, une isolation phonique minimale et des équipements économes en énergie.",
+      },
+      {
+        heading: "Réception et garanties",
+        body:
+          "Réalisez une réception écrite avec réserves si nécessaire. Conservez factures, plans et garanties fabricants. Prévoyez un suivi post‑chantier pour lever rapidement les réserves.",
+      },
+    ],
+    faq: [
+      { q: "Faut‑il un permis pour rénover ?", a: "Les travaux intérieurs simples n’en nécessitent pas toujours, mais toute modification de structure ou de façade doit être autorisée par la copropriété et l’urbanisme." },
+      { q: "Comment choisir un artisan à Dakar ?", a: "Vérifiez références, assurances, devis détaillé, planning et modes de paiement. Préférez des acomptes progressifs liés à l’avancement." },
+      { q: "Quel retour sur investissement espérer ?", a: "Un rafraîchissement bien ciblé améliore la valeur et le loyer. Calculez le rendement net après travaux et charges pour valider l’opération." },
+    ],
+  },
+  {
+    slug: "investir-terrain-agricole-senegal-foncier-rural",
+    title: "Investir dans un terrain agricole au Sénégal : cadre légal et valorisation",
+    date: "2025-12-01",
+    author: "Miroir Foncier",
+    description:
+      "Comprendre le domaine national, les autorisations et les modèles d’exploitation pour investir sereinement dans un terrain agricole au Sénégal.",
+    tags: [
+      "terrain agricole Sénégal",
+      "domaine national",
+      "exploitation agricole",
+      "fermage",
+      "irrigation",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Statut foncier et domaine national",
+        body:
+          "La plupart des terres agricoles relèvent du domaine national. L’accès se fait via des droits d’usage ou des affectations. Clarifiez le statut avant tout engagement et faites encadrer l’opération par un notaire ou un juriste.",
+      },
+      {
+        heading: "Due diligence et autorisations",
+        body:
+          "Vérifiez les délimitations réelles, la vocation agricole, les servitudes, l’accès à l’eau et aux pistes. Exigez les documents administratifs et toute délibération existante. Anticipez les démarches auprès des autorités locales.",
+      },
+      {
+        heading: "Modèles d’exploitation",
+        body:
+          "Exploitation directe, fermage/affermage, partenariat avec des coopératives ou groupements. Définissez les investissements (irrigation, clôture, stockage) et les responsabilités contractuelles dès le départ.",
+      },
+      {
+        heading: "Infrastructures et budget",
+        body:
+          "Évaluez l’accès à l’eau (forage, réseaux), à l’électricité, aux pistes et aux marchés. Intégrez les coûts d’aménagement initial (clôture, nivellement, irrigation) et de maintenance.",
+      },
+      {
+        heading: "Risques et bonnes pratiques",
+        body:
+          "Litiges coutumiers, pénurie d’eau, aléas climatiques et absence de titres définitifs sont les principaux risques. Documentez chaque étape, contractualisez et sécurisez les paiements. Prévoyez une assurance adaptée si disponible.",
+      },
+      {
+        heading: "Pistes de valorisation",
+        body:
+          "Cultures à forte valeur ajoutée, agroforesterie, stockage et transformation légère, location saisonnière des terres, diversification vers l’agrotourisme lorsque le cadre le permet.",
+      },
+    ],
+    faq: [
+      { q: "Peut‑on obtenir un titre foncier sur un terrain agricole ?", a: "Les procédures existent mais dépendent du statut initial et des décisions administratives. Rapprochez‑vous d’un notaire pour étudier la régularisation." },
+      { q: "Quels documents exiger ?", a: "Délibération ou affectation, plan de situation, preuves d’usage, attestations des autorités locales et tout document d’identification des limites du terrain." },
+      { q: "Comment limiter les conflits ?", a: "Associez les autorités locales, formalisez les accords, organisez un bornage contradictoire et documentez les paiements et décisions par écrit." },
+    ],
+  },
+  {
     slug: "acheter-terrain-senegal-guide-complet",
     title: "Acheter un terrain au Sénégal : le guide complet",
     date: "2025-05-01",
