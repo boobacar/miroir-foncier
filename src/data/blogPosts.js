@@ -2,6 +2,322 @@ export const SITE_URL = "https://www.miroirfoncier.com";
 
 export const blogPosts = [
   {
+    slug: "assurance-habitation-senegal-obligatoire-cout",
+    title:
+      "Assurance Habitation au Sénégal : Est-ce obligatoire et combien ça coûte ?",
+    date: "2025-10-15",
+    author: "Miroir Foncier",
+    description:
+      "Tout savoir sur l'assurance habitation au Sénégal : est-elle obligatoire pour les locataires et propriétaires ? Garanties essentielles et coût moyen.",
+    tags: [
+      "assurance habitation sénégal",
+      "multirisque habitation",
+      "protection juridique",
+      "assurance incendie",
+      "locataire dakar",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Est-ce obligatoire ?",
+        body: "Au Sénégal, l'assurance habitation n'est pas légalement obligatoire pour tous, mais elle est fortement recommandée. Pour les locataires, elle est souvent exigée par le bailleur dans le contrat de bail pour couvrir les risques locatifs. Pour les propriétaires, elle protège votre patrimoine contre les sinistres majeurs.",
+      },
+      {
+        heading: "Les garanties essentielles",
+        body: "Une bonne multirisque habitation (MRH) doit couvrir : l'incendie et l'explosion, les dégâts des eaux, le vol et le vandalisme, le bris de glace, et la responsabilité civile (dommages causés aux tiers).",
+      },
+      {
+        heading: "Combien ça coûte ?",
+        body: "Le prix varie selon la valeur du bien et des biens mobiliers, la zone géographique et les garanties choisies. Pour un appartement standard à Dakar, comptez entre 50 000 et 150 000 FCFA par an. C'est un investissement minime comparé aux coûts potentiels d'un sinistre.",
+      },
+      {
+        heading: "Comment choisir son assureur ?",
+        body: "Comparez les offres des grandes compagnies (AXA, Allianz, NSIA, etc.). Vérifiez les exclusions de garantie, les franchises (ce qui reste à votre charge) et les délais d'indemnisation. N'hésitez pas à demander plusieurs devis.",
+      },
+      {
+        heading: "En cas de sinistre",
+        body: "Prévenez votre assureur dans les délais (généralement 5 jours, 2 jours pour le vol). Prenez des photos, conservez les factures de vos biens et ne jetez rien avant le passage de l'expert.",
+      },
+    ],
+    faq: [
+      {
+        q: "L'assurance est-elle obligatoire pour un prêt immobilier ?",
+        a: "Oui, la banque exigera systématiquement une assurance décès-invalidité et souvent une assurance incendie pour le bien financé.",
+      },
+      {
+        q: "Couvre-t-elle les inondations ?",
+        a: "C'est souvent une garantie optionnelle ou exclue dans certaines zones inondables. Vérifiez bien votre contrat sur ce point précis.",
+      },
+      {
+        q: "L'expert est-il obligatoire ?",
+        a: "Pour les petits dommages, l'assureur peut se baser sur devis. Pour les gros sinistres, un expert sera mandaté pour évaluer le préjudice.",
+      },
+    ],
+  },
+  {
+    slug: "gestion-locative-dakar-avantages-frais",
+    title:
+      "Confier son bien à une agence de gestion à Dakar : Avantages et frais",
+    date: "2025-10-10",
+    author: "Miroir Foncier",
+    description:
+      "Gérer seul ou passer par une agence ? Découvrez les avantages de la gestion locative professionnelle à Dakar et les frais habituels.",
+    tags: [
+      "gestion locative dakar",
+      "agence immobilière",
+      "frais de gestion",
+      "investisseur sénégal",
+      "rentabilité locative",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Pourquoi confier la gestion ?",
+        body: "La gestion locative demande du temps et des compétences juridiques. Une agence s'occupe de tout : recherche de locataire, rédaction du bail, état des lieux, encaissement des loyers, gestion des impayés et suivi des travaux. C'est la tranquillité d'esprit pour l'investisseur, surtout s'il réside à l'étranger.",
+      },
+      {
+        heading: "Les services inclus",
+        body: "Une bonne gestion inclut : la publicité du bien, la sélection rigoureuse des dossiers (solvabilité), l'émission des quittances, la révision annuelle du loyer, la régularisation des charges, l'assistance fiscale (déclaration) et la gestion des contentieux.",
+      },
+      {
+        heading: "Combien ça coûte ?",
+        body: "Les frais de gestion à Dakar tournent généralement entre 5% et 10% HT des sommes encaissées. Ces frais sont souvent déductibles de vos revenus fonciers. Attention aux frais annexes (frais de dossier location, frais de travaux) qui doivent être clairs au mandat.",
+      },
+      {
+        heading: "Gérer seul : les risques",
+        body: "Gérer en direct permet d'économiser les frais, mais expose à des risques : vacance locative plus longue par manque de disponibilité, erreurs dans le bail, difficulté à recouvrir les impayés, et gestion chronophage des petits soucis du quotidien.",
+      },
+      {
+        heading: "Choisir le bon partenaire",
+        body: "Privilégiez une agence reconnue, avec une équipe dédiée à la gestion (pas seulement à la vente). Demandez à voir un exemple de compte rendu de gestion et vérifiez leurs procédures en cas d'impayé.",
+      },
+    ],
+    faq: [
+      {
+        q: "Peut-on changer d'agence en cours de bail ?",
+        a: "Oui, en respectant le préavis prévu au mandat de gestion (souvent 3 mois). Le transfert du dossier et du dépôt de garantie doit être organisé entre les agences.",
+      },
+      {
+        q: "L'assurance loyers impayés est-elle incluse ?",
+        a: "Rarement incluse de base. C'est souvent une option payante supplémentaire (environ 2-3% du loyer).",
+      },
+      {
+        q: "Et si le locataire ne paie pas ?",
+        a: "L'agence doit relancer, mettre en demeure et lancer la procédure judiciaire. Son expérience est cruciale pour l'efficacité du recouvrement.",
+      },
+    ],
+  },
+  {
+    slug: "construction-ecologique-senegal-btc-materiaux-locaux",
+    title:
+      "Construction écologique au Sénégal : Briques de terre (BTC) et matériaux locaux",
+    date: "2025-10-05",
+    author: "Miroir Foncier",
+    description:
+      "Construire durable au Sénégal : focus sur les Briques de Terre Compressée (BTC) et les matériaux géosourcés pour une maison fraîche et économique.",
+    tags: [
+      "construction écologique",
+      "BTC sénégal",
+      "architecture bioclimatique",
+      "matériaux locaux",
+      "efficacité énergétique",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Le retour de la terre",
+        body: "Longtemps délaissée pour le ciment, la terre crue revient en force via la BTC (Brique de Terre Compressée). Esthétique, locale et durable, elle offre une alternative crédible au parpaing classique.",
+      },
+      {
+        heading: "Avantages thermiques",
+        body: "Le gros atout de la BTC et des matériaux locaux (typha, pierre) est l'inertie thermique. Ils régulent naturellement la température et l'humidité, gardant la maison fraîche le jour et restituant la chaleur la nuit. Cela réduit drastiquement le besoin de climatisation.",
+      },
+      {
+        heading: "Coût et mise en œuvre",
+        body: "Le coût des matériaux est souvent inférieur, mais la main-d'œuvre doit être qualifiée. Au final, le gros œuvre peut être équivalent ou légèrement moins cher, mais les économies d'énergie sur le long terme sont massives (jusqu'à 30-40% de moins sur la facture d'électricité).",
+      },
+      {
+        heading: "Esthétique et modernité",
+        body: "Fini l'image de la 'case'. L'architecture bioclimatique moderne utilise la terre pour des designs contemporains, chaleureux et texturés. La BTC permet des murs porteurs apparents qui ne nécessitent ni enduit ni peinture.",
+      },
+      {
+        heading: "Autres matériaux écologiques",
+        body: "Pensez aussi au typha (isolant thermique et phonique issu d'une plante envahissante), au bambou pour les structures légères ou l'ombrage, et à la pierre locale. L'orientation et la ventilation naturelle sont aussi clés.",
+      },
+    ],
+    faq: [
+      {
+        q: "La BTC résiste-t-elle à la pluie ?",
+        a: "Oui, si elle est bien stabilisée (avec un peu de ciment/chaux) et si le bâtiment a de bons débords de toiture pour protéger les façades.",
+      },
+      {
+        q: "Peut-on construire un étage en BTC ?",
+        a: "Tout à fait. La BTC est un matériau porteur qui permet de monter plusieurs étages sans problème technique majeur, avec les bons dimensionnements.",
+      },
+      {
+        q: "Où trouver des artisans qualifiés ?",
+        a: "Il existe de plus en plus d'entreprises spécialisées en éco-construction au Sénégal. Demandez à voir leurs réalisations précédentes.",
+      },
+    ],
+  },
+  {
+    slug: "bureaux-dakar-plateau-vs-diamniadio",
+    title: "Acheter ou louer des bureaux à Dakar : Plateau vs Diamniadio",
+    date: "2025-09-28",
+    author: "Miroir Foncier",
+    description:
+      "Où installer vos bureaux ? Comparatif entre le Plateau historique et la ville nouvelle de Diamniadio : prix, accessibilité et prestige.",
+    tags: [
+      "bureaux dakar",
+      "immobilier entreprise",
+      "plateau vs diamniadio",
+      "location bureau sénégal",
+      "centre d'affaires",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Dakar-Plateau : Le prestige historique",
+        body: "Le Plateau reste le cœur administratif et financier. C'est l'adresse de prestige par excellence, proche des ministères, banques et grandes institutions. Idéal si votre activité nécessite une proximité immédiate avec les décideurs.",
+      },
+      {
+        heading: "Diamniadio : L'avenir connecté",
+        body: "Diamniadio offre des locaux modernes, spacieux et aux normes internationales, à des prix plus attractifs. Avec le TER, l'autoroute et l'aéroport AIBD à proximité, c'est le hub logistique et technologique de demain. Idéal pour les sièges régionaux et les entreprises tech/industrielles.",
+      },
+      {
+        heading: "Comparatif des loyers",
+        body: "Le Plateau est très cher et saturé (parking difficile, immeubles parfois vétustes). Diamniadio propose des loyers plus compétitifs pour des immeubles neufs (smart buildings), avec parking et services intégrés.",
+      },
+      {
+        heading: "Accessibilité et cadre de travail",
+        body: "Le Plateau souffre des embouteillages monstres. Diamniadio est fluide, aéré, mais encore en développement sur les services de proximité (restaurants, vie après le travail). Le TER a cependant changé la donne en reliant les deux pôles en 45 min.",
+      },
+      {
+        heading: "Verdict ?",
+        body: "Choisissez le Plateau pour le networking institutionnel et le prestige. Choisissez Diamniadio pour la modernité, l'espace, l'accessibilité internationale et le rapport qualité/prix.",
+      },
+    ],
+    faq: [
+      {
+        q: "Y a-t-il des zones franches ?",
+        a: "Oui, Diamniadio abrite une Zone Économique Spéciale (ZES) offrant des avantages fiscaux et douaniers importants pour les entreprises éligibles.",
+      },
+      {
+        q: "L'offre de bureaux est-elle suffisante au Plateau ?",
+        a: "L'offre de qualité (Grade A) est rare au Plateau. Beaucoup d'entreprises rénovent de l'ancien ou cherchent ailleurs.",
+      },
+      {
+        q: "Peut-on vivre à Diamniadio ?",
+        a: "L'offre résidentielle se développe rapidement (Cité ministérielle, promotions privées) pour permettre de vivre et travailler sur place.",
+      },
+    ],
+  },
+  {
+    slug: "diamniadio-lac-rose-avenir-immobilier",
+    title: "Diamniadio et Lac Rose : L'avenir de l'immobilier sénégalais ?",
+    date: "2025-09-20",
+    author: "Miroir Foncier",
+    description:
+      "Analyse du potentiel immobilier du pôle Diamniadio - Lac Rose : infrastructures, projets résidentiels et opportunités d'investissement.",
+    tags: [
+      "diamniadio",
+      "lac rose",
+      "investissement sénégal",
+      "ville nouvelle",
+      "projets immobiliers",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Une vision d'État",
+        body: "Diamniadio n'est pas juste une banlieue, c'est une ville nouvelle planifiée pour désengorger Dakar. Avec le Stade Abdoulaye Wade, le Dakar Arena, l'UAM et les sphères ministérielles, l'État a impulsé une dynamique irréversible.",
+      },
+      {
+        heading: "L'axe Lac Rose",
+        body: "La zone autour du Lac Rose se transforme. De destination touristique, elle devient résidentielle haut de gamme et écologique. Les projets de villas et d'hôtels s'y multiplient, profitant du cadre exceptionnel et de la proximité de la route des Niayes.",
+      },
+      {
+        heading: "Investir maintenant ?",
+        body: "Les prix ont déjà monté mais restent accessibles comparés à Dakar-Centre. C'est le moment pour l'investissement long terme. La demande locative va croître avec l'installation progressive des fonctionnaires, étudiants et salariés des zones industrielles.",
+      },
+      {
+        heading: "Infrastructures clés",
+        body: "Le TER est le game-changer. L'autoroute à péage relie la zone à Dakar et à l'aéroport. De nouvelles voiries connectent le Lac Rose. L'accès à l'eau et à l'électricité est dimensionné pour une ville moderne.",
+      },
+      {
+        heading: "Quel type de bien ?",
+        body: "À Diamniadio : appartements neufs dans des cités sécurisées pour la classe moyenne/supérieure. Au Lac Rose : terrains pour villas ou résidences secondaires/touristiques.",
+      },
+    ],
+    faq: [
+      {
+        q: "Est-ce risqué d'acheter un terrain nu ?",
+        a: "Oui, si le statut n'est pas clair (Titre Foncier obligatoire !). Beaucoup de TF globaux sont en cours de morcellement. Vérifiez les autorisations de lotir.",
+      },
+      {
+        q: "Y aura-t-il des écoles ?",
+        a: "Oui, des écoles d'excellence et l'Université Amadou Mahtar Mbow sont déjà là pour drainer une population jeune et active.",
+      },
+      {
+        q: "Le Lac Rose va-t-il disparaître ?",
+        a: "Des programmes de préservation sont en cours, mais l'urbanisation rapide est un défi environnemental à surveiller de près.",
+      },
+    ],
+  },
+  {
+    slug: "rnaques-immobilieres-senegal-pieges-a-eviter",
+    title:
+      "Arnaques immobilières au Sénégal : Les 5 pièges les plus courants à éviter",
+    date: "2025-09-15",
+    author: "Miroir Foncier",
+    description:
+      "Protégez votre argent ! Guide anti-arnaque pour repérer les faux propriétaires, les terrains litigieux et les fausses agences.",
+    tags: [
+      "arnaque immobilier",
+      "pièges achat terrain",
+      "sécurité transaction",
+      "faux propriétaire",
+      "vérification foncière",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "1. La vente de terrain d'autrui",
+        body: "Le classique : quelqu'un se fait passer pour le propriétaire avec de faux papiers ou une fausse procuration. Vérifiez toujours l'identité du vendeur (NIC) et sa correspondance avec le Titre Foncier à la conservation foncière.",
+      },
+      {
+        heading: "2. Le terrain vendu plusieurs fois",
+        body: "Un vendeur malhonnête vend le même lot à 3 personnes différentes. Le premier qui immatricule gagne souvent. La parade : bloquer la transaction chez notaire et vérifier au bureau des domaines qu'aucune transaction n'est en cours.",
+      },
+      {
+        heading: "3. Le 'Titre Foncier' qui n'en est pas un",
+        body: "On vous montre un bail, une délibération ou un papier villageois en disant 'C'est comme un TF'. Non. Seul le TF est définitif. Tout le reste comporte des risques de régularisation ou de précarité. Soyez conscient de ce que vous achetez.",
+      },
+      {
+        heading: "4. Les zones non aedificandi",
+        body: "Acheter un terrain où il est interdit de construire (routes prévues, zone aéroportuaire, littoral protégé). Demandez toujours un certificat d'urbanisme pour savoir ce qu'on peut construire.",
+      },
+      {
+        heading: "5. L'intermédiaire fantôme",
+        body: "Le courtier qui demande des 'frais de visite' exorbitants ou une avance sur 'frais de dossier' puis disparaît. Ne payez jamais rien sans voir le bien, rencontrer le propriétaire/mandataire officiel et avoir un reçu voire un contrat.",
+      },
+    ],
+    faq: [
+      {
+        q: "Comment vérifier un Titre Foncier ?",
+        a: "Avec le numéro du TF, demandez un État de Droits Réels (EDR) à la conservation foncière. C'est la carte d'identité du terrain à l'instant T.",
+      },
+      {
+        q: "Le notaire est-il obligatoire ?",
+        a: "Pour toute transaction immobilière (sauf bail simple), le notaire est quasi indispensable pour sécuriser l'argent et l'acte. C'est votre meilleure assurance.",
+      },
+      {
+        q: "Que faire si je suis victime ?",
+        a: "Portez plainte immédiatement (Gendarmerie, Police) avec toutes vos preuves. Consultez un avocat spécialisé. La rapidité est cruciale.",
+      },
+    ],
+  },
+  {
     slug: "achat-immobilier-diaspora-senegal-distance-notaire",
     title:
       "Acheter depuis la diaspora : sécuriser un achat immobilier au Sénégal",
