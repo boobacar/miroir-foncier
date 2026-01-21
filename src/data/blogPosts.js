@@ -3319,6 +3319,138 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    slug: "fiscalite-immobiliere-senegal-impots-taxe-fonciere",
+    title:
+      "Fiscalité Immobilière au Sénégal : Impôts sur le Loyer et Taxe Foncière (Guide 2025)",
+    date: "2025-06-10",
+    author: "Miroir Foncier",
+    description:
+      "Tout savoir sur la fiscalité immobilière au Sénégal : impôt sur le revenu foncier, nouvelle taxe foncière, TVA et contributions locales. Guide complet pour propriétaires.",
+    tags: [
+      "impôts sur le loyer au sénégal",
+      "impôt sur le revenu foncier",
+      "taxe foncière sénégal",
+      "impôt unifié",
+    ],
+    cover: "/fiscalite-senegal.png",
+    sections: [
+      {
+        heading: "Les impôts sur le revenu foncier (Loyer)",
+        body: "Si vous mettez un bien en location, vos revenus sont imposables. Le taux de la Contribution Foncière des Propriétés Bâties (CFPB) et de l'impôt sur le revenu foncier varie selon le statut (personne physique ou morale). Pour les particuliers, le prélèvement est souvent libératoire s'il est effectué à la source par un locataire professionnel.",
+      },
+      {
+        heading: "La Taxe Foncière (bâti et non bâti)",
+        body: "La taxe foncière est due chaque année par le propriétaire au 1er janvier. Elle finance les collectivités locales. Son montant dépend de la valeur locative du bien. Attention aux pénalités en cas de retard de paiement !",
+      },
+      {
+        heading: "L'Impôt Unifié (réforme)",
+        body: "Des réformes fiscalisent régulièrement le secteur pour simplifier les démarches (Impôt Synthétique Global pour les petits revenus fonciers). Renseignez-vous auprès de votre centre des impôts pour connaître le régime applicable à votre situation en 2025.",
+      },
+      {
+        heading: "Déductions possibles",
+        body: "Vous pouvez déduire certaines charges de vos revenus fonciers bruts (frais de gestion, primes d'assurance, grosses réparations) pour obtenir le revenu net imposable. Conservez tous vos justificatifs.",
+      },
+    ],
+    faq: [
+      {
+        q: "Qui paie la taxe d'ordures ménagères (TOM) ?",
+        a: "C'est une taxe récupérable sur le locataire. Le propriétaire la paie à l'État mais demande le remboursement au locataire dans les charges locatives.",
+      },
+      {
+        q: "Comment déclarer ses revenus locatifs ?",
+        a: "Ils doivent être déclarés annuellement via le formulaire spécifique de la DGID, avant le 30 avril de l'année suivante.",
+      },
+    ],
+  },
+  {
+    slug: "acheter-appartement-dakar-quartiers-prix",
+    title:
+      "Acheter un Appartement à Dakar : Les Quartiers à Cibler et les Prix 2025",
+    date: "2025-06-08",
+    author: "Miroir Foncier",
+    description:
+      "Où acheter un appartement à Dakar ? Analyse des prix par quartier, neuf vs ancien, et conseils pour réussir votre investissement immobilier.",
+    tags: [
+      "acheter un appartement à dakar",
+      "appartement à vendre dakar",
+      "immobilier dakar",
+      "investissement locatif",
+    ],
+    cover: "/appartement-dakar.png",
+    sections: [
+      {
+        heading: "Le marché du neuf (VEFA)",
+        body: "Le marché des appartements neufs est en plein boom, notamment à Mermoz, Sacré-Cœur, et aux Almadies. Acheter en VEFA (Vente en l'État Futur d'Achèvement) permet d'étaler les paiements mais demande de la vigilance sur le promoteur.",
+      },
+      {
+        heading: "Les quartiers qui montent",
+        body: "En dehors du Plateau et des Almadies (très chers), regardez du côté de la VDN, Ngor-Virage, et Mamelles. Pour des budgets plus serrés, la banlieue proche (Ouest Foire, Yoff) offre de bons rendements locatifs.",
+      },
+      {
+        heading: "Prix au m² moyens en 2025",
+        body: "Centre-ville : 1.5M - 2.5M FCFA/m². Zone Almadies/Ngor : 1M - 1.8M FCFA/m². Zone intermédiaire (Mermoz, SICAP) : 800k - 1.2M FCFA/m². Banlieue : 400k - 700k FCFA/m².",
+      },
+      {
+        heading: "Appartement vs Villa",
+        body: "L'appartement offre plus de sécurité et moins d'entretien qu'une villa. C'est le choix privilégié des expatriés et des jeunes cadres, assurant une demande locative constante.",
+      },
+    ],
+    faq: [
+      {
+        q: "Faut-il passer par une agence ?",
+        a: "Fortement recommandé pour vérifier les titres de propriété et éviter les litiges, fréquents dans la vente entre particuliers.",
+      },
+      {
+        q: "Peut-on acheter à crédit ?",
+        a: "Oui, les banques sénégalaises financent les résidents et la diaspora (souvent avec un apport de 15-20%).",
+      },
+    ],
+  },
+  {
+    slug: "bail-usage-habitation-senegal-droits-locataire",
+    title:
+      "Tout Savoir sur le Bail à Usage d'Habitation au Sénégal (Droits et Devoirs)",
+    date: "2025-06-05",
+    author: "Miroir Foncier",
+    description:
+      "Contrat de bail, caution, loyer impayé, expulsion : le guide complet du bail à usage d'habitation pour propriétaires et locataires au Sénégal.",
+    tags: [
+      "bail à usage d'habitation au sénégal",
+      "contrat de location",
+      "droits du locataire",
+      "loyer sénégal",
+    ],
+    cover: "/bail-habitation-senegal.png",
+    sections: [
+      {
+        heading: "Le contrat écrit",
+        body: "La loi exige un contrat écrit pour tout bail d'habitation. Il doit préciser le montant du loyer, la caution (max 2 mois), et les charges. Un état des lieux d'entrée est indispensable pour récupérer sa caution.",
+      },
+      {
+        heading: "La caution et l'avance",
+        body: "La loi limite la caution à 2 mois de loyer. L'avance sur loyer ne peut excéder 2 mois également. Méfiez-vous des propriétaires demandant 6 mois ou 1 an d'avance, c'est souvent illégal (sauf accord spécifique).",
+      },
+      {
+        heading: "Entretien et réparations",
+        body: "Le propriétaire doit le 'clos et le couvert' (toiture, murs). Le locataire doit l'entretien courant (joints, ampoules, vidange fosse si non collectif).",
+      },
+      {
+        heading: "Résiliation et expulsion",
+        body: "Le locataire peut partir à tout moment avec un préavis (souvent 1 à 3 mois). Le propriétaire ne peut récupérer son bien que pour des motifs précis (occupation personnelle, travaux lourds, impayés) et doit respecter une procédure stricte.",
+      },
+    ],
+    faq: [
+      {
+        q: "Comment réviser le loyer ?",
+        a: "La révision est encadrée par la loi (surface corrigée). Une hausse arbitraire est illégale. Tout litige peut être porté devant la commission de régulation des loyers.",
+      },
+      {
+        q: "Que faire en cas d'impayé ?",
+        a: "Le propriétaire doit servir une mise en demeure par huissier avant d'entamer une procédure d'expulsion au tribunal.",
+      },
+    ],
+  },
 ];
 
 export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug);
