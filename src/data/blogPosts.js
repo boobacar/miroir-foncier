@@ -1208,7 +1208,7 @@ export const blogPosts = [
   {
     slug: "frais-de-notaire-et-taxes-immobilieres-senegal",
     title:
-      "Frais de notaire et taxes immobilières au Sénégal : barèmes, calculs et astuces 2025",
+      "Frais de notaire Sénégal et taxes immobilières : barèmes, calculs et astuces 2025",
     date: "2025-06-01",
     author: "Miroir Foncier",
     description:
@@ -1217,6 +1217,7 @@ export const blogPosts = [
       "frais de notaire Sénégal",
       "droits d’enregistrement",
       "taxes immobilières",
+      "frais de notaire sénégal",
       "achat immobilier Sénégal",
     ],
     cover: "/og-banner.webp",
@@ -1337,12 +1338,18 @@ export const blogPosts = [
       "taux prêt immobilier",
       "apport achat",
       "banque Sénégal",
+      "apport personnel minimum crédit immobilier sénégal",
+      "documents nécessaires pour crédit immobilier sénégal",
     ],
     cover: "/og-banner.webp",
     sections: [
       {
         heading: "Préparer un dossier solide",
         body: "Regroupez pièces d’identité, justificatifs de revenus et d’épargne, relevés bancaires, situation professionnelle, engagements en cours, compromis/promesse de vente et devis éventuels. Plus votre dossier est structuré, plus la décision est rapide et favorable.",
+      },
+      {
+        heading: "Apport personnel minimum et documents pour crédit immobilier",
+        body: "L'apport personnel minimum est généralement de 10 à 20% du montant du bien. Les documents nécessaires incluent : bulletins de salaire (3 derniers mois), contrat de travail, relevés bancaires (6 derniers mois), pièce d'identité et compromis de vente.",
       },
       {
         heading: "Apport et capacité d’emprunt",
@@ -1877,16 +1884,16 @@ export const blogPosts = [
   {
     slug: "fiscalite-immobiliere-senegal-impots-fonciers-revenus-2025",
     title:
-      "Fiscalité immobilière au Sénégal en 2025 : impôt foncier, loyers et déclarations",
+      "Fiscalité immobilière au Sénégal : Impôts sur le loyer, Taxe Foncière et Revenus 2025",
     date: "2025-11-18",
     author: "Miroir Foncier",
     description:
       "Comprendre les grands principes de la fiscalité immobilière au Sénégal : impôt foncier, imposition des loyers et bonnes pratiques déclaratives pour les propriétaires.",
     tags: [
       "fiscalité immobilière Sénégal",
-      "impôt foncier",
-      "revenus locatifs",
-      "déclaration impôts",
+      "impôt foncier sénégal",
+      "impot sur le revenu foncier sénégal",
+      "impôts sur le loyer au sénégal",
       "propriétaire bailleur",
     ],
     cover: "/og-banner.webp",
@@ -3448,6 +3455,58 @@ export const blogPosts = [
       {
         q: "Que faire en cas d'impayé ?",
         a: "Le propriétaire doit servir une mise en demeure par huissier avant d'entamer une procédure d'expulsion au tribunal.",
+      },
+    ],
+  },
+  {
+    slug: "acheter-maison-senegal-etapes-cles-pieges",
+    title: "Acheter une maison au Sénégal : Procédure, Pièges et Conseils clés",
+    date: "2026-01-28",
+    author: "Miroir Foncier",
+    description:
+      "Guide complet pour acheter une maison au Sénégal : vérifications techniques (toiture, fondations), titre foncier et procédure d'achat pour éviter les arnaques.",
+    tags: [
+      "acheter une maison au senegal",
+      "procedure vente maison",
+      "acheter villa dakar",
+      "investissement maison sénégal",
+      "achat immobilier sécurité",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "1. Définir votre besoin : Villa, Maison ou Immeuble ?",
+        body: "Avant de visiter, clarifiez votre projet : résidence principale, secondaire ou locative ? Une villa demande plus d'entretien (jardin, sécurité, groupe électrogène) qu'un appartement. Ciblez les quartiers adaptés à votre style de vie (Almadies pour le standing, Saly pour la détente, Diamniadio pour l'avenir).",
+      },
+      {
+        heading: "2. Les vérifications techniques spécifiques aux maisons",
+        body: "Contrairement à un appartement où le syndic gère le clos et couvert, ici vous êtes seul responsable. Vérifiez impérativement : l'étanchéité de la toiture (traces d'humidité), les fondations (fissures structurelles), l'installation électrique (mise à la terre, protection) et l'assainissement (fosse septique ou tout-à-l'égout).",
+      },
+      {
+        heading: "3. Titre Foncier et situation juridique",
+        body: "N'achetez jamais sans avoir vu le Titre Foncier original. Vérifiez à la conservation foncière que le vendeur est bien le propriétaire actuel et qu'il n'y a pas d'hypothèque ou de litige (prénotation). Pour les terrains villageois, la prudence est de mise : une délibération n'est pas un titre définitif.",
+      },
+      {
+        heading: "4. La procédure d'achat et le Notaire",
+        body: "La vente doit passer par un notaire. Étapes : (1) Offre d'achat, (2) Promesse de vente avec conditions suspensives (crédit, vérifications) et versement de l'acompte au séquestre, (3) Vérifications notariales (urbanisme, cadastre), (4) Acte authentique de vente et paiement du solde.",
+      },
+      {
+        heading: "5. Frais annexes à prévoir",
+        body: "En plus du prix, comptez environ 7-8% de frais de notaire (droits d'enregistrement, conservation, émoluments). Prévoyez aussi un budget pour les éventuels travaux de rafraîchissement ou de mise aux normes sécuritaires.",
+      },
+    ],
+    faq: [
+      {
+        q: "Peut-on acheter une maison sans titre foncier ?",
+        a: "C'est risqué. Un bail ou une délibération offre moins de sécurité. Si vous le faites, assurez-vous que la procédure de régularisation est possible et avancée.",
+      },
+      {
+        q: "Quel est le délai pour obtenir les clés ?",
+        a: "Généralement 2 à 3 mois entre la promesse et l'acte définitif, le temps pour le notaire de purger les droits de préemption et vérifier le dossier.",
+      },
+      {
+        q: "Faut-il payer l'agent immobilier ?",
+        a: "Oui, si vous passez par une agence, la commission est souvent de 5% du prix de vente, à la charge de l'acquéreur ou partagée selon le mandat.",
       },
     ],
   },
