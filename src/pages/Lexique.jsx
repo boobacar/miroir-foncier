@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { ArrowUp } from "lucide-react";
 
 const lexique = {
   A: [
@@ -331,8 +332,12 @@ function Lexique() {
   const scrollToLetter = (letter) => {
     const section = document.getElementById(`letter-${letter}`);
     if (section) {
-      const dynamicOffset = headerOffset + (navInnerRef.current?.offsetHeight || 0);
-      const y = section.getBoundingClientRect().top + window.pageYOffset - dynamicOffset;
+      const dynamicOffset =
+        headerOffset + (navInnerRef.current?.offsetHeight || 0) + 20;
+      const y =
+        section.getBoundingClientRect().top +
+        window.pageYOffset -
+        dynamicOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
@@ -351,7 +356,7 @@ function Lexique() {
       let current = alphabet[0];
       const scrollY = window.scrollY || window.pageYOffset;
       for (const sec of sections) {
-        if (sec.offsetTop - headerOffset <= scrollY) {
+        if (sec.offsetTop - (headerOffset + 100) <= scrollY) {
           current = sec.id.replace("letter-", "");
         } else {
           break;
@@ -399,35 +404,47 @@ function Lexique() {
   }, []);
 
   return (
-    <div className="bg-[#f2e3d1] py-10 px-4 md:px-20">
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6 md:p-10">
-        <h2 className="text-3xl font-bold text-[#c2b5a9] mb-6 border-b pb-2">
-          Lexique de l'immobilier
-        </h2>
+    <div className="min-h-screen bg-[#fafafa] pt-24 pb-12 px-4 md:px-12">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#2b2b2b] mb-4">
+            Lexique de l'immobilier
+          </h1>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            Tout le vocabulaire de l'immobilier expliqué simplement pour
+            maîtriser votre projet.
+          </p>
+        </div>
 
         {/* Navigation alphabétique (smart fixed + scroll spy) */}
-        <div ref={barRef} className="mb-8">
+        <div ref={barRef} className="mb-12">
           {pinned && <div style={{ height: barHeight }} aria-hidden />}
-          <div className={pinned ? "fixed top-[88px] left-0 right-0 z-40" : "relative z-40"}>
-            <div className="max-w-5xl mx-auto px-4">
+          <div
+            className={`${pinned ? "fixed top-[88px] left-0 right-0 z-40 px-4 transition-all duration-300" : "relative z-40 transition-all duration-300"}`}
+          >
+            <div className="max-w-6xl mx-auto">
               <div
                 ref={navInnerRef}
-                className="bg-white/95 border border-[#c2b5a9] rounded-xl shadow-sm p-2 backdrop-blur-sm"
+                className="bg-white/90 border border-[#c2b5a9]/20 rounded-2xl shadow-lg p-3 backdrop-blur-md"
               >
                 <div
                   ref={listRef}
-                  className="flex gap-2 justify-center flex-wrap"
+                  className="flex gap-1 overflow-x-auto scrollbar-hide py-1 px-1 touch-pan-x"
+                  style={{ scrollBehavior: "smooth" }}
                 >
                   {alphabet.map((letter) => (
                     <button
                       key={letter}
                       ref={(el) => (letterRefs.current[letter] = el)}
                       onClick={() => scrollToLetter(letter)}
-                      className={
-                        activeLetter === letter
-                          ? "bg-[#c2b5a9] text-white font-semibold rounded-lg px-3 py-1"
-                          : "text-[#c2b5a9] font-semibold hover:underline px-3 py-1"
-                      }
+                      className={`
+                        min-w-[40px] h-10 rounded-lg text-sm font-bold transition-all duration-300 flex-shrink-0 flex items-center justify-center
+                        ${
+                          activeLetter === letter
+                            ? "bg-[#c2b5a9] text-white shadow-md scale-105"
+                            : "text-gray-500 hover:bg-gray-100 hover:text-[#2b2b2b]"
+                        }
+                      `}
                     >
                       {letter}
                     </button>
@@ -439,36 +456,52 @@ function Lexique() {
         </div>
 
         {/* Sections par lettre */}
-        {alphabet.map((letter) => (
-          <div key={letter} id={`letter-${letter}`} className="mb-10">
-            <div className="text-6xl font-bold text-[#e5d8c6] mb-6">
-              {letter}
-            </div>
-            <div className="space-y-6">
-              {lexique[letter].map((item, idx) => (
-                <div
-                  key={idx}
-                  className="p-4 bg-[#fdf9f3] border border-[#e5d8c6] rounded-lg shadow"
-                >
-                  <h4 className="text-xl font-semibold mb-2 text-[#c2b5a9]">
-                    {item.terme}
-                  </h4>
-                  <p className="text-gray-700">{item.definition}</p>
+        <div className="space-y-16">
+          {alphabet.map((letter) => (
+            <div
+              key={letter}
+              id={`letter-${letter}`}
+              className="relative scroll-mt-32"
+            >
+              <div className="flex items-start gap-6 md:gap-12">
+                <div className="hidden md:block sticky top-32 text-8xl font-bold text-[#f2e3d1] select-none leading-none">
+                  {letter}
                 </div>
-              ))}
+                <div className="flex-1 space-y-6">
+                  <h2 className="md:hidden text-4xl font-bold text-[#c2b5a9] mb-4 border-b border-[#c2b5a9]/20 pb-2">
+                    {letter}
+                  </h2>
+                  {lexique[letter].map((item, idx) => (
+                    <div
+                      key={idx}
+                      className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+                    >
+                      <h4 className="text-xl font-bold mb-3 text-[#2b2b2b] font-serif">
+                        {item.terme}
+                      </h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        {item.definition}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      {/* Bouton retour en haut */}
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-6 right-6 z-50 bg-[#c2b5a9] btn-glass text-white px-4 py-2 rounded-full shadow-lg hover:bg-[#aa9e94] transition duration-300"
-        aria-label="Retour en haut"
-      >
-        ↑ Haut
-      </button>
+        {/* Bouton retour en haut */}
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 bg-[#2b2b2b] text-white p-4 rounded-full shadow-2xl hover:bg-[#c2b5a9] hover:scale-110 transition-all duration-300 group"
+          aria-label="Retour en haut"
+        >
+          <ArrowUp
+            size={24}
+            className="group-hover:-translate-y-1 transition-transform"
+          />
+        </button>
+      </div>
     </div>
   );
 }

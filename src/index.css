@@ -1,64 +1,141 @@
 @import "tailwindcss";
-@tailwind utilities;
-@tailwind base;
-@tailwind components;
 
+:root {
+  --color-primary: #c2b5a9; /* Gold/Beige */
+  --color-secondary: #f2e3d1; /* Light Beige */
+  --color-dark: #2b2b2b; /* Dark Grey */
+  --color-light: #f9f9f9; /* Off-White */
+  --font-body: "Lato", sans-serif;
+  --font-heading:
+    "Playfair Display", serif; /* Suggesting a serif for headings for luxury feel, check if available or stick to sans */
+}
 
 body {
-  font-family: 'Lato', sans-serif;
-  color: #2b2b2b;
-  background-color: #f9f9f9;
+  font-family: var(--font-body);
+  color: var(--color-dark);
+  background-color: var(--color-light);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enhancing heading typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading, var(--font-body));
+  color: var(--color-dark);
+  line-height: 1.25;
+}
+
+/* Modern container utility if needed */
+.container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /* Guard against horizontal overflow on small screens */
-html, body, #root {
+html,
+body,
+#root {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-img, iframe, video {
+img,
+iframe,
+video {
   max-width: 100%;
+  display: block; /* Removes bottom space */
 }
 
-/* Reusable glassy card style */
-.card-glass {
-  /* Visible, elegant border */
-  border: 1.5px solid rgba(194, 181, 169, 0.9); /* #c2b5a9 */
-  border-radius: 12px;
-  /* Subtle glass background with depth */
-  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.65));
-  backdrop-filter: saturate(140%) blur(10px);
-  -webkit-backdrop-filter: saturate(140%) blur(10px);
-  /* Outer + inner highlights for a "liquid glass" feel */
+/* 
+  Modern Card Style
+  Cleaner, less "glassy" but still premium.
+  Soft shadow, subtle border, white background.
+*/
+.card-modern {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 1rem; /* 16px */
   box-shadow:
-    0 12px 24px rgba(0,0,0,0.06),
-    inset 0 1px 0 rgba(255,255,255,0.65),
-    inset 0 -1px 0 rgba(194,181,169,0.18);
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-modern:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.08),
+    0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* 
+  Modern Button Style
+  Solid colors or elegant outlines.
+*/
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem; /* 8px */
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #a99b8e; /* Darker shade of primary */
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Keep legacy glass classes for gradual migration or specific use cases */
+.card-glass {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
 }
 
 .btn-glass {
-  position: relative;
-  border: none;
-  border-radius: 10px;
-  /* Tinted translucent background + highlight overlay */
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.28)), rgba(194,181,169,0.55);
-  backdrop-filter: saturate(140%) blur(10px);
-  -webkit-backdrop-filter: saturate(140%) blur(10px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.6);
-  transition: box-shadow 200ms ease, transform 200ms ease, background 200ms ease;
-  color: #111 !important;
+  /* Adapted to match new button shape but keeping glass effect */
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
 }
 .btn-glass:hover {
-  /* Darker, richer tint on hover */
-  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(255,255,255,0.28)), rgba(194,181,169,0.78);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.8);
-  filter: saturate(150%) brightness(0.92);
-}
-.btn-glass:active {
-  transform: translateY(0.5px) scale(0.995);
-}
-.btn-glass:focus-visible {
-  outline: 2px solid rgba(194,181,169,0.9);
-  outline-offset: 2px;
+  background: rgba(255, 255, 255, 0.8);
 }
