@@ -99,37 +99,30 @@ export default function BlogPost() {
 
       <article className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
         {/* Cover Image */}
-        <div className="h-64 md:h-96 w-full relative">
-          <img
-            src={post.cover}
-            alt={post.title}
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-          <div className="absolute bottom-0 left-0 p-6 md:p-10 w-full text-white">
-            <div className="flex gap-2 mb-4">
-              {post.tags.slice(0, 3).map((tag) => (
-                <span
-                  key={tag}
-                  className="px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-semibold tracking-wide border border-white/30"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-            <h1 className="text-3xl md:text-5xl font-serif font-bold leading-tight mb-4 shadow-sm">
-              {post.title}
-            </h1>
-            <div className="flex items-center gap-6 text-sm md:text-base font-light text-white/90">
-              <span className="flex items-center gap-2">
-                <Calendar size={16} />
-                {formatDate(post.date)}
+        {/* Header without Cover Image */}
+        <div className="p-6 md:p-10 w-full border-b border-gray-100">
+          <div className="flex flex-wrap gap-2 mb-6">
+            {post.tags.slice(0, 3).map((tag) => (
+              <span
+                key={tag}
+                className="px-3 py-1 bg-[#c2b5a9]/10 text-[#c2b5a9] rounded-full text-xs font-bold tracking-wide uppercase"
+              >
+                {tag}
               </span>
-              <span className="flex items-center gap-2">
-                <User size={16} />
-                {post.author}
-              </span>
-            </div>
+            ))}
+          </div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold leading-tight mb-6 text-[#2b2b2b]">
+            {post.title}
+          </h1>
+          <div className="flex items-center gap-6 text-sm md:text-base text-gray-500">
+            <span className="flex items-center gap-2">
+              <Calendar size={18} />
+              {formatDate(post.date)}
+            </span>
+            <span className="flex items-center gap-2">
+              <User size={18} />
+              {post.author}
+            </span>
           </div>
         </div>
 

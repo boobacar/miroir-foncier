@@ -2820,59 +2820,46 @@ export const blogPosts = [
     ],
   },
   {
-    slug: "copropriete-dakar-charges-syndic-reglement-achat-appartement",
-    title:
-      "Copropriété à Dakar : charges, syndic, règlement et points à vérifier avant d’acheter un appartement",
-    date: "2026-01-12",
+    slug: "copropriete-dakar-charges-syndic-regles",
+    title: "Copropriété à Dakar : Charges, Syndic et Règles à Connaître (2026)",
+    date: "2026-02-22",
     author: "Miroir Foncier",
     description:
-      "Avant d’acheter un appartement à Dakar (Point E, Almadies, Mermoz, Sacré‑Cœur…), vérifiez copropriété, charges, fonds de travaux, syndic, ascenseur, groupe électrogène, eau, sécurité et conformité des documents.",
+      "Vivre en copropriété à Dakar (Almadies, Plateau, Mermoz) : tout comprendre sur les charges, le rôle du syndic et le règlement de copropriété en 2026.",
     tags: [
-      "copropriété Dakar",
-      "charges de copropriété",
-      "syndic Dakar",
-      "appartement à vendre Dakar",
-      "résidence avec ascenseur",
+      "copropriété dakar",
+      "syndic de copropriété",
+      "charges immeuble",
+      "règlement copropriété",
+      "achat appartement dakar",
     ],
     cover: "/og-banner.webp",
     sections: [
       {
-        heading: "Pourquoi la copropriété influence le prix",
-        body: "Deux appartements identiques peuvent avoir des valeurs très différentes selon la qualité de la gestion : ascenseur entretenu, sécurité, propreté, eau/électricité, réserve financière, impayés. Les acheteurs payent la tranquillité.",
+        heading: "Le boom de la copropriété à Dakar",
+        body: "Avec la verticalisation de Dakar, la copropriété devient la norme. Mais attention : acheter un appartement, c'est aussi acheter une part des parties communes. Ascenseur, gardiennage, groupe électrogène : la bonne gestion de ces équipements est vitale pour la valeur de votre bien.",
       },
       {
-        heading: "Comprendre les charges : ce qui est (souvent) inclus",
-        body: "Selon la résidence : gardiennage, nettoyage, entretien ascenseur, groupe électrogène/carburant, eau des communs, maintenance des pompes, espaces verts, syndic. Demandez le détail et la fréquence d’appel.",
+        heading: "Charges : qu'est-ce qui est inclus ?",
+        body: "Les charges couvrent l'entretien des parties communes, le salaire du personnel (gardien, femme de ménage), et surtout le carburant du groupe électrogène et la maintenance de l'ascenseur. À Dakar, comptez entre 25 000 et 100 000 FCFA/mois selon le standing.",
       },
       {
-        heading: "Documents à demander avant toute offre",
-        body: "• Règlement de copropriété et état descriptif (si disponibles)\n• Derniers PV d’assemblées (travaux votés, litiges)\n• Situation des charges du lot (à jour ?)\n• Budget prévisionnel et impayés globaux\n• Contrats clés : ascenseur, groupe, sécurité\nCes éléments révèlent la santé réelle de la résidence.",
+        heading: "Le rôle du syndic",
+        body: "Bénévole (un copropriétaire) ou professionnel (une agence), le syndic exécute les décisions de l'assemblée générale. Il collecte les charges et gère les fournisseurs. Un syndic professionnel est souvent recommandé pour les grands immeubles pour éviter les conflits de voisinage.",
       },
       {
-        heading: "Travaux et fonds : anticiper les gros postes",
-        body: "Ascenseur, étanchéité toiture, façade, colonnes d’eau, groupe électrogène, cuves, parking : ce sont les “gros tickets”. Un fonds de réserve et une planification évitent les appels exceptionnels élevés.",
-      },
-      {
-        heading: "Visite technique : check-list express",
-        body: "• Pression d’eau et présence de cuve/pompe\n• Groupe électrogène : fréquence et bruit\n• Ascenseur : état, contrats, pannes\n• Ventilation/humidité, infiltrations\n• Sécurité : accès, caméras, gardien\n• Stationnement et accès pompiers\nUne visite en soirée révèle mieux le niveau sonore et les coupures.",
-      },
-      {
-        heading: "Location et rendement : impact direct des charges",
-        body: "Pour calculer le rendement net, déduisez les charges récurrentes (copropriété, entretien, assurance, vacance). Une résidence bien gérée loue plus vite, mais peut coûter plus cher : comparez toujours net/net.",
+        heading: "Fonds de travaux : l'oublié",
+        body: "Un immeuble vieillit. Il est crucial de voter un budget pour les gros travaux futurs (ravalement, étanchéité toiture). Acheter dans un immeuble sans fonds de réserve, c'est s'exposer à des appels de fonds brutaux.",
       },
     ],
     faq: [
       {
-        q: "Une charge élevée est-elle forcément négative ?",
-        a: "Pas toujours. Si elle finance sécurité, ascenseur fiable, groupe, eau et maintenance, elle peut préserver la valeur et réduire la vacance. Le problème, ce sont les charges élevées sans services ni transparence.",
+        q: "Peut-on ne pas payer ses charges ?",
+        a: "Non, c'est une obligation légale. Le syndic peut poursuivre le copropriétaire défaillant en justice et même faire saisir le bien.",
       },
       {
-        q: "Quels documents montrent une copropriété saine ?",
-        a: "Des PV clairs, un budget suivi, des impayés faibles, des contrats à jour (ascenseur, groupe) et une réserve pour les travaux. Demandez aussi l’historique des pannes et interventions.",
-      },
-      {
-        q: "Que vérifier si je vise la location meublée ?",
-        a: "Fiabilité eau/électricité, sécurité 24/7, fibre, parking et règles internes (bruit, usage Airbnb). Ce sont des critères décisifs pour des locataires premium.",
+        q: "Qui vote le budget ?",
+        a: "L'assemblée générale des copropriétaires, qui doit se réunir au moins une fois par an.",
       },
     ],
   },
@@ -2934,6 +2921,50 @@ export const blogPosts = [
     ],
   },
   {
+    slug: "construire-ou-acheter-senegal-comparatif-2026",
+    title: "Construire ou Acheter au Sénégal : Le Grand Comparatif 2026",
+    date: "2026-02-25",
+    author: "Miroir Foncier",
+    description:
+      "Faut-il construire sa maison ou acheter du déjà bâti au Sénégal ? Analyse coût/délai/risque pour faire le bon choix en 2026.",
+    tags: [
+      "construire maison sénégal",
+      "acheter maison dakar",
+      "coût construction m2",
+      "immobilier sénégal",
+      "investir sénégal",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "Le coût : avantage Construction",
+        body: "Construire revient généralement 20% à 30% moins cher que l'achat d'un bien fini (marge du promoteur en moins). Cependant, cela demande du cash-flow pour financer les travaux si vous ne passez pas par un crédit bancaire spécifique.",
+      },
+      {
+        heading: "Les délais : avantage Achat",
+        body: "Acheter prend 3 mois (le temps du notaire). Construire prend 12 à 24 mois... si tout va bien. Les retards de chantier sont monnaie courante à Dakar. Si vous êtes pressé ou payez un loyer en parallèle, l'achat est plus rationnel.",
+      },
+      {
+        heading: "La personnalisation : avantage Construction",
+        body: "Construire, c'est avoir la maison de ses rêves, adaptée à ses goûts, avec les matériaux choisis. Acheter impose souvent des compromis ou des travaux de rénovation coûteux pour mettre au goût du jour.",
+      },
+      {
+        heading: "Le risque : avantage Achat",
+        body: "En achetant (avec Titre Foncier), vous voyez ce que vous avez. En construisant, vous gérez les artisans, les vols de matériaux, les erreurs techniques et l'inflation des coûts. C'est un projet entrepreneurial à part entière.",
+      },
+    ],
+    faq: [
+      {
+        q: "Quel est le prix au m² pour construire ?",
+        a: "En 2026, comptez 150 000 à 250 000 FCFA/m² pour du gros œuvre, et 250 000 à 500 000 FCFA/m² pour du fini, selon le standing.",
+      },
+      {
+        q: "La banque finance-t-elle la construction ?",
+        a: "Oui, mais le déblocage des fonds se fait par tranches, sur présentation de l'avancement constat par expert.",
+      },
+    ],
+  },
+  {
     slug: "investir-diamniadio-immobilier-programmes-neufs-prix-infrastructures-2026",
     title:
       "Investir à Diamniadio : immobilier neuf, terrains, prix, infrastructures et potentiel locatif (2026)",
@@ -2991,114 +3022,90 @@ export const blogPosts = [
     ],
   },
   {
-    slug: "frais-notaire-senegal-guide-2026",
-    title: "Frais de notaire au Sénégal : Guide complet 2026",
-    date: "2026-01-15",
+    slug: "frais-notaire-senegal-calcul-2026",
+    title: "Frais de Notaire au Sénégal : Calcul, Barème et Réalité (2026)",
+    date: "2026-02-18",
     author: "Miroir Foncier",
     description:
-      "Comprendre le calcul des frais de notaire au Sénégal : droits d'enregistrement, conservation foncière et émoluments pour l'achat d'un terrain ou d'une maison.",
+      "Combien allez-vous vraiment payer chez le notaire ? Détail des droits d'enregistrement, émoluments et taxes pour un achat immobilier en 2026.",
     tags: [
       "frais notaire sénégal",
-      "achat immobilier dakar",
-      "titre foncier",
-      "droits d'enregistrement",
-      "simulation frais notaire",
+      "droits enregistrement",
+      "calcul frais achat terrain",
+      "notaire dakar",
+      "taxes immobilières",
     ],
     cover: "/og-banner.webp",
     sections: [
       {
-        heading: "De quoi se composent les frais de notaire ?",
-        body: "Contrairement aux idées reçues, la majeure partie des frais de notaire ne va pas dans la poche du notaire. Environ 70 à 80% sont des taxes reversées à l'État (droits d'enregistrement, timbres, conservation foncière). Le notaire ne perçoit que ses émoluments réglementés.",
+        heading: "Ce n'est pas (que) pour le notaire",
+        body: "Le terme est trompeur. Sur les sommes versées, l'État prend la part du lion (Droits d'Enregistrement, Conservation Foncière, TVA). Le notaire ne garde qu'une partie (les émoluments) réglementée par décret.",
       },
       {
-        heading: "Les droits d'enregistrement",
-        body: "Pour une vente immobilière classique, les droits d'enregistrement s'élèvent généralement à 5% de la valeur vénale du bien. C'est la part la plus importante à prévoir dans votre budget d'acquisition.",
+        heading: "Le calcul global : règle des 15-18%",
+        body: "Pour un terrain ou un bien ancien, prévoyez environ 15% à 18% du prix d'achat en frais globaux. Cela inclut les droits d'enregistrement (5%), la publicité foncière (1% + frais fixes), la TVA (18% sur les honoraires) et les émoluments.",
       },
       {
-        heading: "La conservation foncière",
-        body: "Pour inscrire votre nom sur le titre foncier (mutation), il faut régler la taxe de conservation foncière qui est d'environ 1% + des frais fixes. C'est cette étape qui garantit l'opposabilité de votre droit de propriété aux tiers.",
+        heading: "Neuf vs Ancien : la différence",
+        body: "Acheter du neuf (si le promoteur est assujetti TVA) peut parfois réduire certains droits, mais la TVA immobilière s'applique souvent au prix de vente. Demandez toujours une simulation précise avant de signer la réservation.",
       },
       {
-        heading: "Les émoluments du notaire",
-        body: "Les honoraires du notaire sont fixés par un barème officiel proportionnel au prix de vente (souvent dégressif par tranches). Ils rémunèrent le travail de vérification, de rédaction et de responsabilité juridique de l'acte.",
-      },
-      {
-        heading: "Exemple de calcul pour un bien à 50 Millions FCFA",
-        body: "Sur un bien de 50 millions, comptez environ : 2.5M (Enregistrement) + 500k (Conservation) + Émoluments + TVA sur émoluments + Débours (frais divers). Le total tourne souvent autour de 7 à 9% du prix d'achat, hors frais d'hypothèque si vous empruntez.",
-      },
-      {
-        heading: "Pourquoi ne jamais sous-déclarer ?",
-        body: "Sous-déclarer le prix pour payer moins de frais est risqué. L'administration peut exercer un droit de préemption (racheter le bien au prix déclaré) ou effectuer un redressement fiscal coûteux. De plus, votre plus-value imposable à la revente sera artificiellement gonflée.",
+        heading: "Pourquoi ne pas sous-déclarer ?",
+        body: "La pratique du 'dessous de table' pour baisser les frais est risquée : droit de préemption de l'État (qui peut racheter votre bien au prix déclaré !), impossibilité de justifier l'origine des fonds, et plus-value taxée plein pot à la revente.",
       },
     ],
     faq: [
       {
-        q: "Quand doit-on payer les frais de notaire ?",
-        a: "Une provision sur frais est généralement demandée à la signature de la promesse ou, au plus tard, avant la signature de l'acte de vente définitif.",
+        q: "Qui paie les frais ?",
+        a: "Toujours l'acheteur (l'acquéreur), sauf clause contraire très rare.",
       },
       {
-        q: "Les frais sont-ils négociables ?",
-        a: "Les taxes (enregistrement, foncier) ne le sont pas. Les émoluments sont fixés par décret, mais une remise partielle sur la part revenant au notaire est parfois discutable pour les très gros montants, bien que très encadrée.",
-      },
-      {
-        q: "Qui paie les frais de notaire ?",
-        a: "C'est l'acquéreur qui supporte la totalité des frais liés à l'achat, sauf accord contraire très rare.",
+        q: "Peut-on négocier ?",
+        a: "Les taxes sont fixes. Les émoluments du notaire sont fixés par la loi, mais une remise partielle est parfois possible sur les très gros dossiers.",
       },
     ],
   },
   {
-    slug: "obtention-credit-immobilier-senegal-banques-taux",
-    title: "Obtenir un crédit immobilier au Sénégal : Banques et taux 2026",
-    date: "2026-01-20",
+    slug: "credit-immobilier-senegal-banque-taux-apport",
+    title: "Crédit Immobilier au Sénégal : Taux, Apport et Banques 2026",
+    date: "2026-02-15",
     author: "Miroir Foncier",
     description:
-      "Comment financer votre achat immobilier au Sénégal ? Taux d'intérêt, apport personnel, dmessier bancaire et conditions d'octroi de crédit pour résidents et diaspora.",
+      "Obtenir un prêt immobilier au Sénégal en 2026 : quelle banque choisir ? Quel taux espérer ? Quel apport minimum ? Le guide complet.",
     tags: [
-      "prêt immobilier sénégal",
-      "crédit habitat dakar",
-      "banque habitat sénégal",
-      "taux intérêt immobilier",
+      "crédit immobilier sénégal",
+      "taux interet banque",
+      "prêt habitat",
+      "BHS",
       "financement diaspora",
     ],
     cover: "/og-banner.webp",
     sections: [
       {
-        heading: "Le paysage bancaire pour l'immobilier",
-        body: "La BHS (Banque de l'Habitat du Sénégal) reste la référence, mais toutes les grandes banques commerciales (CBAO, SGBS, Ecobank, BOA...) proposent des crédits habitat. La concurrence s'est accrue, offrant de meilleures conditions aux emprunteurs solides.",
+        heading: "Le paysage bancaire 2026",
+        body: "La BHS reste le leader historique, mais les banques commerciales (CBAO, SGBS, Ecobank, BOA) sont très agressives. Les taux nominaux tournent autour de 7% à 9% (hors taxes et assurances), avec des durées allant jusqu'à 20 ans.",
       },
       {
-        heading: "Taux d'intérêt et durée",
-        body: "En 2025-2026, les taux varient généralement entre 6.5% et 9% hors taxes, selon le profil et la durée. Les durées s'allongent parfois jusqu'à 15 ou 20 ans, mais 10-12 ans reste courant. Attention au TEG (Taux Effectif Global) qui inclut l'assurance emprunteur.",
+        heading: "L'apport personnel : le sésame",
+        body: "Comptez 15% à 20% d'apport minimum + les frais de notaire (souvent à payer cash). Sans apport, le dossier passe rarement, sauf profils exceptionnels ou garanties solides.",
       },
       {
-        heading: "L'apport personnel : un critère clé",
-        body: "Les banques demandent quasi-systématiquement un apport personnel de 10% à 20% du montant du projet, plus les frais de notaire qui ne sont généralement pas financés par le crédit.",
+        heading: "La Diaspora : client roi",
+        body: "Les banques sénégalaises déroulent le tapis rouge à la diaspora. Les 'Packs Diaspora' permettent de gérer son compte à distance. La principale contrainte est la domiciliation des revenus ou les garanties (caution solidaire, hypothèque).",
       },
       {
-        heading: "Spécificités pour la diaspora",
-        body: "Les Sénégalais de l'extérieur sont des clients prisés. Des packs 'Diaspora' existent pour faciliter le financement à distance. La domiciliation des revenus ou des garanties solides sont exigées.",
-      },
-      {
-        heading: "De l'accord de principe au déblocage",
-        body: "Le processus peut être long (1 à 3 mois). Préparez un dossier complet (bulletins de salaire, relevés, contrat de travail, compromis de vente, titre foncier). L'hypothèque sur le bien financé est la garantie standard exigée.",
-      },
-      {
-        heading: "Assurance Décès-Invalidité (ADI)",
-        body: "Obligatoire, elle protège la banque et vos héritiers. Son coût s'ajoute aux mensualités. Vérifiez si vous pouvez déléguer cette assurance pour réduire les coûts.",
+        heading: "Assurance et Coût total",
+        body: "Ne regardez pas que le taux ! Le TEG (Taux Effectif Global) inclut l'assurance Décès-Invalidité (ADI), les frais de dossier et les taxes. Une assurance chère peut plomber un taux bas.",
       },
     ],
     faq: [
       {
-        q: "Peut-on emprunter sans CDI ?",
-        a: "C'est plus difficile mais pas impossible pour les professions libérales ou commerçants, à condition de prouver des revenus stables sur 2-3 ans via des états financiers certifiés.",
+        q: "Quel taux d'endettement ?",
+        a: "Max 33% à 40% de vos revenus nets. Les banques sont strictes là-dessus.",
       },
       {
-        q: "Quel est le taux d'endettement maximum ?",
-        a: "Généralement, la mensualité ne doit pas dépasser 33% à 40% de vos revenus nets justifiés.",
-      },
-      {
-        q: "La banque finance-t-elle les travaux ?",
-        a: "Oui, via un crédit rénovation ou construction, souvent débloqué par tranches sur présentation de factures ou de l'état d'avancement des travaux.",
+        q: "Peut-on financer la construction ?",
+        a: "Oui, c'est un crédit construction, débloqué par étapes sous la surveillance d'un expert de la banque.",
       },
     ],
   },
@@ -3155,6 +3162,50 @@ export const blogPosts = [
       {
         q: "Quel budget pour un terrain à Saly ?",
         a: "Les prix varient énormément selon le statut (Bail/Titre) et la distance mer. Comptez min. 25-40.000 FCFA/m² pour du titre foncier correct un peu en retrait, et beaucoup plus en bord de mer.",
+      },
+    ],
+  },
+  {
+    slug: "airbnb-dakar-rentabilite-reglementation",
+    title: "Airbnb à Dakar : Rentabilité, Quartiers et Réglementation (2026)",
+    date: "2026-02-20",
+    author: "Miroir Foncier",
+    description:
+      "Investir dans la location courte durée à Dakar ? Rentabilité record, quartiers qui marchent (Plateau, Virage) et pièges de la gestion Airbnb.",
+    tags: [
+      "airbnb dakar",
+      "location saisonnière sénégal",
+      "investissement locatif",
+      "rentabilité airbnb",
+      "gestion locative",
+    ],
+    cover: "/og-banner.webp",
+    sections: [
+      {
+        heading: "La rentabilité explosive",
+        body: "Un studio bien placé (Plateau, Almadies, Virage) peut rapporter 2 à 3 fois plus en Airbnb qu'en location longue durée. Le taux d'occupation à Dakar dépasse souvent 70% pour les biens de qualité.",
+      },
+      {
+        heading: "La gestion : un métier",
+        body: "Airbnb, c'est de l'hôtellerie. Ménage, check-in tardif, linge, maintenance wifi/clim : c'est chronophage. Si vous n'êtes pas sur place, une conciergerie (qui prend 20-25%) est indispensable.",
+      },
+      {
+        heading: "La réglementation se durcit",
+        body: "Attention, le flou artistique touche à sa fin. Déclaration des revenus locatifs, taxes de séjour... L'État sénégalais commence à encadrer le secteur. Soyez en règle pour éviter les fermetures administratives.",
+      },
+      {
+        heading: "Les quartiers gagnants",
+        body: "Les voyageurs veulent : la sécurité, la proximité des restaurants/plages et une bonne connexion. Le Plateau (affaires), les Almadies/Virage (loisirs/ONU) et le Point E sont les valeurs sûres.",
+      },
+    ],
+    faq: [
+      {
+        q: "Faut-il meubler haut de gamme ?",
+        a: "Oui, la concurrence est rude. Déco soignée, photos pro et équipements (Wifi fibre, Nespresso) font la différence.",
+      },
+      {
+        q: "Est-ce risqué ?",
+        a: "Le risque principal est la dégradation rapide et les plaintes du voisinage (copropriété). Sélectionnez vos voyageurs.",
       },
     ],
   },
@@ -3323,190 +3374,6 @@ export const blogPosts = [
       {
         q: "Comment suis-je informé ?",
         a: "Vous recevez un compte-rendu de gestion mensuel ou trimestriel avec le virement de vos loyers, détaillant les recettes et les dépenses éventuelles.",
-      },
-    ],
-  },
-  {
-    slug: "fiscalite-immobiliere-senegal-impots-taxe-fonciere",
-    title:
-      "Fiscalité Immobilière au Sénégal : Impôts sur le Loyer et Taxe Foncière (Guide 2025)",
-    date: "2025-06-10",
-    author: "Miroir Foncier",
-    description:
-      "Tout savoir sur la fiscalité immobilière au Sénégal : impôt sur le revenu foncier, nouvelle taxe foncière, TVA et contributions locales. Guide complet pour propriétaires.",
-    tags: [
-      "impôts sur le loyer au sénégal",
-      "impôt sur le revenu foncier",
-      "taxe foncière sénégal",
-      "impôt unifié",
-    ],
-    cover: "/fiscalite-senegal.png",
-    sections: [
-      {
-        heading: "Les impôts sur le revenu foncier (Loyer)",
-        body: "Si vous mettez un bien en location, vos revenus sont imposables. Le taux de la Contribution Foncière des Propriétés Bâties (CFPB) et de l'impôt sur le revenu foncier varie selon le statut (personne physique ou morale). Pour les particuliers, le prélèvement est souvent libératoire s'il est effectué à la source par un locataire professionnel.",
-      },
-      {
-        heading: "La Taxe Foncière (bâti et non bâti)",
-        body: "La taxe foncière est due chaque année par le propriétaire au 1er janvier. Elle finance les collectivités locales. Son montant dépend de la valeur locative du bien. Attention aux pénalités en cas de retard de paiement !",
-      },
-      {
-        heading: "L'Impôt Unifié (réforme)",
-        body: "Des réformes fiscalisent régulièrement le secteur pour simplifier les démarches (Impôt Synthétique Global pour les petits revenus fonciers). Renseignez-vous auprès de votre centre des impôts pour connaître le régime applicable à votre situation en 2025.",
-      },
-      {
-        heading: "Déductions possibles",
-        body: "Vous pouvez déduire certaines charges de vos revenus fonciers bruts (frais de gestion, primes d'assurance, grosses réparations) pour obtenir le revenu net imposable. Conservez tous vos justificatifs.",
-      },
-    ],
-    faq: [
-      {
-        q: "Qui paie la taxe d'ordures ménagères (TOM) ?",
-        a: "C'est une taxe récupérable sur le locataire. Le propriétaire la paie à l'État mais demande le remboursement au locataire dans les charges locatives.",
-      },
-      {
-        q: "Comment déclarer ses revenus locatifs ?",
-        a: "Ils doivent être déclarés annuellement via le formulaire spécifique de la DGID, avant le 30 avril de l'année suivante.",
-      },
-    ],
-  },
-  {
-    slug: "acheter-appartement-dakar-quartiers-prix",
-    title:
-      "Acheter un Appartement à Dakar : Les Quartiers à Cibler et les Prix 2025",
-    date: "2025-06-08",
-    author: "Miroir Foncier",
-    description:
-      "Où acheter un appartement à Dakar ? Analyse des prix par quartier, neuf vs ancien, et conseils pour réussir votre investissement immobilier.",
-    tags: [
-      "acheter un appartement à dakar",
-      "appartement à vendre dakar",
-      "immobilier dakar",
-      "investissement locatif",
-    ],
-    cover: "/appartement-dakar.png",
-    sections: [
-      {
-        heading: "Le marché du neuf (VEFA)",
-        body: "Le marché des appartements neufs est en plein boom, notamment à Mermoz, Sacré-Cœur, et aux Almadies. Acheter en VEFA (Vente en l'État Futur d'Achèvement) permet d'étaler les paiements mais demande de la vigilance sur le promoteur.",
-      },
-      {
-        heading: "Les quartiers qui montent",
-        body: "En dehors du Plateau et des Almadies (très chers), regardez du côté de la VDN, Ngor-Virage, et Mamelles. Pour des budgets plus serrés, la banlieue proche (Ouest Foire, Yoff) offre de bons rendements locatifs.",
-      },
-      {
-        heading: "Prix au m² moyens en 2025",
-        body: "Centre-ville : 1.5M - 2.5M FCFA/m². Zone Almadies/Ngor : 1M - 1.8M FCFA/m². Zone intermédiaire (Mermoz, SICAP) : 800k - 1.2M FCFA/m². Banlieue : 400k - 700k FCFA/m².",
-      },
-      {
-        heading: "Appartement vs Villa",
-        body: "L'appartement offre plus de sécurité et moins d'entretien qu'une villa. C'est le choix privilégié des expatriés et des jeunes cadres, assurant une demande locative constante.",
-      },
-    ],
-    faq: [
-      {
-        q: "Faut-il passer par une agence ?",
-        a: "Fortement recommandé pour vérifier les titres de propriété et éviter les litiges, fréquents dans la vente entre particuliers.",
-      },
-      {
-        q: "Peut-on acheter à crédit ?",
-        a: "Oui, les banques sénégalaises financent les résidents et la diaspora (souvent avec un apport de 15-20%).",
-      },
-    ],
-  },
-  {
-    slug: "bail-usage-habitation-senegal-droits-locataire",
-    title:
-      "Tout Savoir sur le Bail à Usage d'Habitation au Sénégal (Droits et Devoirs)",
-    date: "2025-06-05",
-    author: "Miroir Foncier",
-    description:
-      "Contrat de bail, caution, loyer impayé, expulsion : le guide complet du bail à usage d'habitation pour propriétaires et locataires au Sénégal.",
-    tags: [
-      "bail à usage d'habitation au sénégal",
-      "contrat de location",
-      "droits du locataire",
-      "loyer sénégal",
-    ],
-    cover: "/bail-habitation-senegal.png",
-    sections: [
-      {
-        heading: "Le contrat écrit",
-        body: "La loi exige un contrat écrit pour tout bail d'habitation. Il doit préciser le montant du loyer, la caution (max 2 mois), et les charges. Un état des lieux d'entrée est indispensable pour récupérer sa caution.",
-      },
-      {
-        heading: "La caution et l'avance",
-        body: "La loi limite la caution à 2 mois de loyer. L'avance sur loyer ne peut excéder 2 mois également. Méfiez-vous des propriétaires demandant 6 mois ou 1 an d'avance, c'est souvent illégal (sauf accord spécifique).",
-      },
-      {
-        heading: "Entretien et réparations",
-        body: "Le propriétaire doit le 'clos et le couvert' (toiture, murs). Le locataire doit l'entretien courant (joints, ampoules, vidange fosse si non collectif).",
-      },
-      {
-        heading: "Résiliation et expulsion",
-        body: "Le locataire peut partir à tout moment avec un préavis (souvent 1 à 3 mois). Le propriétaire ne peut récupérer son bien que pour des motifs précis (occupation personnelle, travaux lourds, impayés) et doit respecter une procédure stricte.",
-      },
-    ],
-    faq: [
-      {
-        q: "Comment réviser le loyer ?",
-        a: "La révision est encadrée par la loi (surface corrigée). Une hausse arbitraire est illégale. Tout litige peut être porté devant la commission de régulation des loyers.",
-      },
-      {
-        q: "Que faire en cas d'impayé ?",
-        a: "Le propriétaire doit servir une mise en demeure par huissier avant d'entamer une procédure d'expulsion au tribunal.",
-      },
-    ],
-  },
-  {
-    slug: "acheter-maison-senegal-etapes-cles-pieges",
-    title: "Acheter une maison au Sénégal : Procédure, Pièges et Conseils clés",
-    date: "2026-01-28",
-    author: "Miroir Foncier",
-    description:
-      "Guide complet pour acheter une maison au Sénégal : vérifications techniques (toiture, fondations), titre foncier et procédure d'achat pour éviter les arnaques.",
-    tags: [
-      "acheter une maison au senegal",
-      "procedure vente maison",
-      "acheter villa dakar",
-      "investissement maison sénégal",
-      "achat immobilier sécurité",
-    ],
-    cover: "/og-banner.webp",
-    sections: [
-      {
-        heading: "1. Définir votre besoin : Villa, Maison ou Immeuble ?",
-        body: "Avant de visiter, clarifiez votre projet : résidence principale, secondaire ou locative ? Une villa demande plus d'entretien (jardin, sécurité, groupe électrogène) qu'un appartement. Ciblez les quartiers adaptés à votre style de vie (Almadies pour le standing, Saly pour la détente, Diamniadio pour l'avenir).",
-      },
-      {
-        heading: "2. Les vérifications techniques spécifiques aux maisons",
-        body: "Contrairement à un appartement où le syndic gère le clos et couvert, ici vous êtes seul responsable. Vérifiez impérativement : l'étanchéité de la toiture (traces d'humidité), les fondations (fissures structurelles), l'installation électrique (mise à la terre, protection) et l'assainissement (fosse septique ou tout-à-l'égout).",
-      },
-      {
-        heading: "3. Titre Foncier et situation juridique",
-        body: "N'achetez jamais sans avoir vu le Titre Foncier original. Vérifiez à la conservation foncière que le vendeur est bien le propriétaire actuel et qu'il n'y a pas d'hypothèque ou de litige (prénotation). Pour les terrains villageois, la prudence est de mise : une délibération n'est pas un titre définitif.",
-      },
-      {
-        heading: "4. La procédure d'achat et le Notaire",
-        body: "La vente doit passer par un notaire. Étapes : (1) Offre d'achat, (2) Promesse de vente avec conditions suspensives (crédit, vérifications) et versement de l'acompte au séquestre, (3) Vérifications notariales (urbanisme, cadastre), (4) Acte authentique de vente et paiement du solde.",
-      },
-      {
-        heading: "5. Frais annexes à prévoir",
-        body: "En plus du prix, comptez environ 7-8% de frais de notaire (droits d'enregistrement, conservation, émoluments). Prévoyez aussi un budget pour les éventuels travaux de rafraîchissement ou de mise aux normes sécuritaires.",
-      },
-    ],
-    faq: [
-      {
-        q: "Peut-on acheter une maison sans titre foncier ?",
-        a: "C'est risqué. Un bail ou une délibération offre moins de sécurité. Si vous le faites, assurez-vous que la procédure de régularisation est possible et avancée.",
-      },
-      {
-        q: "Quel est le délai pour obtenir les clés ?",
-        a: "Généralement 2 à 3 mois entre la promesse et l'acte définitif, le temps pour le notaire de purger les droits de préemption et vérifier le dossier.",
-      },
-      {
-        q: "Faut-il payer l'agent immobilier ?",
-        a: "Oui, si vous passez par une agence, la commission est souvent de 5% du prix de vente, à la charge de l'acquéreur ou partagée selon le mandat.",
       },
     ],
   },
